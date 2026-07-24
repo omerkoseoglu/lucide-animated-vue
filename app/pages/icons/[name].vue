@@ -5,7 +5,7 @@ import { useIconRegistry } from '~/composables/useIconRegistry'
 import { useSiteOrigin } from '~/composables/useSiteOrigin'
 
 const route = useRoute()
-const { getIcon } = useIconRegistry()
+const { getIcon, getCategory } = useIconRegistry()
 const { origin, base } = useSiteOrigin()
 
 const icon = computed(() => getIcon(String(route.params.name)))
@@ -49,11 +49,24 @@ async function copy(text: string, flag: 'usage' | 'source' | 'install') {
         <component :is="icon.component" ref="iconRef" :size="96" />
       </Card>
 
-      <h1 class="text-xl font-bold tracking-tight">{{ icon.name }}</h1>
+      <div class="flex items-center gap-2">
+        <h1 class="text-xl font-bold tracking-tight">{{ icon.name }}</h1>
+        <Badge v-if="icon.isCustom">original</Badge>
+      </div>
       <p class="mb-4 mt-1 text-sm text-muted-foreground">
         Click the preview (or hover it) to replay the animation.
+        <template v-if="icon.isCustom">
+          This icon isn&rsquo;t in the original
+          <a href="https://github.com/pqoqubbw/icons" target="_blank" rel="noreferrer" class="underline underline-offset-2 hover:text-foreground">pqoqubbw/icons</a>
+          library &mdash; it was added directly to this port.
+        </template>
       </p>
 
+      <div v-if="icon.categories.length" class="mb-2 flex flex-wrap gap-1.5">
+        <NuxtLink v-for="slug in icon.categories" :key="slug" :to="`/categories/${slug}`">
+          <Badge variant="outline">{{ getCategory(slug)?.title ?? slug }}</Badge>
+        </NuxtLink>
+      </div>
       <div v-if="icon.keywords.length" class="mb-6 flex flex-wrap gap-1.5">
         <Badge v-for="k in icon.keywords" :key="k" variant="secondary">{{ k }}</Badge>
       </div>

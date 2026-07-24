@@ -1,0 +1,1732 @@
+{
+  "alarm-clock-check": [
+    "devices",
+    "notifications",
+    "time"
+  ],
+  "activity": [
+    "medical",
+    "account",
+    "social",
+    "science",
+    "multimedia"
+  ],
+  "align-horizontal": [
+    "layout"
+  ],
+  "a-arrow-down": [
+    "text",
+    "design"
+  ],
+  "alarm-clock-minus": [
+    "devices",
+    "notifications",
+    "time"
+  ],
+  "align-vertical": [
+    "layout"
+  ],
+  "alarm-smoke": [
+    "home",
+    "devices",
+    "travel"
+  ],
+  "air-vent": [
+    "home"
+  ],
+  "a-arrow-up": [
+    "text",
+    "design"
+  ],
+  "alarm-clock-plus": [
+    "devices",
+    "notifications",
+    "time"
+  ],
+  "alarm-clock": [
+    "devices",
+    "notifications",
+    "time"
+  ],
+  "airplane": [
+    "transportation",
+    "travel",
+    "navigation"
+  ],
+  "accessibility": [
+    "accessibility",
+    "medical"
+  ],
+  "airplay": [
+    "multimedia",
+    "connectivity"
+  ],
+  "align-left": [
+    "text"
+  ],
+  "align-center": [
+    "text"
+  ],
+  "align-right": [
+    "text"
+  ],
+  "arrow-big-down-dash": [
+    "arrows",
+    "gaming",
+    "files"
+  ],
+  "ambulance": [
+    "medical",
+    "transportation"
+  ],
+  "arrow-big-left": [
+    "arrows",
+    "gaming"
+  ],
+  "annoyed": [
+    "emoji"
+  ],
+  "archive": [
+    "files",
+    "mail"
+  ],
+  "angry": [
+    "emoji"
+  ],
+  "arrow-big-down": [
+    "arrows",
+    "gaming"
+  ],
+  "arrow-big-left-dash": [
+    "arrows",
+    "gaming"
+  ],
+  "arrow-big-right-dash": [
+    "arrows",
+    "gaming"
+  ],
+  "arrow-big-right": [
+    "arrows",
+    "gaming"
+  ],
+  "arrow-big-up-dash": [
+    "arrows",
+    "text",
+    "development",
+    "gaming"
+  ],
+  "arrow-big-up": [
+    "arrows",
+    "text",
+    "development",
+    "gaming"
+  ],
+  "arrow-down-az": [
+    "text",
+    "layout",
+    "arrows"
+  ],
+  "arrow-down": [
+    "arrows"
+  ],
+  "arrow-down-za": [
+    "text",
+    "layout",
+    "arrows"
+  ],
+  "arrow-down-1-0": [
+    "text",
+    "layout",
+    "arrows"
+  ],
+  "arrow-down-0-1": [
+    "text",
+    "layout",
+    "arrows"
+  ],
+  "arrow-left": [
+    "arrows"
+  ],
+  "arrow-down-left": [
+    "arrows"
+  ],
+  "arrow-right": [
+    "arrows"
+  ],
+  "arrow-down-right": [
+    "arrows"
+  ],
+  "arrow-up": [
+    "arrows"
+  ],
+  "arrow-up-left": [
+    "arrows"
+  ],
+  "arrow-up-right": [
+    "arrows"
+  ],
+  "at-sign": [
+    "text",
+    "account"
+  ],
+  "audio-lines": [
+    "multimedia",
+    "communication"
+  ],
+  "attach-file": [
+    "text",
+    "design",
+    "files",
+    "mail"
+  ],
+  "atom": [
+    "science"
+  ],
+  "axe": [
+    "tools",
+    "gaming"
+  ],
+  "badge-percent": [
+    "social",
+    "finance",
+    "shopping",
+    "math"
+  ],
+  "baby": [
+    "accessibility",
+    "people"
+  ],
+  "badge-alert": [
+    "account",
+    "social"
+  ],
+  "ban": [
+    "account"
+  ],
+  "banana": [
+    "food-beverage"
+  ],
+  "battery-charging": [
+    "connectivity",
+    "devices"
+  ],
+  "battery-full": [
+    "connectivity",
+    "devices"
+  ],
+  "battery-low": [
+    "connectivity",
+    "devices"
+  ],
+  "battery": [
+    "connectivity",
+    "devices"
+  ],
+  "battery-medium": [
+    "connectivity",
+    "devices"
+  ],
+  "battery-plus": [
+    "devices"
+  ],
+  "bell-electric": [
+    "devices",
+    "notifications",
+    "home"
+  ],
+  "battery-warning": [
+    "connectivity",
+    "devices"
+  ],
+  "blocks": [
+    "development",
+    "layout",
+    "shapes"
+  ],
+  "bell": [
+    "account",
+    "notifications"
+  ],
+  "biceps-flexed": [
+    "emoji"
+  ],
+  "bluetooth-connected": [
+    "connectivity",
+    "devices"
+  ],
+  "bluetooth": [
+    "connectivity",
+    "devices"
+  ],
+  "bluetooth-off": [
+    "connectivity",
+    "devices"
+  ],
+  "bold": [
+    "text"
+  ],
+  "bluetooth-searching": [
+    "connectivity",
+    "devices"
+  ],
+  "book-text": [
+    "text",
+    "gaming"
+  ],
+  "bookmark-check": [
+    "account"
+  ],
+  "bone": [
+    "animals",
+    "medical",
+    "gaming"
+  ],
+  "bookmark": [
+    "account"
+  ],
+  "bookmark-x": [
+    "account"
+  ],
+  "bookmark-minus": [
+    "account"
+  ],
+  "bookmark-plus": [
+    "account"
+  ],
+  "bot": [
+    "development",
+    "social"
+  ],
+  "bot-message-square": [
+    "development",
+    "social"
+  ],
+  "boxes": [
+    "shapes",
+    "gaming",
+    "development"
+  ],
+  "box": [
+    "shapes",
+    "gaming",
+    "development",
+    "math"
+  ],
+  "brain": [
+    "medical",
+    "science"
+  ],
+  "calendar-check": [
+    "time"
+  ],
+  "briefcase-business": [
+    "transportation"
+  ],
+  "calendar-check-2": [
+    "time"
+  ],
+  "calendar-cog": [
+    "time"
+  ],
+  "calendar-days": [
+    "time"
+  ],
+  "cart": [
+    "shopping"
+  ],
+  "cast": [
+    "devices",
+    "connectivity"
+  ],
+  "cctv": [
+    "security",
+    "devices",
+    "communication",
+    "connectivity",
+    "photography"
+  ],
+  "chart-bar-decreasing": [
+    "charts"
+  ],
+  "chart-column-decreasing": [
+    "charts"
+  ],
+  "chart-bar-increasing": [
+    "charts"
+  ],
+  "chart-column-increasing": [
+    "charts"
+  ],
+  "chart-line": [
+    "charts"
+  ],
+  "chart-no-axes-column-decreasing": [
+    "charts"
+  ],
+  "chart-no-axes-column-increasing": [
+    "charts"
+  ],
+  "chart-pie": [
+    "charts",
+    "files"
+  ],
+  "chart-scatter": [
+    "charts"
+  ],
+  "check-check": [
+    "notifications"
+  ],
+  "chart-spline": [
+    "charts"
+  ],
+  "check": [
+    "notifications"
+  ],
+  "chess-bishop": [
+    "gaming",
+    "emoji"
+  ],
+  "chess-king": [
+    "gaming",
+    "emoji"
+  ],
+  "chrome": [
+    "connectivity"
+  ],
+  "chess-knight": [
+    "gaming",
+    "emoji"
+  ],
+  "chess-pawn": [
+    "gaming",
+    "emoji"
+  ],
+  "chevron-down": [
+    "arrows",
+    "gaming"
+  ],
+  "chevron-first": [
+    "arrows",
+    "multimedia"
+  ],
+  "chevron-up": [
+    "arrows",
+    "math",
+    "gaming"
+  ],
+  "chevron-right": [
+    "arrows",
+    "math",
+    "development"
+  ],
+  "chevron-left": [
+    "arrows"
+  ],
+  "chevrons-left-right": [
+    "arrows"
+  ],
+  "chevrons-down-up": [
+    "arrows"
+  ],
+  "chevrons-right-left": [
+    "arrows"
+  ],
+  "chevrons-up-down": [
+    "arrows"
+  ],
+  "circle-check": [
+    "notifications"
+  ],
+  "circle-chevron-down": [
+    "arrows"
+  ],
+  "circle-chevron-left": [
+    "arrows"
+  ],
+  "circle-chevron-right": [
+    "arrows"
+  ],
+  "circle-chevron-up": [
+    "arrows"
+  ],
+  "circle-dashed": [
+    "development",
+    "shapes"
+  ],
+  "circle-dollar-sign": [
+    "finance"
+  ],
+  "circle-help": [
+    "accessibility",
+    "text",
+    "notifications"
+  ],
+  "clap": [
+    "multimedia"
+  ],
+  "clipboard-check": [
+    "text"
+  ],
+  "clock": [
+    "time"
+  ],
+  "cloud-cog": [
+    "development"
+  ],
+  "connect": [
+    "connectivity"
+  ],
+  "cloud-download": [
+    "arrows",
+    "files"
+  ],
+  "cloud-lightning": [
+    "weather"
+  ],
+  "cloud-rain": [
+    "weather"
+  ],
+  "cloud-rain-wind": [
+    "weather"
+  ],
+  "cloud-snow": [
+    "weather"
+  ],
+  "cloud-upload": [
+    "arrows",
+    "files"
+  ],
+  "cloud-sun": [
+    "weather"
+  ],
+  "coffee": [
+    "food-beverage"
+  ],
+  "cog": [
+    "account"
+  ],
+  "compass": [
+    "navigation",
+    "travel"
+  ],
+  "concierge-bell": [
+    "travel"
+  ],
+  "construction": [
+    "development"
+  ],
+  "contrast": [
+    "photography",
+    "accessibility",
+    "design"
+  ],
+  "copy": [
+    "text"
+  ],
+  "cooking-pot": [
+    "food-beverage",
+    "home"
+  ],
+  "corner-down-left": [
+    "arrows"
+  ],
+  "corner-down-right": [
+    "arrows",
+    "text",
+    "development"
+  ],
+  "corner-left-down": [
+    "arrows"
+  ],
+  "corner-left-up": [
+    "arrows"
+  ],
+  "discord": [
+    "social"
+  ],
+  "corner-right-down": [
+    "arrows"
+  ],
+  "corner-up-left": [
+    "arrows"
+  ],
+  "corner-right-up": [
+    "arrows"
+  ],
+  "dribbble": [
+    "social",
+    "design"
+  ],
+  "corner-up-right": [
+    "arrows"
+  ],
+  "cpu": [
+    "devices"
+  ],
+  "credit-card": [
+    "account",
+    "finance"
+  ],
+  "database-backup": [
+    "devices",
+    "arrows",
+    "design",
+    "development",
+    "photography"
+  ],
+  "cup-soda": [
+    "food-beverage"
+  ],
+  "delete": [
+    "text",
+    "arrows"
+  ],
+  "cursor-click": [
+    "arrows",
+    "cursors"
+  ],
+  "disc-3": [
+    "devices",
+    "multimedia"
+  ],
+  "facebook": [
+    "social"
+  ],
+  "dollar-sign": [
+    "finance"
+  ],
+  "download": [
+    "arrows",
+    "files"
+  ],
+  "figma": [
+    "design",
+    "social"
+  ],
+  "downvote": [
+    "account",
+    "social",
+    "emoji"
+  ],
+  "drum": [
+    "multimedia",
+    "devices"
+  ],
+  "droplet": [
+    "weather",
+    "gaming"
+  ],
+  "earth": [
+    "navigation"
+  ],
+  "euro": [
+    "finance"
+  ],
+  "ev-charger": [
+    "transportation",
+    "navigation"
+  ],
+  "expand": [
+    "text",
+    "arrows"
+  ],
+  "fan": [
+    "home"
+  ],
+  "eye-off": [
+    "accessibility",
+    "photography",
+    "design",
+    "security"
+  ],
+  "eye": [
+    "accessibility",
+    "photography",
+    "design",
+    "security"
+  ],
+  "flask": [
+    "science"
+  ],
+  "feather": [
+    "nature",
+    "animals",
+    "gaming",
+    "text"
+  ],
+  "file-chart-line": [
+    "files"
+  ],
+  "file-check-2": [
+    "files"
+  ],
+  "file-check": [
+    "files"
+  ],
+  "file-pen-line": [
+    "files"
+  ],
+  "file-cog": [
+    "files"
+  ],
+  "file-stack": [
+    "files",
+    "development"
+  ],
+  "file-text": [
+    "files",
+    "text"
+  ],
+  "fingerprint": [
+    "account",
+    "security",
+    "medical",
+    "devices"
+  ],
+  "fish-symbol": [
+    "food-beverage",
+    "animals"
+  ],
+  "flame": [
+    "weather",
+    "social",
+    "gaming"
+  ],
+  "folder-archive": [
+    "files"
+  ],
+  "folder-check": [
+    "files"
+  ],
+  "folder-clock": [
+    "files",
+    "time"
+  ],
+  "folder-cog": [
+    "files"
+  ],
+  "folder-code": [
+    "files",
+    "development"
+  ],
+  "folder-down": [
+    "files",
+    "arrows"
+  ],
+  "folder-dot": [
+    "files",
+    "development"
+  ],
+  "folder-git-2": [
+    "files"
+  ],
+  "folder-git": [
+    "files"
+  ],
+  "folder-heart": [
+    "files"
+  ],
+  "folder-input": [
+    "files",
+    "arrows"
+  ],
+  "folder-kanban": [
+    "charts",
+    "development",
+    "design",
+    "files"
+  ],
+  "folder-key": [
+    "files",
+    "security"
+  ],
+  "folder-minus": [
+    "files"
+  ],
+  "folder-lock": [
+    "files",
+    "security"
+  ],
+  "folder-open": [
+    "files"
+  ],
+  "folder-plus": [
+    "files"
+  ],
+  "folder-output": [
+    "files",
+    "arrows"
+  ],
+  "folder-root": [
+    "files",
+    "development"
+  ],
+  "folder-sync": [
+    "files",
+    "arrows"
+  ],
+  "folder-tree": [
+    "files"
+  ],
+  "folder-up": [
+    "files",
+    "arrows"
+  ],
+  "folder-x": [
+    "files"
+  ],
+  "folders": [
+    "files"
+  ],
+  "frame": [
+    "design",
+    "photography"
+  ],
+  "frown": [
+    "emoji",
+    "account"
+  ],
+  "gallery-horizontal-end": [
+    "layout",
+    "design",
+    "development",
+    "photography",
+    "multimedia",
+    "files"
+  ],
+  "gallery-vertical-end": [
+    "layout",
+    "design",
+    "development",
+    "photography",
+    "multimedia",
+    "files"
+  ],
+  "gallery-thumbnails": [
+    "layout",
+    "design",
+    "development",
+    "photography",
+    "multimedia"
+  ],
+  "gauge": [
+    "transportation",
+    "sports",
+    "science"
+  ],
+  "gavel": [
+    "navigation",
+    "tools"
+  ],
+  "georgian-lari": [
+    "finance"
+  ],
+  "github": [
+    "development",
+    "social"
+  ],
+  "gitlab": [
+    "development",
+    "social"
+  ],
+  "git-branch": [
+    "development"
+  ],
+  "git-commit-horizontal": [
+    "development",
+    "navigation"
+  ],
+  "git-commit-vertical": [
+    "development",
+    "navigation"
+  ],
+  "git-compare-arrows": [
+    "development",
+    "arrows"
+  ],
+  "git-fork": [
+    "development"
+  ],
+  "git-graph": [
+    "development"
+  ],
+  "git-compare": [
+    "development"
+  ],
+  "git-merge": [
+    "development"
+  ],
+  "git-pull-request-closed": [
+    "development"
+  ],
+  "git-pull-request-create": [
+    "development"
+  ],
+  "git-pull-request": [
+    "development"
+  ],
+  "graduation-cap": [
+    "buildings"
+  ],
+  "grip-horizontal": [
+    "layout"
+  ],
+  "grip-vertical": [
+    "layout"
+  ],
+  "hammer": [
+    "tools",
+    "home"
+  ],
+  "grip": [
+    "layout"
+  ],
+  "hand-fist": [
+    "social",
+    "emoji",
+    "communication",
+    "sports"
+  ],
+  "hand-grab": [
+    "cursors",
+    "design",
+    "layout"
+  ],
+  "hand-coins": [
+    "finance",
+    "account"
+  ],
+  "hand-heart": [
+    "social"
+  ],
+  "hand-helping": [
+    "emoji"
+  ],
+  "hand": [
+    "cursors",
+    "accessibility"
+  ],
+  "instagram": [
+    "social"
+  ],
+  "hard-drive-download": [
+    "development",
+    "devices",
+    "arrows",
+    "files"
+  ],
+  "hand-metal": [
+    "emoji",
+    "multimedia"
+  ],
+  "hard-drive-upload": [
+    "development",
+    "devices",
+    "arrows",
+    "files"
+  ],
+  "heart-handshake": [
+    "emoji",
+    "account",
+    "security"
+  ],
+  "heart-pulse": [
+    "medical"
+  ],
+  "heart": [
+    "medical",
+    "social",
+    "multimedia",
+    "emoji",
+    "gaming",
+    "shapes"
+  ],
+  "home": [
+    "buildings",
+    "home",
+    "navigation"
+  ],
+  "hourglass": [
+    "time",
+    "gaming"
+  ],
+  "id-card": [
+    "security",
+    "account"
+  ],
+  "indian-rupee": [
+    "finance"
+  ],
+  "italic": [
+    "text"
+  ],
+  "key-circle": [
+    "security",
+    "account"
+  ],
+  "japanese-yen": [
+    "finance"
+  ],
+  "linkedin": [
+    "social"
+  ],
+  "key": [
+    "security",
+    "account"
+  ],
+  "key-square": [
+    "security",
+    "account"
+  ],
+  "keyboard": [
+    "text",
+    "devices",
+    "development"
+  ],
+  "languages": [
+    "text"
+  ],
+  "laptop-minimal-check": [
+    "devices",
+    "notifications"
+  ],
+  "laugh": [
+    "emoji"
+  ],
+  "layers": [
+    "design",
+    "layout"
+  ],
+  "layout-grid": [
+    "design",
+    "layout"
+  ],
+  "layout-panel-top": [
+    "layout"
+  ],
+  "link": [
+    "text",
+    "account"
+  ],
+  "loader": [
+    "cursors",
+    "multimedia",
+    "layout",
+    "design"
+  ],
+  "loader-circle": [
+    "cursors",
+    "multimedia",
+    "layout"
+  ],
+  "loader-pinwheel": [
+    "cursors",
+    "design"
+  ],
+  "lock": [
+    "security"
+  ],
+  "lock-keyhole": [
+    "security"
+  ],
+  "lock-keyhole-open": [
+    "security"
+  ],
+  "lock-open": [
+    "security"
+  ],
+  "log-in": [
+    "arrows",
+    "account"
+  ],
+  "logout": [
+    "arrows",
+    "account"
+  ],
+  "history": [
+    "arrows",
+    "time"
+  ],
+  "mailbox": [
+    "mail"
+  ],
+  "mail-check": [
+    "mail"
+  ],
+  "map-pin-house": [
+    "navigation",
+    "travel",
+    "account"
+  ],
+  "map-pin-check-inside": [
+    "navigation",
+    "travel",
+    "account"
+  ],
+  "map-pin": [
+    "navigation",
+    "travel",
+    "account"
+  ],
+  "map-pin-check": [
+    "navigation",
+    "travel",
+    "account"
+  ],
+  "map-pin-minus": [
+    "navigation",
+    "travel",
+    "account"
+  ],
+  "map-pin-minus-inside": [
+    "navigation",
+    "travel",
+    "account"
+  ],
+  "map-pin-off": [
+    "navigation",
+    "travel"
+  ],
+  "map-pin-plus": [
+    "navigation",
+    "travel",
+    "account"
+  ],
+  "map-pin-plus-inside": [
+    "navigation",
+    "travel",
+    "account"
+  ],
+  "map-pin-x-inside": [
+    "navigation",
+    "travel",
+    "account"
+  ],
+  "maximize-2": [
+    "arrows",
+    "layout",
+    "design"
+  ],
+  "maximize": [
+    "layout",
+    "design"
+  ],
+  "message-circle-dashed": [
+    "social"
+  ],
+  "message-circle-check": [
+    "social",
+    "account"
+  ],
+  "menu": [
+    "layout",
+    "account"
+  ],
+  "meh": [
+    "emoji"
+  ],
+  "message-circle-more": [
+    "social"
+  ],
+  "message-circle": [
+    "social"
+  ],
+  "message-circle-plus": [
+    "social"
+  ],
+  "message-circle-x": [
+    "account",
+    "social"
+  ],
+  "message-square-check": [
+    "social",
+    "account"
+  ],
+  "message-square-dashed": [
+    "social"
+  ],
+  "message-square": [
+    "social"
+  ],
+  "message-square-more": [
+    "social"
+  ],
+  "mic": [
+    "devices",
+    "communication",
+    "connectivity",
+    "multimedia"
+  ],
+  "minimize": [
+    "layout",
+    "design"
+  ],
+  "monitor-check": [
+    "connectivity",
+    "devices"
+  ],
+  "moon": [
+    "accessibility"
+  ],
+  "mic-off": [
+    "devices",
+    "communication",
+    "connectivity",
+    "multimedia"
+  ],
+  "message-square-x": [
+    "social"
+  ],
+  "message-square-plus": [
+    "social"
+  ],
+  "nfc": [
+    "communication",
+    "finance",
+    "devices"
+  ],
+  "panel-left-close": [
+    "layout",
+    "arrows"
+  ],
+  "panel-left-open": [
+    "layout",
+    "arrows"
+  ],
+  "panel-right-open": [
+    "layout",
+    "arrows"
+  ],
+  "party-popper": [
+    "emoji"
+  ],
+  "pause": [
+    "multimedia"
+  ],
+  "pen-tool": [
+    "text",
+    "design",
+    "cursors"
+  ],
+  "philippine-peso": [
+    "finance"
+  ],
+  "phone-missed": [
+    "connectivity",
+    "devices",
+    "communication"
+  ],
+  "phone-incoming": [
+    "arrows",
+    "connectivity",
+    "devices",
+    "communication"
+  ],
+  "phone-forwarded": [
+    "arrows",
+    "connectivity",
+    "devices",
+    "communication"
+  ],
+  "phone": [
+    "text",
+    "connectivity",
+    "devices",
+    "communication"
+  ],
+  "phone-off": [
+    "connectivity",
+    "devices",
+    "communication"
+  ],
+  "phone-call": [
+    "connectivity",
+    "devices",
+    "communication"
+  ],
+  "pickaxe": [
+    "tools",
+    "gaming"
+  ],
+  "play": [
+    "arrows",
+    "multimedia"
+  ],
+  "plug-zap": [
+    "devices"
+  ],
+  "plus": [
+    "math",
+    "tools",
+    "development",
+    "text",
+    "cursors",
+    "gaming"
+  ],
+  "projector": [
+    "multimedia",
+    "photography",
+    "devices",
+    "communication"
+  ],
+  "pound-sterling": [
+    "finance"
+  ],
+  "rabbit": [
+    "animals"
+  ],
+  "radio": [
+    "devices",
+    "multimedia",
+    "social"
+  ],
+  "receipt-cent": [
+    "finance",
+    "travel"
+  ],
+  "radio-tower": [
+    "devices",
+    "multimedia",
+    "social"
+  ],
+  "receipt-indian-rupee": [
+    "finance",
+    "travel"
+  ],
+  "receipt": [
+    "finance",
+    "travel"
+  ],
+  "receipt-euro": [
+    "finance",
+    "travel"
+  ],
+  "receipt-japanese-yen": [
+    "finance",
+    "travel"
+  ],
+  "receipt-russian-ruble": [
+    "finance",
+    "travel"
+  ],
+  "receipt-pound-sterling": [
+    "finance",
+    "travel"
+  ],
+  "receipt-swiss-franc": [
+    "finance",
+    "travel"
+  ],
+  "receipt-text": [
+    "finance",
+    "travel"
+  ],
+  "receipt-turkish-lira": [
+    "finance",
+    "travel"
+  ],
+  "refresh-ccw-dot": [
+    "arrows",
+    "development"
+  ],
+  "refresh-cw": [
+    "arrows"
+  ],
+  "refresh-ccw": [
+    "arrows"
+  ],
+  "refresh-cw-off": [
+    "arrows"
+  ],
+  "redo": [
+    "text",
+    "arrows"
+  ],
+  "redo-dot": [
+    "text",
+    "arrows"
+  ],
+  "rocket": [
+    "gaming",
+    "development"
+  ],
+  "rocking-chair": [
+    "home"
+  ],
+  "roller-coaster": [
+    "navigation"
+  ],
+  "rotate-ccw": [
+    "arrows",
+    "design",
+    "photography"
+  ],
+  "rotate-cw": [
+    "arrows",
+    "design",
+    "photography"
+  ],
+  "route": [
+    "navigation"
+  ],
+  "router": [
+    "development",
+    "devices",
+    "connectivity",
+    "home"
+  ],
+  "satellite-dish": [
+    "connectivity",
+    "devices",
+    "multimedia"
+  ],
+  "saudi-riyal": [
+    "finance"
+  ],
+  "russian-ruble": [
+    "finance"
+  ],
+  "scan-text": [
+    "text",
+    "devices"
+  ],
+  "scan-face": [
+    "account",
+    "security",
+    "devices",
+    "social"
+  ],
+  "search": [
+    "text",
+    "social"
+  ],
+  "send": [
+    "mail",
+    "communication",
+    "connectivity"
+  ],
+  "shield-check": [
+    "account",
+    "security",
+    "development",
+    "gaming"
+  ],
+  "ship": [
+    "transportation",
+    "navigation",
+    "travel"
+  ],
+  "settings": [
+    "account"
+  ],
+  "shower-head": [
+    "home",
+    "travel"
+  ],
+  "sliders-horizontal": [
+    "account"
+  ],
+  "smile": [
+    "emoji",
+    "account"
+  ],
+  "smartphone-nfc": [
+    "communication",
+    "finance",
+    "devices"
+  ],
+  "smartphone-charging": [
+    "connectivity",
+    "devices"
+  ],
+  "shrink": [
+    "layout",
+    "arrows"
+  ],
+  "smile-plus": [
+    "emoji",
+    "social",
+    "notifications",
+    "communication"
+  ],
+  "snowflake": [
+    "weather",
+    "seasons"
+  ],
+  "sparkles": [
+    "cursors",
+    "multimedia",
+    "gaming",
+    "weather"
+  ],
+  "square-activity": [
+    "medical",
+    "social",
+    "science",
+    "multimedia"
+  ],
+  "square-arrow-left": [
+    "arrows"
+  ],
+  "square-arrow-down": [
+    "arrows",
+    "gaming"
+  ],
+  "square-arrow-right": [
+    "arrows"
+  ],
+  "square-chevron-left": [
+    "arrows",
+    "navigation"
+  ],
+  "square-arrow-up": [
+    "arrows"
+  ],
+  "square-chevron-up": [
+    "arrows",
+    "navigation",
+    "math"
+  ],
+  "square-stack": [
+    "text",
+    "files",
+    "development"
+  ],
+  "stamp": [
+    "design",
+    "cursors",
+    "tools"
+  ],
+  "sun": [
+    "accessibility",
+    "weather",
+    "seasons",
+    "sustainability"
+  ],
+  "sun-dim": [
+    "accessibility",
+    "weather"
+  ],
+  "stethoscope": [
+    "science",
+    "medical"
+  ],
+  "square-chevron-right": [
+    "arrows",
+    "navigation",
+    "development"
+  ],
+  "square-chevron-down": [
+    "arrows",
+    "navigation"
+  ],
+  "square-pen": [
+    "text"
+  ],
+  "sun-medium": [
+    "accessibility",
+    "weather"
+  ],
+  "sun-moon": [
+    "accessibility"
+  ],
+  "syringe": [
+    "science",
+    "medical"
+  ],
+  "switch-camera": [
+    "communication",
+    "devices"
+  ],
+  "sunset": [
+    "arrows",
+    "weather"
+  ],
+  "telescope": [
+    "science",
+    "development",
+    "tools"
+  ],
+  "twitch": [
+    "social"
+  ],
+  "twitter": [
+    "social"
+  ],
+  "swiss-franc": [
+    "finance"
+  ],
+  "terminal": [
+    "development"
+  ],
+  "thermometer": [
+    "weather"
+  ],
+  "tornado": [
+    "weather"
+  ],
+  "timer": [
+    "time"
+  ],
+  "train-track": [
+    "transportation",
+    "navigation"
+  ],
+  "trending-down": [
+    "charts",
+    "arrows"
+  ],
+  "trending-up-down": [
+    "charts",
+    "arrows"
+  ],
+  "truck": [
+    "transportation"
+  ],
+  "trending-up": [
+    "charts",
+    "arrows"
+  ],
+  "turkish-lira": [
+    "finance"
+  ],
+  "underline": [
+    "text"
+  ],
+  "undo": [
+    "text",
+    "arrows"
+  ],
+  "upvote": [
+    "account",
+    "social",
+    "emoji"
+  ],
+  "upload": [
+    "arrows",
+    "files"
+  ],
+  "undo-dot": [
+    "text",
+    "arrows"
+  ],
+  "user-check": [
+    "account"
+  ],
+  "user": [
+    "account"
+  ],
+  "user-round-check": [
+    "account"
+  ],
+  "user-round-cog": [
+    "account"
+  ],
+  "users": [
+    "account"
+  ],
+  "users-round": [
+    "account"
+  ],
+  "vibrate": [
+    "devices",
+    "connectivity",
+    "account",
+    "notifications"
+  ],
+  "volume": [
+    "connectivity",
+    "communication",
+    "multimedia"
+  ],
+  "user-round-plus": [
+    "account"
+  ],
+  "wallet": [
+    "account",
+    "finance"
+  ],
+  "washing-machine": [
+    "home",
+    "devices",
+    "travel"
+  ],
+  "waves": [
+    "weather",
+    "navigation",
+    "multimedia",
+    "sustainability"
+  ],
+  "waves-ladder": [
+    "sports",
+    "home"
+  ],
+  "waypoints": [
+    "security",
+    "account",
+    "navigation",
+    "development",
+    "social"
+  ],
+  "youtube": [
+    "social"
+  ],
+  "webhook": [
+    "development",
+    "social",
+    "account"
+  ],
+  "wifi-cog": [
+    "connectivity",
+    "devices",
+    "files"
+  ],
+  "wind": [
+    "weather",
+    "sustainability"
+  ],
+  "wifi": [
+    "connectivity",
+    "devices"
+  ],
+  "wifi-low": [
+    "connectivity",
+    "devices"
+  ],
+  "wifi-pen": [
+    "connectivity",
+    "devices"
+  ],
+  "wifi-sync": [
+    "connectivity",
+    "devices"
+  ],
+  "workflow": [
+    "development"
+  ],
+  "wind-arrow-down": [
+    "weather",
+    "sustainability"
+  ],
+  "wrench": [
+    "account",
+    "development",
+    "tools"
+  ],
+  "x": [
+    "notifications",
+    "math"
+  ],
+  "zap": [
+    "connectivity",
+    "devices",
+    "photography",
+    "weather"
+  ],
+  "zap-off": [
+    "connectivity",
+    "devices",
+    "photography",
+    "weather"
+  ]
+}

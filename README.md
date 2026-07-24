@@ -28,7 +28,9 @@ import HeartIcon from '@/components/icons/HeartIcon.vue'
 
 ## Status
 
-439 / 439 icons ported. Everything is fully static and self-contained — no icon depends on anything besides `vue` and `motion-v`.
+440 icons: 439 ported 1:1 from upstream, plus 1 original (`baby`) added directly to this port — not in `pqoqubbw/icons`. Each icon's page notes which one it is, and the demo grid marks originals with a small dot badge. Everything is fully static and self-contained — no icon depends on anything besides `vue` and `motion-v`.
+
+Every icon is tagged with [Lucide's own categories](https://lucide.dev/icons/categories) — the demo homepage groups icons by category (with a jump-to-category nav and per-category counts), same idea as Lucide's category browser. Search filters within categories too, and each icon's page links back to its category tags.
 
 #### Original (React): [pqoqubbw/icons](https://github.com/pqoqubbw/icons) by [@pqoqubbw](https://github.com/pqoqubbw)
 #### Svelte icons: [movingicons.dev](https://www.movingicons.dev/) by [@jis3r](https://github.com/jis3r)
