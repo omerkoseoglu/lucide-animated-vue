@@ -2708,22 +2708,6 @@
       ]
     },
     {
-      "name": "file_text",
-      "type": "registry:component",
-      "title": "FILE_TEXT",
-      "description": "Animated \"file_text\" icon for Vue, built with motion-v.",
-      "dependencies": [
-        "motion-v"
-      ],
-      "files": [
-        {
-          "path": "components/icons/FILE_TEXT.vue",
-          "type": "registry:component",
-          "target": "components/icons/FILE_TEXT.vue"
-        }
-      ]
-    },
-    {
       "name": "facebook",
       "type": "registry:component",
       "title": "FacebookIcon",
@@ -2880,6 +2864,22 @@
           "path": "components/icons/FileStackIcon.vue",
           "type": "registry:component",
           "target": "components/icons/FileStackIcon.vue"
+        }
+      ]
+    },
+    {
+      "name": "file-text",
+      "type": "registry:component",
+      "title": "FileTextIcon",
+      "description": "Animated \"file-text\" icon for Vue, built with motion-v.",
+      "dependencies": [
+        "motion-v"
+      ],
+      "files": [
+        {
+          "path": "components/icons/FileTextIcon.vue",
+          "type": "registry:component",
+          "target": "components/icons/FileTextIcon.vue"
         }
       ]
     },

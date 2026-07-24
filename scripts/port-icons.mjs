@@ -366,6 +366,17 @@ function portIcon(code, filename) {
       trackTypes(slice(code, stmt))
       continue
     }
+    // `export { InternalName as PublicIcon };` - some upstream files declare
+    // the component under an unrelated internal name (e.g. FILE_TEXT) and
+    // only rename it at the export. Use the exported name, not the internal
+    // one, so the generated file/component name matches what consumers
+    // actually get (`FileTextIcon`, not `FILE_TEXT`).
+    if (stmt.type === 'ExportNamedDeclaration' && !stmt.declaration) {
+      for (const spec of stmt.specifiers) {
+        if (spec.local.name === componentName) componentName = spec.exported.name
+      }
+      continue
+    }
     // ignore: directives, interfaces, type aliases, displayName
   }
 

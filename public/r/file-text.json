@@ -1,18 +1,18 @@
 {
   "$schema": "https://shadcn-vue.com/schema/registry-item.json",
-  "name": "file_text",
+  "name": "file-text",
   "type": "registry:component",
-  "title": "FILE_TEXT",
-  "description": "Animated \"file_text\" icon for Vue, built with motion-v.",
+  "title": "FileTextIcon",
+  "description": "Animated \"file-text\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],
   "files": [
     {
-      "path": "components/icons/FILE_TEXT.vue",
+      "path": "components/icons/FileTextIcon.vue",
       "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      initial=\"normal\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :variants=\"{\n        normal: { scale: 1 },\n        animate: {\n          scale: 1.05,\n          transition: {\n            duration: 0.3,\n            ease: 'easeOut',\n          },\n        },\n      }\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\" />\n      <path d=\"M14 2v4a2 2 0 0 0 2 2h4\" />\n      <motion.path\n        d=\"M10 9H8\"\n        stroke=\"currentColor\"\n        stroke-width=\"2\"\n        :variants=\"{\n          normal: {\n            pathLength: 1,\n            x1: 8,\n            x2: 10,\n          },\n          animate: {\n            pathLength: [1, 0, 1],\n            x1: [8, 10, 8],\n            x2: [10, 10, 10],\n            transition: {\n              duration: 0.7,\n              delay: 0.3,\n            },\n          },\n        }\"\n      />\n      <motion.path\n        d=\"M16 13H8\"\n        stroke=\"currentColor\"\n        stroke-width=\"2\"\n        :variants=\"{\n          normal: {\n            pathLength: 1,\n            x1: 8,\n            x2: 16,\n          },\n          animate: {\n            pathLength: [1, 0, 1],\n            x1: [8, 16, 8],\n            x2: [16, 16, 16],\n            transition: {\n              duration: 0.7,\n              delay: 0.5,\n            },\n          },\n        }\"\n      />\n      <motion.path\n        d=\"M16 17H8\"\n        stroke=\"currentColor\"\n        stroke-width=\"2\"\n        :variants=\"{\n          normal: {\n            pathLength: 1,\n            x1: 8,\n            x2: 16,\n          },\n          animate: {\n            pathLength: [1, 0, 1],\n            x1: [8, 16, 8],\n            x2: [16, 16, 16],\n            transition: {\n              duration: 0.7,\n              delay: 0.7,\n            },\n          },\n        }\"\n      />\n    </motion.svg>\n  </div>\n</template>\n",
       "type": "registry:component",
-      "target": "components/icons/FILE_TEXT.vue"
+      "target": "components/icons/FileTextIcon.vue"
     }
   ]
 }
