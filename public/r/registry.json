@@ -4100,6 +4100,22 @@
       ]
     },
     {
+      "name": "keyboard",
+      "type": "registry:component",
+      "title": "KeyboardIcon",
+      "description": "Animated \"keyboard\" icon, ported from pqoqubbw/icons.",
+      "dependencies": [
+        "motion-v"
+      ],
+      "files": [
+        {
+          "path": "components/icons/KeyboardIcon.vue",
+          "type": "registry:component",
+          "target": "components/icons/KeyboardIcon.vue"
+        }
+      ]
+    },
+    {
       "name": "languages",
       "type": "registry:component",
       "title": "LanguagesIcon",
@@ -6692,6 +6708,22 @@
       ]
     },
     {
+      "name": "volume",
+      "type": "registry:component",
+      "title": "VolumeIcon",
+      "description": "Animated \"volume\" icon, ported from pqoqubbw/icons.",
+      "dependencies": [
+        "motion-v"
+      ],
+      "files": [
+        {
+          "path": "components/icons/VolumeIcon.vue",
+          "type": "registry:component",
+          "target": "components/icons/VolumeIcon.vue"
+        }
+      ]
+    },
+    {
       "name": "wallet",
       "type": "registry:component",
       "title": "WalletIcon",
@@ -6816,6 +6848,22 @@
           "path": "components/icons/WifiIcon.vue",
           "type": "registry:component",
           "target": "components/icons/WifiIcon.vue"
+        }
+      ]
+    },
+    {
+      "name": "wifi-low",
+      "type": "registry:component",
+      "title": "WifiLowIcon",
+      "description": "Animated \"wifi-low\" icon, ported from pqoqubbw/icons.",
+      "dependencies": [
+        "motion-v"
+      ],
+      "files": [
+        {
+          "path": "components/icons/WifiLowIcon.vue",
+          "type": "registry:component",
+          "target": "components/icons/WifiLowIcon.vue"
         }
       ]
     },
