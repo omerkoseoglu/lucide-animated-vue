@@ -2,10 +2,11 @@
 import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { useIconRegistry } from '~/composables/useIconRegistry'
+import { useSiteOrigin } from '~/composables/useSiteOrigin'
 
 const route = useRoute()
 const { getIcon } = useIconRegistry()
-const requestUrl = useRequestURL()
+const { origin, base } = useSiteOrigin()
 
 const icon = computed(() => getIcon(String(route.params.name)))
 
@@ -26,7 +27,7 @@ const usageSnippet = computed(() => {
 
 const installCommand = computed(() => {
   if (!icon.value) return ''
-  return `npx shadcn-vue@latest add ${requestUrl.origin}/r/${icon.value.name}.json`
+  return `npx shadcn-vue@latest add ${origin.value}${base}r/${icon.value.name}.json`
 })
 
 async function copy(text: string, flag: 'usage' | 'source' | 'install') {

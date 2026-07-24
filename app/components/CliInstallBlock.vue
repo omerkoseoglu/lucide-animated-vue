@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { useIconRegistry } from '~/composables/useIconRegistry'
+import { useSiteOrigin } from '~/composables/useSiteOrigin'
 
 const { icons } = useIconRegistry()
-const requestUrl = useRequestURL()
+const { origin, base } = useSiteOrigin()
 
 const rotatingNames = icons.filter((icon) => icon.name.length <= 20).map((icon) => icon.name)
 
@@ -28,7 +29,7 @@ const packageManagers = [
 const active = ref('pnpm')
 
 function commandFor(prefix: string) {
-  return `${prefix} shadcn-vue add ${requestUrl.origin}/r/${currentName.value}.json`
+  return `${prefix} shadcn-vue add ${origin.value}${base}r/${currentName.value}.json`
 }
 
 const copied = ref(false)
@@ -54,7 +55,7 @@ async function copy() {
         >
           <span class="overflow-x-auto whitespace-nowrap">
             <span class="text-muted-foreground">{{ pm.prefix }}</span>
-            <span class="text-foreground"> shadcn-vue add {{ requestUrl.origin }}/r/</span><span
+            <span class="text-foreground"> shadcn-vue add {{ origin }}{{ base }}r/</span><span
               class="text-primary"
               >{{ currentName }}</span
             ><span class="text-foreground">.json</span>

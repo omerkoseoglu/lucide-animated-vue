@@ -2,6 +2,8 @@
 
 A Vue 3 / Nuxt port of [`pqoqubbw/icons`](https://github.com/pqoqubbw/icons) ("lucide-animated") — a collection of animated icon components built on top of [Lucide](https://lucide.dev/) SVGs.
 
+**Live demo:** https://omerkoseoglu.github.io/lucide-animated-vue/
+
 The original project is built with React and [Motion for React](https://motion.dev/) (`motion/react`). This port reimplements the same icons and animations in Vue 3, using [Motion for Vue](https://motion.dev/docs/vue) (`motion-v`), the official Vue binding for the same animation engine.
 
 ## Status
@@ -25,10 +27,10 @@ The original project is built with React and [Motion for React](https://motion.d
 Every icon is also served as a [shadcn-vue registry](https://www.shadcn-vue.com/docs/registry) item, so it can be dropped straight into any shadcn-vue project without cloning this repo:
 
 ```bash
-npx shadcn-vue@latest add http://localhost:3000/r/heart.json   # while the demo site is running
+npx shadcn-vue@latest add https://omerkoseoglu.github.io/lucide-animated-vue/r/heart.json
 ```
 
-Once deployed, swap `http://localhost:3000` for the real site URL (the detail page for each icon shows the exact command). This installs the icon's `.vue` file to `components/icons/` and adds `motion-v` to your project's dependencies — nothing else is required.
+Swap `heart` for any icon's kebab-case name (each icon's detail page shows its exact command). This installs the icon's `.vue` file to `components/icons/` and adds `motion-v` to your project's dependencies — nothing else is required.
 
 Registry items live in `public/r/*.json` and are (re)built with:
 
@@ -66,8 +68,15 @@ nuxt.config.ts
 ```bash
 pnpm install
 pnpm dev        # start dev server
-pnpm build      # production build
+pnpm build      # production build (Node server)
+pnpm generate   # static build (used for the GitHub Pages deploy)
 ```
+
+## Deployment
+
+Pushes to `main` auto-deploy to GitHub Pages via `.github/workflows/deploy.yml`: it runs `pnpm generate` with `NITRO_PRESET=github-pages` and `NUXT_APP_BASE_URL=/lucide-animated-vue/`, then publishes `.output/public` with the official `actions/deploy-pages` action. Nothing to run manually — check the Actions tab if a deploy doesn't show up.
+
+The whole site is fully static (every icon and page is known at build time), so nothing here needs a live server.
 
 ## Porting conventions
 
