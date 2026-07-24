@@ -3,7 +3,7 @@
   "name": "battery-full",
   "type": "registry:component",
   "title": "BatteryFullIcon",
-  "description": "Animated \"battery-full\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"battery-full\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

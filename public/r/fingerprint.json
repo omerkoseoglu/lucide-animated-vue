@@ -3,7 +3,7 @@
   "name": "fingerprint",
   "type": "registry:component",
   "title": "FingerprintIcon",
-  "description": "Animated \"fingerprint\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"fingerprint\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

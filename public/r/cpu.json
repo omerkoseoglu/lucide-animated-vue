@@ -3,7 +3,7 @@
   "name": "cpu",
   "type": "registry:component",
   "title": "CpuIcon",
-  "description": "Animated \"cpu\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cpu\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

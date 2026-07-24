@@ -3,7 +3,7 @@
   "name": "feather",
   "type": "registry:component",
   "title": "FeatherIcon",
-  "description": "Animated \"feather\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"feather\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

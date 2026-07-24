@@ -3,7 +3,7 @@
   "name": "copy",
   "type": "registry:component",
   "title": "CopyIcon",
-  "description": "Animated \"copy\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"copy\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "phone-missed",
   "type": "registry:component",
   "title": "PhoneMissedIcon",
-  "description": "Animated \"phone-missed\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"phone-missed\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

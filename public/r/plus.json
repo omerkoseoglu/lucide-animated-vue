@@ -3,7 +3,7 @@
   "name": "plus",
   "type": "registry:component",
   "title": "PlusIcon",
-  "description": "Animated \"plus\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"plus\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

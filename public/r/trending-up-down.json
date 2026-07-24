@@ -3,7 +3,7 @@
   "name": "trending-up-down",
   "type": "registry:component",
   "title": "TrendingUpDownIcon",
-  "description": "Animated \"trending-up-down\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"trending-up-down\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "smile",
   "type": "registry:component",
   "title": "SmileIcon",
-  "description": "Animated \"smile\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"smile\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

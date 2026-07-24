@@ -3,7 +3,7 @@
   "name": "construction",
   "type": "registry:component",
   "title": "ConstructionIcon",
-  "description": "Animated \"construction\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"construction\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

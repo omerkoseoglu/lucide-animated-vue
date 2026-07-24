@@ -3,7 +3,7 @@
   "name": "annoyed",
   "type": "registry:component",
   "title": "AnnoyedIcon",
-  "description": "Animated \"annoyed\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"annoyed\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "github",
   "type": "registry:component",
   "title": "GithubIcon",
-  "description": "Animated \"github\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"github\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

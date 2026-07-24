@@ -3,7 +3,7 @@
   "name": "align-center",
   "type": "registry:component",
   "title": "AlignCenterIcon",
-  "description": "Animated \"align-center\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"align-center\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

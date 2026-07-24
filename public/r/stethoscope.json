@@ -3,7 +3,7 @@
   "name": "stethoscope",
   "type": "registry:component",
   "title": "StethoscopeIcon",
-  "description": "Animated \"stethoscope\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"stethoscope\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

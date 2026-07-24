@@ -3,7 +3,7 @@
   "name": "bell",
   "type": "registry:component",
   "title": "BellIcon",
-  "description": "Animated \"bell\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"bell\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

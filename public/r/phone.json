@@ -3,7 +3,7 @@
   "name": "phone",
   "type": "registry:component",
   "title": "PhoneIcon",
-  "description": "Animated \"phone\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"phone\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

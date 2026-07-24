@@ -3,7 +3,7 @@
   "name": "drum",
   "type": "registry:component",
   "title": "DrumIcon",
-  "description": "Animated \"drum\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"drum\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

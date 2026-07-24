@@ -3,7 +3,7 @@
   "name": "panel-left-open",
   "type": "registry:component",
   "title": "PanelLeftOpenIcon",
-  "description": "Animated \"panel-left-open\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"panel-left-open\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

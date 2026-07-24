@@ -3,7 +3,7 @@
   "name": "swiss-franc",
   "type": "registry:component",
   "title": "SwissFrancIcon",
-  "description": "Animated \"swiss-franc\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"swiss-franc\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

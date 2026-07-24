@@ -3,7 +3,7 @@
   "name": "hand-grab",
   "type": "registry:component",
   "title": "HandGrabIcon",
-  "description": "Animated \"hand-grab\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hand-grab\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

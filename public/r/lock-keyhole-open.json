@@ -3,7 +3,7 @@
   "name": "lock-keyhole-open",
   "type": "registry:component",
   "title": "LockKeyholeOpenIcon",
-  "description": "Animated \"lock-keyhole-open\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"lock-keyhole-open\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

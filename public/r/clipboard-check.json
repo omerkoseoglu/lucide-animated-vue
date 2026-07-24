@@ -3,7 +3,7 @@
   "name": "clipboard-check",
   "type": "registry:component",
   "title": "ClipboardCheckIcon",
-  "description": "Animated \"clipboard-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"clipboard-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

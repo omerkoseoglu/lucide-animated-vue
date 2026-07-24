@@ -3,7 +3,7 @@
   "name": "folder-root",
   "type": "registry:component",
   "title": "FolderRootIcon",
-  "description": "Animated \"folder-root\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-root\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

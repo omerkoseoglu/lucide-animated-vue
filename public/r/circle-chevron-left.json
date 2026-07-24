@@ -3,7 +3,7 @@
   "name": "circle-chevron-left",
   "type": "registry:component",
   "title": "CircleChevronLeftIcon",
-  "description": "Animated \"circle-chevron-left\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"circle-chevron-left\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

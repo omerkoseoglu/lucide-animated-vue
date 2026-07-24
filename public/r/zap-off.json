@@ -3,7 +3,7 @@
   "name": "zap-off",
   "type": "registry:component",
   "title": "ZapOffIcon",
-  "description": "Animated \"zap-off\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"zap-off\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

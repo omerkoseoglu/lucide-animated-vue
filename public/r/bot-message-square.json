@@ -3,7 +3,7 @@
   "name": "bot-message-square",
   "type": "registry:component",
   "title": "BotMessageSquareIcon",
-  "description": "Animated \"bot-message-square\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"bot-message-square\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

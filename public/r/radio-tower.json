@@ -3,7 +3,7 @@
   "name": "radio-tower",
   "type": "registry:component",
   "title": "RadioTowerIcon",
-  "description": "Animated \"radio-tower\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"radio-tower\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

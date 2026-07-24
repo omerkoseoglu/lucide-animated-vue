@@ -3,7 +3,7 @@
   "name": "hand-helping",
   "type": "registry:component",
   "title": "HandHelpingIcon",
-  "description": "Animated \"hand-helping\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hand-helping\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

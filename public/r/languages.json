@@ -3,7 +3,7 @@
   "name": "languages",
   "type": "registry:component",
   "title": "LanguagesIcon",
-  "description": "Animated \"languages\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"languages\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

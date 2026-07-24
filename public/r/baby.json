@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "baby",
+  "type": "registry:component",
+  "title": "BabyIcon",
+  "description": "Animated \"baby\" icon for Vue, built with motion-v.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/BabyIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst FACE_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n    scale: 1,\n    transition: { duration: 0.3, ease: \"easeOut\" },\n  },\n  animate: {\n    rotate: [0, -3, 3, -2, 0],\n    scale: [1, 1.04, 1, 1.02, 1],\n    transition: { duration: 1, ease: \"easeInOut\" },\n  },\n};\n\nconst MOUTH_VARIANTS: Variants = {\n  normal: {\n    scaleX: 1,\n    scaleY: 1,\n    transition: { duration: 0.2, ease: \"easeOut\" },\n  },\n  animate: {\n    scaleX: [1, 1.25, 1],\n    scaleY: [1, 1.15, 1],\n    transition: { duration: 0.6, times: [0, 0.5, 1], ease: \"easeInOut\" },\n  },\n};\n\nconst EYE_VARIANTS: Variants = {\n  normal: {\n    scaleY: 1,\n    transition: { duration: 0.2, ease: \"easeOut\" },\n  },\n  animate: (custom: number) => ({\n    scaleY: [1, 0.1, 1],\n    transition: { duration: 0.4, delay: custom * 0.15, ease: \"easeInOut\" },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) controls.start(\"animate\");\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) controls.start(\"normal\");\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      initial=\"normal\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :variants=\"FACE_VARIANTS\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        d=\"M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5\"\n        initial=\"normal\"\n        :variants=\"MOUTH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"0\"\n        d=\"M15 12h.01\"\n        initial=\"normal\"\n        :variants=\"EYE_VARIANTS\"\n      />\n      <path\n        d=\"M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"1\"\n        d=\"M9 12h.01\"\n        initial=\"normal\"\n        :variants=\"EYE_VARIANTS\"\n      />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/BabyIcon.vue"
+    }
+  ]
+}

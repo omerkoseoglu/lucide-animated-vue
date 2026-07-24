@@ -3,7 +3,7 @@
   "name": "chevrons-down-up",
   "type": "registry:component",
   "title": "ChevronsDownUpIcon",
-  "description": "Animated \"chevrons-down-up\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chevrons-down-up\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

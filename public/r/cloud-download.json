@@ -3,7 +3,7 @@
   "name": "cloud-download",
   "type": "registry:component",
   "title": "CloudDownloadIcon",
-  "description": "Animated \"cloud-download\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cloud-download\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

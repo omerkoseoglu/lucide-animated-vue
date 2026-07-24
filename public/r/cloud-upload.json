@@ -3,7 +3,7 @@
   "name": "cloud-upload",
   "type": "registry:component",
   "title": "CloudUploadIcon",
-  "description": "Animated \"cloud-upload\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cloud-upload\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "a-arrow-down",
   "type": "registry:component",
   "title": "AArrowDownIcon",
-  "description": "Animated \"a-arrow-down\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"a-arrow-down\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

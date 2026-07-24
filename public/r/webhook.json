@@ -3,7 +3,7 @@
   "name": "webhook",
   "type": "registry:component",
   "title": "WebhookIcon",
-  "description": "Animated \"webhook\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"webhook\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

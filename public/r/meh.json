@@ -3,7 +3,7 @@
   "name": "meh",
   "type": "registry:component",
   "title": "MehIcon",
-  "description": "Animated \"meh\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"meh\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

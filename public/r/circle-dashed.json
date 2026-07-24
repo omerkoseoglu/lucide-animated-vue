@@ -3,7 +3,7 @@
   "name": "circle-dashed",
   "type": "registry:component",
   "title": "CircleDashedIcon",
-  "description": "Animated \"circle-dashed\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"circle-dashed\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

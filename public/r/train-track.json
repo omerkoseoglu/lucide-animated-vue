@@ -3,7 +3,7 @@
   "name": "train-track",
   "type": "registry:component",
   "title": "TrainTrackIcon",
-  "description": "Animated \"train-track\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"train-track\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

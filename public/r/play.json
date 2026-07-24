@@ -3,7 +3,7 @@
   "name": "play",
   "type": "registry:component",
   "title": "PlayIcon",
-  "description": "Animated \"play\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"play\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

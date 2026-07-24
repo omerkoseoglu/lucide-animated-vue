@@ -3,7 +3,7 @@
   "name": "corner-up-right",
   "type": "registry:component",
   "title": "CornerUpRightIcon",
-  "description": "Animated \"corner-up-right\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"corner-up-right\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

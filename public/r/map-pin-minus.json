@@ -3,7 +3,7 @@
   "name": "map-pin-minus",
   "type": "registry:component",
   "title": "MapPinMinusIcon",
-  "description": "Animated \"map-pin-minus\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"map-pin-minus\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

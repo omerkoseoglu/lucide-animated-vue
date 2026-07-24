@@ -3,7 +3,7 @@
   "name": "hard-drive-upload",
   "type": "registry:component",
   "title": "HardDriveUploadIcon",
-  "description": "Animated \"hard-drive-upload\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hard-drive-upload\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

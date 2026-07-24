@@ -3,7 +3,7 @@
   "name": "wifi",
   "type": "registry:component",
   "title": "WifiIcon",
-  "description": "Animated \"wifi\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"wifi\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

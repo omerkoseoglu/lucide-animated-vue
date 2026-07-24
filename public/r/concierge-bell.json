@@ -3,7 +3,7 @@
   "name": "concierge-bell",
   "type": "registry:component",
   "title": "ConciergeBellIcon",
-  "description": "Animated \"concierge-bell\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"concierge-bell\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

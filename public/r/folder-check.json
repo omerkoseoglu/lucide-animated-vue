@@ -3,7 +3,7 @@
   "name": "folder-check",
   "type": "registry:component",
   "title": "FolderCheckIcon",
-  "description": "Animated \"folder-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

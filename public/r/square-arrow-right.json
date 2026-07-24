@@ -3,7 +3,7 @@
   "name": "square-arrow-right",
   "type": "registry:component",
   "title": "SquareArrowRightIcon",
-  "description": "Animated \"square-arrow-right\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"square-arrow-right\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

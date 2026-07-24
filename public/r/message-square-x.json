@@ -3,7 +3,7 @@
   "name": "message-square-x",
   "type": "registry:component",
   "title": "MessageSquareXIcon",
-  "description": "Animated \"message-square-x\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"message-square-x\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

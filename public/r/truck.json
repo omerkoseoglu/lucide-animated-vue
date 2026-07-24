@@ -3,7 +3,7 @@
   "name": "truck",
   "type": "registry:component",
   "title": "TruckIcon",
-  "description": "Animated \"truck\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"truck\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

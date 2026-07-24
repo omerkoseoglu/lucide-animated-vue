@@ -3,7 +3,7 @@
   "name": "pause",
   "type": "registry:component",
   "title": "PauseIcon",
-  "description": "Animated \"pause\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"pause\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

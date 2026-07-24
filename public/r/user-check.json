@@ -3,7 +3,7 @@
   "name": "user-check",
   "type": "registry:component",
   "title": "UserCheckIcon",
-  "description": "Animated \"user-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"user-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

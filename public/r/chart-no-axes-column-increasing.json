@@ -3,7 +3,7 @@
   "name": "chart-no-axes-column-increasing",
   "type": "registry:component",
   "title": "ChartNoAxesColumnIncreasingIcon",
-  "description": "Animated \"chart-no-axes-column-increasing\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-no-axes-column-increasing\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

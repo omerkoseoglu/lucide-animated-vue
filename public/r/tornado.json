@@ -3,7 +3,7 @@
   "name": "tornado",
   "type": "registry:component",
   "title": "TornadoIcon",
-  "description": "Animated \"tornado\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"tornado\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

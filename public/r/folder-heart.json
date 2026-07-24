@@ -3,7 +3,7 @@
   "name": "folder-heart",
   "type": "registry:component",
   "title": "FolderHeartIcon",
-  "description": "Animated \"folder-heart\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-heart\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

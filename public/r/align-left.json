@@ -3,7 +3,7 @@
   "name": "align-left",
   "type": "registry:component",
   "title": "AlignLeftIcon",
-  "description": "Animated \"align-left\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"align-left\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

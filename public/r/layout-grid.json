@@ -3,7 +3,7 @@
   "name": "layout-grid",
   "type": "registry:component",
   "title": "LayoutGridIcon",
-  "description": "Animated \"layout-grid\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"layout-grid\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

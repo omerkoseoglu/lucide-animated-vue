@@ -3,7 +3,7 @@
   "name": "sun-medium",
   "type": "registry:component",
   "title": "SunMediumIcon",
-  "description": "Animated \"sun-medium\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"sun-medium\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

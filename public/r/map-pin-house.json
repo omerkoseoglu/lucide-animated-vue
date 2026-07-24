@@ -3,7 +3,7 @@
   "name": "map-pin-house",
   "type": "registry:component",
   "title": "MapPinHouseIcon",
-  "description": "Animated \"map-pin-house\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"map-pin-house\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

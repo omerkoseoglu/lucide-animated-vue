@@ -3,7 +3,7 @@
   "name": "receipt-indian-rupee",
   "type": "registry:component",
   "title": "ReceiptIndianRupeeIcon",
-  "description": "Animated \"receipt-indian-rupee\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"receipt-indian-rupee\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "briefcase-business",
   "type": "registry:component",
   "title": "BriefcaseBusinessIcon",
-  "description": "Animated \"briefcase-business\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"briefcase-business\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

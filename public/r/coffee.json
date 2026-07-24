@@ -3,7 +3,7 @@
   "name": "coffee",
   "type": "registry:component",
   "title": "CoffeeIcon",
-  "description": "Animated \"coffee\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"coffee\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

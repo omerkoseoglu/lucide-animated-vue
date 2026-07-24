@@ -3,7 +3,7 @@
   "name": "projector",
   "type": "registry:component",
   "title": "ProjectorIcon",
-  "description": "Animated \"projector\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"projector\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

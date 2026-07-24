@@ -3,7 +3,7 @@
   "name": "folder-kanban",
   "type": "registry:component",
   "title": "FolderKanbanIcon",
-  "description": "Animated \"folder-kanban\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-kanban\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "cctv",
   "type": "registry:component",
   "title": "CctvIcon",
-  "description": "Animated \"cctv\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cctv\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

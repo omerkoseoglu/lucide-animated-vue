@@ -3,7 +3,7 @@
   "name": "folder-output",
   "type": "registry:component",
   "title": "FolderOutputIcon",
-  "description": "Animated \"folder-output\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-output\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

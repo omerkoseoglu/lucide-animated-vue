@@ -3,7 +3,7 @@
   "name": "snowflake",
   "type": "registry:component",
   "title": "SnowflakeIcon",
-  "description": "Animated \"snowflake\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"snowflake\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

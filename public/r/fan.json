@@ -3,7 +3,7 @@
   "name": "fan",
   "type": "registry:component",
   "title": "FanIcon",
-  "description": "Animated \"fan\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"fan\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

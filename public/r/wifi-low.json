@@ -3,7 +3,7 @@
   "name": "wifi-low",
   "type": "registry:component",
   "title": "WifiLowIcon",
-  "description": "Animated \"wifi-low\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"wifi-low\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

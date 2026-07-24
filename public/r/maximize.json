@@ -3,7 +3,7 @@
   "name": "maximize",
   "type": "registry:component",
   "title": "MaximizeIcon",
-  "description": "Animated \"maximize\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"maximize\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

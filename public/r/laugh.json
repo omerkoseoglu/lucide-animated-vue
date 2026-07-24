@@ -3,7 +3,7 @@
   "name": "laugh",
   "type": "registry:component",
   "title": "LaughIcon",
-  "description": "Animated \"laugh\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"laugh\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

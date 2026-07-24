@@ -3,7 +3,7 @@
   "name": "key-square",
   "type": "registry:component",
   "title": "KeySquareIcon",
-  "description": "Animated \"key-square\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"key-square\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

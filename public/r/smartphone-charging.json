@@ -3,7 +3,7 @@
   "name": "smartphone-charging",
   "type": "registry:component",
   "title": "SmartphoneChargingIcon",
-  "description": "Animated \"smartphone-charging\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"smartphone-charging\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

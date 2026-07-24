@@ -3,7 +3,7 @@
   "name": "undo-dot",
   "type": "registry:component",
   "title": "UndoDotIcon",
-  "description": "Animated \"undo-dot\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"undo-dot\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

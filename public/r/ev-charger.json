@@ -3,7 +3,7 @@
   "name": "ev-charger",
   "type": "registry:component",
   "title": "EvChargerIcon",
-  "description": "Animated \"ev-charger\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"ev-charger\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

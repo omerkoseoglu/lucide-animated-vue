@@ -3,7 +3,7 @@
   "name": "monitor-check",
   "type": "registry:component",
   "title": "MonitorCheckIcon",
-  "description": "Animated \"monitor-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"monitor-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "folder-git-2",
   "type": "registry:component",
   "title": "FolderGit2Icon",
-  "description": "Animated \"folder-git-2\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-git-2\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

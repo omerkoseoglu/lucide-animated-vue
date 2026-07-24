@@ -3,7 +3,7 @@
   "name": "hard-drive-download",
   "type": "registry:component",
   "title": "HardDriveDownloadIcon",
-  "description": "Animated \"hard-drive-download\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hard-drive-download\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

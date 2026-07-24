@@ -3,7 +3,7 @@
   "name": "discord",
   "type": "registry:component",
   "title": "DiscordIcon",
-  "description": "Animated \"discord\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"discord\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

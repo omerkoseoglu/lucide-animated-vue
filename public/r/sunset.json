@@ -3,7 +3,7 @@
   "name": "sunset",
   "type": "registry:component",
   "title": "SunsetIcon",
-  "description": "Animated \"sunset\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"sunset\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

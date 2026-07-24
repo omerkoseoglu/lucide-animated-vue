@@ -3,7 +3,7 @@
   "name": "message-circle",
   "type": "registry:component",
   "title": "MessageCircleIcon",
-  "description": "Animated \"message-circle\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"message-circle\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

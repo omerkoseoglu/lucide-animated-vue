@@ -3,7 +3,7 @@
   "name": "cast",
   "type": "registry:component",
   "title": "CastIcon",
-  "description": "Animated \"cast\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cast\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

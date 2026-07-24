@@ -3,7 +3,7 @@
   "name": "wifi-pen",
   "type": "registry:component",
   "title": "WifiPenIcon",
-  "description": "Animated \"wifi-pen\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"wifi-pen\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

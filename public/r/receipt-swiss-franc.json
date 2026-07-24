@@ -3,7 +3,7 @@
   "name": "receipt-swiss-franc",
   "type": "registry:component",
   "title": "ReceiptSwissFrancIcon",
-  "description": "Animated \"receipt-swiss-franc\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"receipt-swiss-franc\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

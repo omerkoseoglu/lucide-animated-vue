@@ -3,7 +3,7 @@
   "name": "credit-card",
   "type": "registry:component",
   "title": "CreditCardIcon",
-  "description": "Animated \"credit-card\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"credit-card\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

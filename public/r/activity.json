@@ -3,7 +3,7 @@
   "name": "activity",
   "type": "registry:component",
   "title": "ActivityIcon",
-  "description": "Animated \"activity\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"activity\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

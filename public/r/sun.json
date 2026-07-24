@@ -3,7 +3,7 @@
   "name": "sun",
   "type": "registry:component",
   "title": "SunIcon",
-  "description": "Animated \"sun\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"sun\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

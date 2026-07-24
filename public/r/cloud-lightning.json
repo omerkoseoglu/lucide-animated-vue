@@ -3,7 +3,7 @@
   "name": "cloud-lightning",
   "type": "registry:component",
   "title": "CloudLightningIcon",
-  "description": "Animated \"cloud-lightning\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cloud-lightning\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

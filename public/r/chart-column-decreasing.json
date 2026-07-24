@@ -3,7 +3,7 @@
   "name": "chart-column-decreasing",
   "type": "registry:component",
   "title": "ChartColumnDecreasingIcon",
-  "description": "Animated \"chart-column-decreasing\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-column-decreasing\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

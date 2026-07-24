@@ -3,7 +3,7 @@
   "name": "circle-help",
   "type": "registry:component",
   "title": "CircleHelpIcon",
-  "description": "Animated \"circle-help\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"circle-help\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

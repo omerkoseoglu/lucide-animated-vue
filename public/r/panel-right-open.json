@@ -3,7 +3,7 @@
   "name": "panel-right-open",
   "type": "registry:component",
   "title": "PanelRightOpenIcon",
-  "description": "Animated \"panel-right-open\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"panel-right-open\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

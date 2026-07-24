@@ -3,7 +3,7 @@
   "name": "square-chevron-right",
   "type": "registry:component",
   "title": "SquareChevronRightIcon",
-  "description": "Animated \"square-chevron-right\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"square-chevron-right\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "shield-check",
   "type": "registry:component",
   "title": "ShieldCheckIcon",
-  "description": "Animated \"shield-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"shield-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

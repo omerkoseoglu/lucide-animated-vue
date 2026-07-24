@@ -3,7 +3,7 @@
   "name": "facebook",
   "type": "registry:component",
   "title": "FacebookIcon",
-  "description": "Animated \"facebook\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"facebook\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

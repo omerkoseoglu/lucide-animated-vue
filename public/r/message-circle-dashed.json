@@ -3,7 +3,7 @@
   "name": "message-circle-dashed",
   "type": "registry:component",
   "title": "MessageCircleDashedIcon",
-  "description": "Animated \"message-circle-dashed\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"message-circle-dashed\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

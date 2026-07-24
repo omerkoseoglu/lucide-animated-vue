@@ -3,7 +3,7 @@
   "name": "file_text",
   "type": "registry:component",
   "title": "FILE_TEXT",
-  "description": "Animated \"file_text\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"file_text\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

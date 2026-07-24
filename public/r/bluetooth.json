@@ -3,7 +3,7 @@
   "name": "bluetooth",
   "type": "registry:component",
   "title": "BluetoothIcon",
-  "description": "Animated \"bluetooth\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"bluetooth\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

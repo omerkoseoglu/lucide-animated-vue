@@ -3,7 +3,7 @@
   "name": "hand-metal",
   "type": "registry:component",
   "title": "HandMetalIcon",
-  "description": "Animated \"hand-metal\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hand-metal\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

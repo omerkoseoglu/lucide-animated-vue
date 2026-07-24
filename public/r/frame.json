@@ -3,7 +3,7 @@
   "name": "frame",
   "type": "registry:component",
   "title": "FrameIcon",
-  "description": "Animated \"frame\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"frame\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "telescope",
   "type": "registry:component",
   "title": "TelescopeIcon",
-  "description": "Animated \"telescope\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"telescope\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

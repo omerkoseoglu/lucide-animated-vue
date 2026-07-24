@@ -3,7 +3,7 @@
   "name": "euro",
   "type": "registry:component",
   "title": "EuroIcon",
-  "description": "Animated \"euro\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"euro\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

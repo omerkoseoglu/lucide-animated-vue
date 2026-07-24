@@ -3,7 +3,7 @@
   "name": "expand",
   "type": "registry:component",
   "title": "ExpandIcon",
-  "description": "Animated \"expand\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"expand\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

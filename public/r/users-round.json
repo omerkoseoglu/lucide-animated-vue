@@ -3,7 +3,7 @@
   "name": "users-round",
   "type": "registry:component",
   "title": "UsersRoundIcon",
-  "description": "Animated \"users-round\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"users-round\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "party-popper",
   "type": "registry:component",
   "title": "PartyPopperIcon",
-  "description": "Animated \"party-popper\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"party-popper\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

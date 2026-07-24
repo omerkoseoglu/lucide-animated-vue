@@ -3,7 +3,7 @@
   "name": "blocks",
   "type": "registry:component",
   "title": "BlocksIcon",
-  "description": "Animated \"blocks\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"blocks\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

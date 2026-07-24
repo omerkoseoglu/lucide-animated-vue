@@ -3,7 +3,7 @@
   "name": "heart-handshake",
   "type": "registry:component",
   "title": "HeartHandshakeIcon",
-  "description": "Animated \"heart-handshake\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"heart-handshake\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

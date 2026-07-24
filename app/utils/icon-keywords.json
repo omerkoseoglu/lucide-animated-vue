@@ -1,4 +1,5 @@
 {
+  "baby": ["baby", "child", "infant", "kid", "newborn", "toddler", "face"],
   "receipt": [
     "receipt",
     "bill",

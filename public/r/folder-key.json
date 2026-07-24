@@ -3,7 +3,7 @@
   "name": "folder-key",
   "type": "registry:component",
   "title": "FolderKeyIcon",
-  "description": "Animated \"folder-key\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-key\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

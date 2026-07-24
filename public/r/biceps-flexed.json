@@ -3,7 +3,7 @@
   "name": "biceps-flexed",
   "type": "registry:component",
   "title": "BicepsFlexedIcon",
-  "description": "Animated \"biceps-flexed\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"biceps-flexed\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

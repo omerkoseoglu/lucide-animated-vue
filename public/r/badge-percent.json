@@ -3,7 +3,7 @@
   "name": "badge-percent",
   "type": "registry:component",
   "title": "BadgePercentIcon",
-  "description": "Animated \"badge-percent\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"badge-percent\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

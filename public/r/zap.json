@@ -3,7 +3,7 @@
   "name": "zap",
   "type": "registry:component",
   "title": "ZapIcon",
-  "description": "Animated \"zap\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"zap\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

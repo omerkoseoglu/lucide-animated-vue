@@ -3,7 +3,7 @@
   "name": "sun-moon",
   "type": "registry:component",
   "title": "SunMoonIcon",
-  "description": "Animated \"sun-moon\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"sun-moon\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

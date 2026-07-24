@@ -3,7 +3,7 @@
   "name": "brain",
   "type": "registry:component",
   "title": "BrainIcon",
-  "description": "Animated \"brain\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"brain\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

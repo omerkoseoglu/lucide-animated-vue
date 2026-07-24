@@ -3,7 +3,7 @@
   "name": "rocking-chair",
   "type": "registry:component",
   "title": "RockingChairIcon",
-  "description": "Animated \"rocking-chair\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"rocking-chair\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

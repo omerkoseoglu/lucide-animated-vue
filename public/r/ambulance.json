@@ -3,7 +3,7 @@
   "name": "ambulance",
   "type": "registry:component",
   "title": "AmbulanceIcon",
-  "description": "Animated \"ambulance\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"ambulance\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

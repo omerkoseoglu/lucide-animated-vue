@@ -3,7 +3,7 @@
   "name": "youtube",
   "type": "registry:component",
   "title": "YoutubeIcon",
-  "description": "Animated \"youtube\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"youtube\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

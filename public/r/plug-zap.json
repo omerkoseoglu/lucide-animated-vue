@@ -3,7 +3,7 @@
   "name": "plug-zap",
   "type": "registry:component",
   "title": "PlugZapIcon",
-  "description": "Animated \"plug-zap\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"plug-zap\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

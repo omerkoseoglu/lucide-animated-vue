@@ -3,7 +3,7 @@
   "name": "align-horizontal",
   "type": "registry:component",
   "title": "AlignHorizontalIcon",
-  "description": "Animated \"align-horizontal\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"align-horizontal\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

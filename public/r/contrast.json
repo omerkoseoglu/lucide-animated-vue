@@ -3,7 +3,7 @@
   "name": "contrast",
   "type": "registry:component",
   "title": "ContrastIcon",
-  "description": "Animated \"contrast\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"contrast\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

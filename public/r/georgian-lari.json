@@ -3,7 +3,7 @@
   "name": "georgian-lari",
   "type": "registry:component",
   "title": "GeorgianLariIcon",
-  "description": "Animated \"georgian-lari\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"georgian-lari\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "cog",
   "type": "registry:component",
   "title": "CogIcon",
-  "description": "Animated \"cog\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cog\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

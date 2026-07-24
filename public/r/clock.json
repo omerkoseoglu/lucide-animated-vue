@@ -3,7 +3,7 @@
   "name": "clock",
   "type": "registry:component",
   "title": "ClockIcon",
-  "description": "Animated \"clock\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"clock\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

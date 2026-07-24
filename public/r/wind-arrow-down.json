@@ -3,7 +3,7 @@
   "name": "wind-arrow-down",
   "type": "registry:component",
   "title": "WindArrowDownIcon",
-  "description": "Animated \"wind-arrow-down\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"wind-arrow-down\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

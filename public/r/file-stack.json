@@ -3,7 +3,7 @@
   "name": "file-stack",
   "type": "registry:component",
   "title": "FileStackIcon",
-  "description": "Animated \"file-stack\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"file-stack\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "chart-column-increasing",
   "type": "registry:component",
   "title": "ChartColumnIncreasingIcon",
-  "description": "Animated \"chart-column-increasing\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-column-increasing\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

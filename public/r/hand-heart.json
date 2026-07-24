@@ -3,7 +3,7 @@
   "name": "hand-heart",
   "type": "registry:component",
   "title": "HandHeartIcon",
-  "description": "Animated \"hand-heart\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hand-heart\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

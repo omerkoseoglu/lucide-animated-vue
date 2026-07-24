@@ -3,7 +3,7 @@
   "name": "folder-plus",
   "type": "registry:component",
   "title": "FolderPlusIcon",
-  "description": "Animated \"folder-plus\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-plus\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

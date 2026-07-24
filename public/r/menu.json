@@ -3,7 +3,7 @@
   "name": "menu",
   "type": "registry:component",
   "title": "MenuIcon",
-  "description": "Animated \"menu\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"menu\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

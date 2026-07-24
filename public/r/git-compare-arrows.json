@@ -3,7 +3,7 @@
   "name": "git-compare-arrows",
   "type": "registry:component",
   "title": "GitCompareArrowsIcon",
-  "description": "Animated \"git-compare-arrows\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"git-compare-arrows\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

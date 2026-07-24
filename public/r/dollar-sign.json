@@ -3,7 +3,7 @@
   "name": "dollar-sign",
   "type": "registry:component",
   "title": "DollarSignIcon",
-  "description": "Animated \"dollar-sign\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"dollar-sign\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

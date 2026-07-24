@@ -3,7 +3,7 @@
   "name": "gallery-thumbnails",
   "type": "registry:component",
   "title": "GalleryThumbnailsIcon",
-  "description": "Animated \"gallery-thumbnails\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"gallery-thumbnails\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

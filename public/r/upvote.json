@@ -3,7 +3,7 @@
   "name": "upvote",
   "type": "registry:component",
   "title": "UpvoteIcon",
-  "description": "Animated \"upvote\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"upvote\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

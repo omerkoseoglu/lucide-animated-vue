@@ -3,7 +3,7 @@
   "name": "russian-ruble",
   "type": "registry:component",
   "title": "RussianRubleIcon",
-  "description": "Animated \"russian-ruble\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"russian-ruble\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "nfc",
   "type": "registry:component",
   "title": "NfcIcon",
-  "description": "Animated \"nfc\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"nfc\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "mic",
   "type": "registry:component",
   "title": "MicIcon",
-  "description": "Animated \"mic\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"mic\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

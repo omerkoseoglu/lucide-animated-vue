@@ -3,7 +3,7 @@
   "name": "bluetooth-off",
   "type": "registry:component",
   "title": "BluetoothOffIcon",
-  "description": "Animated \"bluetooth-off\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"bluetooth-off\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

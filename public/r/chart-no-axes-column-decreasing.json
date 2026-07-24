@@ -3,7 +3,7 @@
   "name": "chart-no-axes-column-decreasing",
   "type": "registry:component",
   "title": "ChartNoAxesColumnDecreasingIcon",
-  "description": "Animated \"chart-no-axes-column-decreasing\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-no-axes-column-decreasing\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

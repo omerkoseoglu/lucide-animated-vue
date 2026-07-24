@@ -3,7 +3,7 @@
   "name": "battery-warning",
   "type": "registry:component",
   "title": "BatteryWarningIcon",
-  "description": "Animated \"battery-warning\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"battery-warning\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

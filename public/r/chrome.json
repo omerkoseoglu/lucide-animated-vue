@@ -3,7 +3,7 @@
   "name": "chrome",
   "type": "registry:component",
   "title": "ChromeIcon",
-  "description": "Animated \"chrome\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chrome\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

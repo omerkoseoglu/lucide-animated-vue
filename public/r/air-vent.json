@@ -3,7 +3,7 @@
   "name": "air-vent",
   "type": "registry:component",
   "title": "AirVentIcon",
-  "description": "Animated \"air-vent\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"air-vent\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

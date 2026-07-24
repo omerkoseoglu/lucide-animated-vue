@@ -3,7 +3,7 @@
   "name": "phone-call",
   "type": "registry:component",
   "title": "PhoneCallIcon",
-  "description": "Animated \"phone-call\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"phone-call\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

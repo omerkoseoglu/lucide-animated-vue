@@ -3,7 +3,7 @@
   "name": "airplane",
   "type": "registry:component",
   "title": "AirplaneIcon",
-  "description": "Animated \"airplane\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"airplane\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

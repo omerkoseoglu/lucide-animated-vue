@@ -3,7 +3,7 @@
   "name": "sparkles",
   "type": "registry:component",
   "title": "SparklesIcon",
-  "description": "Animated \"sparkles\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"sparkles\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "mail-check",
   "type": "registry:component",
   "title": "MailCheckIcon",
-  "description": "Animated \"mail-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"mail-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "dribbble",
   "type": "registry:component",
   "title": "DribbbleIcon",
-  "description": "Animated \"dribbble\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"dribbble\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

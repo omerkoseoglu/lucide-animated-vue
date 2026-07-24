@@ -3,7 +3,7 @@
   "name": "arrow-down-az",
   "type": "registry:component",
   "title": "ArrowDownAZIcon",
-  "description": "Animated \"arrow-down-az\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"arrow-down-az\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

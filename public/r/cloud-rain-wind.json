@@ -3,7 +3,7 @@
   "name": "cloud-rain-wind",
   "type": "registry:component",
   "title": "CloudRainWindIcon",
-  "description": "Animated \"cloud-rain-wind\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cloud-rain-wind\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

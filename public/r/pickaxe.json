@@ -3,7 +3,7 @@
   "name": "pickaxe",
   "type": "registry:component",
   "title": "PickaxeIcon",
-  "description": "Animated \"pickaxe\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"pickaxe\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

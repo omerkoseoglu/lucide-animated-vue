@@ -3,7 +3,7 @@
   "name": "square-stack",
   "type": "registry:component",
   "title": "SquareStackIcon",
-  "description": "Animated \"square-stack\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"square-stack\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

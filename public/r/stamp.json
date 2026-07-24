@@ -3,7 +3,7 @@
   "name": "stamp",
   "type": "registry:component",
   "title": "StampIcon",
-  "description": "Animated \"stamp\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"stamp\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

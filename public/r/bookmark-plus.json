@@ -3,7 +3,7 @@
   "name": "bookmark-plus",
   "type": "registry:component",
   "title": "BookmarkPlusIcon",
-  "description": "Animated \"bookmark-plus\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"bookmark-plus\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

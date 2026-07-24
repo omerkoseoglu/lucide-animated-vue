@@ -3,7 +3,7 @@
   "name": "rabbit",
   "type": "registry:component",
   "title": "RabbitIcon",
-  "description": "Animated \"rabbit\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"rabbit\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "box",
   "type": "registry:component",
   "title": "BoxIcon",
-  "description": "Animated \"box\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"box\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

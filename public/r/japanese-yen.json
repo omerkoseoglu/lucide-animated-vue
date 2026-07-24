@@ -3,7 +3,7 @@
   "name": "japanese-yen",
   "type": "registry:component",
   "title": "JapaneseYenIcon",
-  "description": "Animated \"japanese-yen\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"japanese-yen\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

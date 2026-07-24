@@ -3,7 +3,7 @@
   "name": "keyboard",
   "type": "registry:component",
   "title": "KeyboardIcon",
-  "description": "Animated \"keyboard\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"keyboard\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

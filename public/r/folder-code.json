@@ -3,7 +3,7 @@
   "name": "folder-code",
   "type": "registry:component",
   "title": "FolderCodeIcon",
-  "description": "Animated \"folder-code\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-code\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

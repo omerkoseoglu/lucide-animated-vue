@@ -3,7 +3,7 @@
   "name": "terminal",
   "type": "registry:component",
   "title": "TerminalIcon",
-  "description": "Animated \"terminal\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"terminal\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

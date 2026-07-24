@@ -7,7 +7,7 @@
       "name": "a-arrow-down",
       "type": "registry:component",
       "title": "AArrowDownIcon",
-      "description": "Animated \"a-arrow-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"a-arrow-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -23,7 +23,7 @@
       "name": "a-arrow-up",
       "type": "registry:component",
       "title": "AArrowUpIcon",
-      "description": "Animated \"a-arrow-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"a-arrow-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -39,7 +39,7 @@
       "name": "accessibility",
       "type": "registry:component",
       "title": "AccessibilityIcon",
-      "description": "Animated \"accessibility\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"accessibility\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -55,7 +55,7 @@
       "name": "activity",
       "type": "registry:component",
       "title": "ActivityIcon",
-      "description": "Animated \"activity\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"activity\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -71,7 +71,7 @@
       "name": "air-vent",
       "type": "registry:component",
       "title": "AirVentIcon",
-      "description": "Animated \"air-vent\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"air-vent\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -87,7 +87,7 @@
       "name": "airplane",
       "type": "registry:component",
       "title": "AirplaneIcon",
-      "description": "Animated \"airplane\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"airplane\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -103,7 +103,7 @@
       "name": "airplay",
       "type": "registry:component",
       "title": "AirplayIcon",
-      "description": "Animated \"airplay\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"airplay\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -119,7 +119,7 @@
       "name": "alarm-clock-check",
       "type": "registry:component",
       "title": "AlarmClockCheckIcon",
-      "description": "Animated \"alarm-clock-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"alarm-clock-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -135,7 +135,7 @@
       "name": "alarm-clock",
       "type": "registry:component",
       "title": "AlarmClockIcon",
-      "description": "Animated \"alarm-clock\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"alarm-clock\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -151,7 +151,7 @@
       "name": "alarm-clock-minus",
       "type": "registry:component",
       "title": "AlarmClockMinusIcon",
-      "description": "Animated \"alarm-clock-minus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"alarm-clock-minus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -167,7 +167,7 @@
       "name": "alarm-clock-plus",
       "type": "registry:component",
       "title": "AlarmClockPlusIcon",
-      "description": "Animated \"alarm-clock-plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"alarm-clock-plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -183,7 +183,7 @@
       "name": "alarm-smoke",
       "type": "registry:component",
       "title": "AlarmSmokeIcon",
-      "description": "Animated \"alarm-smoke\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"alarm-smoke\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -199,7 +199,7 @@
       "name": "align-center",
       "type": "registry:component",
       "title": "AlignCenterIcon",
-      "description": "Animated \"align-center\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"align-center\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -215,7 +215,7 @@
       "name": "align-horizontal",
       "type": "registry:component",
       "title": "AlignHorizontalIcon",
-      "description": "Animated \"align-horizontal\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"align-horizontal\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -231,7 +231,7 @@
       "name": "align-left",
       "type": "registry:component",
       "title": "AlignLeftIcon",
-      "description": "Animated \"align-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"align-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -247,7 +247,7 @@
       "name": "align-right",
       "type": "registry:component",
       "title": "AlignRightIcon",
-      "description": "Animated \"align-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"align-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -263,7 +263,7 @@
       "name": "align-vertical",
       "type": "registry:component",
       "title": "AlignVerticalIcon",
-      "description": "Animated \"align-vertical\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"align-vertical\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -279,7 +279,7 @@
       "name": "ambulance",
       "type": "registry:component",
       "title": "AmbulanceIcon",
-      "description": "Animated \"ambulance\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"ambulance\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -295,7 +295,7 @@
       "name": "angry",
       "type": "registry:component",
       "title": "AngryIcon",
-      "description": "Animated \"angry\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"angry\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -311,7 +311,7 @@
       "name": "annoyed",
       "type": "registry:component",
       "title": "AnnoyedIcon",
-      "description": "Animated \"annoyed\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"annoyed\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -327,7 +327,7 @@
       "name": "archive",
       "type": "registry:component",
       "title": "ArchiveIcon",
-      "description": "Animated \"archive\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"archive\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -343,7 +343,7 @@
       "name": "arrow-big-down-dash",
       "type": "registry:component",
       "title": "ArrowBigDownDashIcon",
-      "description": "Animated \"arrow-big-down-dash\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-big-down-dash\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -359,7 +359,7 @@
       "name": "arrow-big-down",
       "type": "registry:component",
       "title": "ArrowBigDownIcon",
-      "description": "Animated \"arrow-big-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-big-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -375,7 +375,7 @@
       "name": "arrow-big-left-dash",
       "type": "registry:component",
       "title": "ArrowBigLeftDashIcon",
-      "description": "Animated \"arrow-big-left-dash\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-big-left-dash\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -391,7 +391,7 @@
       "name": "arrow-big-left",
       "type": "registry:component",
       "title": "ArrowBigLeftIcon",
-      "description": "Animated \"arrow-big-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-big-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -407,7 +407,7 @@
       "name": "arrow-big-right-dash",
       "type": "registry:component",
       "title": "ArrowBigRightDashIcon",
-      "description": "Animated \"arrow-big-right-dash\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-big-right-dash\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -423,7 +423,7 @@
       "name": "arrow-big-right",
       "type": "registry:component",
       "title": "ArrowBigRightIcon",
-      "description": "Animated \"arrow-big-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-big-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -439,7 +439,7 @@
       "name": "arrow-big-up-dash",
       "type": "registry:component",
       "title": "ArrowBigUpDashIcon",
-      "description": "Animated \"arrow-big-up-dash\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-big-up-dash\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -455,7 +455,7 @@
       "name": "arrow-big-up",
       "type": "registry:component",
       "title": "ArrowBigUpIcon",
-      "description": "Animated \"arrow-big-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-big-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -471,7 +471,7 @@
       "name": "arrow-down-0-1",
       "type": "registry:component",
       "title": "ArrowDown01Icon",
-      "description": "Animated \"arrow-down-0-1\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-down-0-1\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -487,7 +487,7 @@
       "name": "arrow-down-1-0",
       "type": "registry:component",
       "title": "ArrowDown10Icon",
-      "description": "Animated \"arrow-down-1-0\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-down-1-0\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -503,7 +503,7 @@
       "name": "arrow-down-az",
       "type": "registry:component",
       "title": "ArrowDownAZIcon",
-      "description": "Animated \"arrow-down-az\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-down-az\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -519,7 +519,7 @@
       "name": "arrow-down",
       "type": "registry:component",
       "title": "ArrowDownIcon",
-      "description": "Animated \"arrow-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -535,7 +535,7 @@
       "name": "arrow-down-left",
       "type": "registry:component",
       "title": "ArrowDownLeftIcon",
-      "description": "Animated \"arrow-down-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-down-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -551,7 +551,7 @@
       "name": "arrow-down-right",
       "type": "registry:component",
       "title": "ArrowDownRightIcon",
-      "description": "Animated \"arrow-down-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-down-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -567,7 +567,7 @@
       "name": "arrow-down-za",
       "type": "registry:component",
       "title": "ArrowDownZAIcon",
-      "description": "Animated \"arrow-down-za\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-down-za\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -583,7 +583,7 @@
       "name": "arrow-left",
       "type": "registry:component",
       "title": "ArrowLeftIcon",
-      "description": "Animated \"arrow-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -599,7 +599,7 @@
       "name": "arrow-right",
       "type": "registry:component",
       "title": "ArrowRightIcon",
-      "description": "Animated \"arrow-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -615,7 +615,7 @@
       "name": "arrow-up",
       "type": "registry:component",
       "title": "ArrowUpIcon",
-      "description": "Animated \"arrow-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -631,7 +631,7 @@
       "name": "arrow-up-left",
       "type": "registry:component",
       "title": "ArrowUpLeftIcon",
-      "description": "Animated \"arrow-up-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-up-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -647,7 +647,7 @@
       "name": "arrow-up-right",
       "type": "registry:component",
       "title": "ArrowUpRightIcon",
-      "description": "Animated \"arrow-up-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"arrow-up-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -663,7 +663,7 @@
       "name": "at-sign",
       "type": "registry:component",
       "title": "AtSignIcon",
-      "description": "Animated \"at-sign\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"at-sign\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -679,7 +679,7 @@
       "name": "atom",
       "type": "registry:component",
       "title": "AtomIcon",
-      "description": "Animated \"atom\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"atom\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -695,7 +695,7 @@
       "name": "attach-file",
       "type": "registry:component",
       "title": "AttachFileIcon",
-      "description": "Animated \"attach-file\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"attach-file\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -711,7 +711,7 @@
       "name": "audio-lines",
       "type": "registry:component",
       "title": "AudioLinesIcon",
-      "description": "Animated \"audio-lines\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"audio-lines\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -727,7 +727,7 @@
       "name": "axe",
       "type": "registry:component",
       "title": "AxeIcon",
-      "description": "Animated \"axe\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"axe\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -740,10 +740,26 @@
       ]
     },
     {
+      "name": "baby",
+      "type": "registry:component",
+      "title": "BabyIcon",
+      "description": "Animated \"baby\" icon for Vue, built with motion-v.",
+      "dependencies": [
+        "motion-v"
+      ],
+      "files": [
+        {
+          "path": "components/icons/BabyIcon.vue",
+          "type": "registry:component",
+          "target": "components/icons/BabyIcon.vue"
+        }
+      ]
+    },
+    {
       "name": "badge-alert",
       "type": "registry:component",
       "title": "BadgeAlertIcon",
-      "description": "Animated \"badge-alert\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"badge-alert\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -759,7 +775,7 @@
       "name": "badge-percent",
       "type": "registry:component",
       "title": "BadgePercentIcon",
-      "description": "Animated \"badge-percent\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"badge-percent\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -775,7 +791,7 @@
       "name": "ban",
       "type": "registry:component",
       "title": "BanIcon",
-      "description": "Animated \"ban\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"ban\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -791,7 +807,7 @@
       "name": "banana",
       "type": "registry:component",
       "title": "BananaIcon",
-      "description": "Animated \"banana\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"banana\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -807,7 +823,7 @@
       "name": "battery-charging",
       "type": "registry:component",
       "title": "BatteryChargingIcon",
-      "description": "Animated \"battery-charging\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"battery-charging\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -823,7 +839,7 @@
       "name": "battery-full",
       "type": "registry:component",
       "title": "BatteryFullIcon",
-      "description": "Animated \"battery-full\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"battery-full\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -839,7 +855,7 @@
       "name": "battery",
       "type": "registry:component",
       "title": "BatteryIcon",
-      "description": "Animated \"battery\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"battery\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -855,7 +871,7 @@
       "name": "battery-low",
       "type": "registry:component",
       "title": "BatteryLowIcon",
-      "description": "Animated \"battery-low\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"battery-low\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -871,7 +887,7 @@
       "name": "battery-medium",
       "type": "registry:component",
       "title": "BatteryMediumIcon",
-      "description": "Animated \"battery-medium\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"battery-medium\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -887,7 +903,7 @@
       "name": "battery-plus",
       "type": "registry:component",
       "title": "BatteryPlusIcon",
-      "description": "Animated \"battery-plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"battery-plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -903,7 +919,7 @@
       "name": "battery-warning",
       "type": "registry:component",
       "title": "BatteryWarningIcon",
-      "description": "Animated \"battery-warning\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"battery-warning\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -919,7 +935,7 @@
       "name": "bell-electric",
       "type": "registry:component",
       "title": "BellElectricIcon",
-      "description": "Animated \"bell-electric\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bell-electric\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -935,7 +951,7 @@
       "name": "bell",
       "type": "registry:component",
       "title": "BellIcon",
-      "description": "Animated \"bell\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bell\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -951,7 +967,7 @@
       "name": "biceps-flexed",
       "type": "registry:component",
       "title": "BicepsFlexedIcon",
-      "description": "Animated \"biceps-flexed\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"biceps-flexed\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -967,7 +983,7 @@
       "name": "blocks",
       "type": "registry:component",
       "title": "BlocksIcon",
-      "description": "Animated \"blocks\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"blocks\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -983,7 +999,7 @@
       "name": "bluetooth-connected",
       "type": "registry:component",
       "title": "BluetoothConnectedIcon",
-      "description": "Animated \"bluetooth-connected\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bluetooth-connected\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -999,7 +1015,7 @@
       "name": "bluetooth",
       "type": "registry:component",
       "title": "BluetoothIcon",
-      "description": "Animated \"bluetooth\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bluetooth\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1015,7 +1031,7 @@
       "name": "bluetooth-off",
       "type": "registry:component",
       "title": "BluetoothOffIcon",
-      "description": "Animated \"bluetooth-off\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bluetooth-off\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1031,7 +1047,7 @@
       "name": "bluetooth-searching",
       "type": "registry:component",
       "title": "BluetoothSearchingIcon",
-      "description": "Animated \"bluetooth-searching\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bluetooth-searching\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1047,7 +1063,7 @@
       "name": "bold",
       "type": "registry:component",
       "title": "BoldIcon",
-      "description": "Animated \"bold\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bold\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1063,7 +1079,7 @@
       "name": "bone",
       "type": "registry:component",
       "title": "BoneIcon",
-      "description": "Animated \"bone\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bone\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1079,7 +1095,7 @@
       "name": "book-text",
       "type": "registry:component",
       "title": "BookTextIcon",
-      "description": "Animated \"book-text\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"book-text\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1095,7 +1111,7 @@
       "name": "bookmark-check",
       "type": "registry:component",
       "title": "BookmarkCheckIcon",
-      "description": "Animated \"bookmark-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bookmark-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1111,7 +1127,7 @@
       "name": "bookmark",
       "type": "registry:component",
       "title": "BookmarkIcon",
-      "description": "Animated \"bookmark\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bookmark\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1127,7 +1143,7 @@
       "name": "bookmark-minus",
       "type": "registry:component",
       "title": "BookmarkMinusIcon",
-      "description": "Animated \"bookmark-minus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bookmark-minus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1143,7 +1159,7 @@
       "name": "bookmark-plus",
       "type": "registry:component",
       "title": "BookmarkPlusIcon",
-      "description": "Animated \"bookmark-plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bookmark-plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1159,7 +1175,7 @@
       "name": "bookmark-x",
       "type": "registry:component",
       "title": "BookmarkXIcon",
-      "description": "Animated \"bookmark-x\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bookmark-x\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1175,7 +1191,7 @@
       "name": "bot",
       "type": "registry:component",
       "title": "BotIcon",
-      "description": "Animated \"bot\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bot\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1191,7 +1207,7 @@
       "name": "bot-message-square",
       "type": "registry:component",
       "title": "BotMessageSquareIcon",
-      "description": "Animated \"bot-message-square\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"bot-message-square\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1207,7 +1223,7 @@
       "name": "box",
       "type": "registry:component",
       "title": "BoxIcon",
-      "description": "Animated \"box\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"box\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1223,7 +1239,7 @@
       "name": "boxes",
       "type": "registry:component",
       "title": "BoxesIcon",
-      "description": "Animated \"boxes\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"boxes\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1239,7 +1255,7 @@
       "name": "brain",
       "type": "registry:component",
       "title": "BrainIcon",
-      "description": "Animated \"brain\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"brain\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1255,7 +1271,7 @@
       "name": "briefcase-business",
       "type": "registry:component",
       "title": "BriefcaseBusinessIcon",
-      "description": "Animated \"briefcase-business\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"briefcase-business\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1271,7 +1287,7 @@
       "name": "calendar-check-2",
       "type": "registry:component",
       "title": "CalendarCheck2Icon",
-      "description": "Animated \"calendar-check-2\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"calendar-check-2\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1287,7 +1303,7 @@
       "name": "calendar-check",
       "type": "registry:component",
       "title": "CalendarCheckIcon",
-      "description": "Animated \"calendar-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"calendar-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1303,7 +1319,7 @@
       "name": "calendar-cog",
       "type": "registry:component",
       "title": "CalendarCogIcon",
-      "description": "Animated \"calendar-cog\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"calendar-cog\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1319,7 +1335,7 @@
       "name": "calendar-days",
       "type": "registry:component",
       "title": "CalendarDaysIcon",
-      "description": "Animated \"calendar-days\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"calendar-days\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1335,7 +1351,7 @@
       "name": "cart",
       "type": "registry:component",
       "title": "CartIcon",
-      "description": "Animated \"cart\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cart\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1351,7 +1367,7 @@
       "name": "cast",
       "type": "registry:component",
       "title": "CastIcon",
-      "description": "Animated \"cast\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cast\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1367,7 +1383,7 @@
       "name": "cctv",
       "type": "registry:component",
       "title": "CctvIcon",
-      "description": "Animated \"cctv\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cctv\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1383,7 +1399,7 @@
       "name": "chart-bar-decreasing",
       "type": "registry:component",
       "title": "ChartBarDecreasingIcon",
-      "description": "Animated \"chart-bar-decreasing\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-bar-decreasing\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1399,7 +1415,7 @@
       "name": "chart-bar-increasing",
       "type": "registry:component",
       "title": "ChartBarIncreasingIcon",
-      "description": "Animated \"chart-bar-increasing\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-bar-increasing\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1415,7 +1431,7 @@
       "name": "chart-column-decreasing",
       "type": "registry:component",
       "title": "ChartColumnDecreasingIcon",
-      "description": "Animated \"chart-column-decreasing\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-column-decreasing\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1431,7 +1447,7 @@
       "name": "chart-column-increasing",
       "type": "registry:component",
       "title": "ChartColumnIncreasingIcon",
-      "description": "Animated \"chart-column-increasing\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-column-increasing\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1447,7 +1463,7 @@
       "name": "chart-line",
       "type": "registry:component",
       "title": "ChartLineIcon",
-      "description": "Animated \"chart-line\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-line\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1463,7 +1479,7 @@
       "name": "chart-no-axes-column-decreasing",
       "type": "registry:component",
       "title": "ChartNoAxesColumnDecreasingIcon",
-      "description": "Animated \"chart-no-axes-column-decreasing\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-no-axes-column-decreasing\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1479,7 +1495,7 @@
       "name": "chart-no-axes-column-increasing",
       "type": "registry:component",
       "title": "ChartNoAxesColumnIncreasingIcon",
-      "description": "Animated \"chart-no-axes-column-increasing\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-no-axes-column-increasing\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1495,7 +1511,7 @@
       "name": "chart-pie",
       "type": "registry:component",
       "title": "ChartPieIcon",
-      "description": "Animated \"chart-pie\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-pie\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1511,7 +1527,7 @@
       "name": "chart-scatter",
       "type": "registry:component",
       "title": "ChartScatterIcon",
-      "description": "Animated \"chart-scatter\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-scatter\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1527,7 +1543,7 @@
       "name": "chart-spline",
       "type": "registry:component",
       "title": "ChartSplineIcon",
-      "description": "Animated \"chart-spline\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chart-spline\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1543,7 +1559,7 @@
       "name": "check-check",
       "type": "registry:component",
       "title": "CheckCheckIcon",
-      "description": "Animated \"check-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"check-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1559,7 +1575,7 @@
       "name": "check",
       "type": "registry:component",
       "title": "CheckIcon",
-      "description": "Animated \"check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1575,7 +1591,7 @@
       "name": "chess-bishop",
       "type": "registry:component",
       "title": "ChessBishopIcon",
-      "description": "Animated \"chess-bishop\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chess-bishop\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1591,7 +1607,7 @@
       "name": "chess-king",
       "type": "registry:component",
       "title": "ChessKingIcon",
-      "description": "Animated \"chess-king\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chess-king\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1607,7 +1623,7 @@
       "name": "chess-knight",
       "type": "registry:component",
       "title": "ChessKnightIcon",
-      "description": "Animated \"chess-knight\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chess-knight\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1623,7 +1639,7 @@
       "name": "chess-pawn",
       "type": "registry:component",
       "title": "ChessPawnIcon",
-      "description": "Animated \"chess-pawn\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chess-pawn\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1639,7 +1655,7 @@
       "name": "chevron-down",
       "type": "registry:component",
       "title": "ChevronDownIcon",
-      "description": "Animated \"chevron-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chevron-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1655,7 +1671,7 @@
       "name": "chevron-first",
       "type": "registry:component",
       "title": "ChevronFirstIcon",
-      "description": "Animated \"chevron-first\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chevron-first\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1671,7 +1687,7 @@
       "name": "chevron-left",
       "type": "registry:component",
       "title": "ChevronLeftIcon",
-      "description": "Animated \"chevron-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chevron-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1687,7 +1703,7 @@
       "name": "chevron-right",
       "type": "registry:component",
       "title": "ChevronRightIcon",
-      "description": "Animated \"chevron-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chevron-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1703,7 +1719,7 @@
       "name": "chevron-up",
       "type": "registry:component",
       "title": "ChevronUpIcon",
-      "description": "Animated \"chevron-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chevron-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1719,7 +1735,7 @@
       "name": "chevrons-down-up",
       "type": "registry:component",
       "title": "ChevronsDownUpIcon",
-      "description": "Animated \"chevrons-down-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chevrons-down-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1735,7 +1751,7 @@
       "name": "chevrons-left-right",
       "type": "registry:component",
       "title": "ChevronsLeftRightIcon",
-      "description": "Animated \"chevrons-left-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chevrons-left-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1751,7 +1767,7 @@
       "name": "chevrons-right-left",
       "type": "registry:component",
       "title": "ChevronsRightLeftIcon",
-      "description": "Animated \"chevrons-right-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chevrons-right-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1767,7 +1783,7 @@
       "name": "chevrons-up-down",
       "type": "registry:component",
       "title": "ChevronsUpDownIcon",
-      "description": "Animated \"chevrons-up-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chevrons-up-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1783,7 +1799,7 @@
       "name": "chrome",
       "type": "registry:component",
       "title": "ChromeIcon",
-      "description": "Animated \"chrome\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"chrome\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1799,7 +1815,7 @@
       "name": "circle-check",
       "type": "registry:component",
       "title": "CircleCheckIcon",
-      "description": "Animated \"circle-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"circle-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1815,7 +1831,7 @@
       "name": "circle-chevron-down",
       "type": "registry:component",
       "title": "CircleChevronDownIcon",
-      "description": "Animated \"circle-chevron-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"circle-chevron-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1831,7 +1847,7 @@
       "name": "circle-chevron-left",
       "type": "registry:component",
       "title": "CircleChevronLeftIcon",
-      "description": "Animated \"circle-chevron-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"circle-chevron-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1847,7 +1863,7 @@
       "name": "circle-chevron-right",
       "type": "registry:component",
       "title": "CircleChevronRightIcon",
-      "description": "Animated \"circle-chevron-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"circle-chevron-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1863,7 +1879,7 @@
       "name": "circle-chevron-up",
       "type": "registry:component",
       "title": "CircleChevronUpIcon",
-      "description": "Animated \"circle-chevron-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"circle-chevron-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1879,7 +1895,7 @@
       "name": "circle-dashed",
       "type": "registry:component",
       "title": "CircleDashedIcon",
-      "description": "Animated \"circle-dashed\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"circle-dashed\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1895,7 +1911,7 @@
       "name": "circle-dollar-sign",
       "type": "registry:component",
       "title": "CircleDollarSignIcon",
-      "description": "Animated \"circle-dollar-sign\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"circle-dollar-sign\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1911,7 +1927,7 @@
       "name": "circle-help",
       "type": "registry:component",
       "title": "CircleHelpIcon",
-      "description": "Animated \"circle-help\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"circle-help\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1927,7 +1943,7 @@
       "name": "clap",
       "type": "registry:component",
       "title": "ClapIcon",
-      "description": "Animated \"clap\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"clap\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1943,7 +1959,7 @@
       "name": "clipboard-check",
       "type": "registry:component",
       "title": "ClipboardCheckIcon",
-      "description": "Animated \"clipboard-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"clipboard-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1959,7 +1975,7 @@
       "name": "clock",
       "type": "registry:component",
       "title": "ClockIcon",
-      "description": "Animated \"clock\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"clock\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1975,7 +1991,7 @@
       "name": "cloud-cog",
       "type": "registry:component",
       "title": "CloudCogIcon",
-      "description": "Animated \"cloud-cog\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cloud-cog\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -1991,7 +2007,7 @@
       "name": "cloud-download",
       "type": "registry:component",
       "title": "CloudDownloadIcon",
-      "description": "Animated \"cloud-download\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cloud-download\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2007,7 +2023,7 @@
       "name": "cloud-lightning",
       "type": "registry:component",
       "title": "CloudLightningIcon",
-      "description": "Animated \"cloud-lightning\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cloud-lightning\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2023,7 +2039,7 @@
       "name": "cloud-rain",
       "type": "registry:component",
       "title": "CloudRainIcon",
-      "description": "Animated \"cloud-rain\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cloud-rain\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2039,7 +2055,7 @@
       "name": "cloud-rain-wind",
       "type": "registry:component",
       "title": "CloudRainWindIcon",
-      "description": "Animated \"cloud-rain-wind\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cloud-rain-wind\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2055,7 +2071,7 @@
       "name": "cloud-snow",
       "type": "registry:component",
       "title": "CloudSnowIcon",
-      "description": "Animated \"cloud-snow\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cloud-snow\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2071,7 +2087,7 @@
       "name": "cloud-sun",
       "type": "registry:component",
       "title": "CloudSunIcon",
-      "description": "Animated \"cloud-sun\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cloud-sun\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2087,7 +2103,7 @@
       "name": "cloud-upload",
       "type": "registry:component",
       "title": "CloudUploadIcon",
-      "description": "Animated \"cloud-upload\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cloud-upload\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2103,7 +2119,7 @@
       "name": "coffee",
       "type": "registry:component",
       "title": "CoffeeIcon",
-      "description": "Animated \"coffee\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"coffee\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2119,7 +2135,7 @@
       "name": "cog",
       "type": "registry:component",
       "title": "CogIcon",
-      "description": "Animated \"cog\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cog\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2135,7 +2151,7 @@
       "name": "compass",
       "type": "registry:component",
       "title": "CompassIcon",
-      "description": "Animated \"compass\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"compass\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2151,7 +2167,7 @@
       "name": "concierge-bell",
       "type": "registry:component",
       "title": "ConciergeBellIcon",
-      "description": "Animated \"concierge-bell\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"concierge-bell\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2167,7 +2183,7 @@
       "name": "connect",
       "type": "registry:component",
       "title": "ConnectIcon",
-      "description": "Animated \"connect\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"connect\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2183,7 +2199,7 @@
       "name": "construction",
       "type": "registry:component",
       "title": "ConstructionIcon",
-      "description": "Animated \"construction\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"construction\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2199,7 +2215,7 @@
       "name": "contrast",
       "type": "registry:component",
       "title": "ContrastIcon",
-      "description": "Animated \"contrast\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"contrast\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2215,7 +2231,7 @@
       "name": "cooking-pot",
       "type": "registry:component",
       "title": "CookingPotIcon",
-      "description": "Animated \"cooking-pot\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cooking-pot\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2231,7 +2247,7 @@
       "name": "copy",
       "type": "registry:component",
       "title": "CopyIcon",
-      "description": "Animated \"copy\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"copy\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2247,7 +2263,7 @@
       "name": "corner-down-left",
       "type": "registry:component",
       "title": "CornerDownLeftIcon",
-      "description": "Animated \"corner-down-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"corner-down-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2263,7 +2279,7 @@
       "name": "corner-down-right",
       "type": "registry:component",
       "title": "CornerDownRightIcon",
-      "description": "Animated \"corner-down-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"corner-down-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2279,7 +2295,7 @@
       "name": "corner-left-down",
       "type": "registry:component",
       "title": "CornerLeftDownIcon",
-      "description": "Animated \"corner-left-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"corner-left-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2295,7 +2311,7 @@
       "name": "corner-left-up",
       "type": "registry:component",
       "title": "CornerLeftUpIcon",
-      "description": "Animated \"corner-left-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"corner-left-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2311,7 +2327,7 @@
       "name": "corner-right-down",
       "type": "registry:component",
       "title": "CornerRightDownIcon",
-      "description": "Animated \"corner-right-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"corner-right-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2327,7 +2343,7 @@
       "name": "corner-right-up",
       "type": "registry:component",
       "title": "CornerRightUpIcon",
-      "description": "Animated \"corner-right-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"corner-right-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2343,7 +2359,7 @@
       "name": "corner-up-left",
       "type": "registry:component",
       "title": "CornerUpLeftIcon",
-      "description": "Animated \"corner-up-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"corner-up-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2359,7 +2375,7 @@
       "name": "corner-up-right",
       "type": "registry:component",
       "title": "CornerUpRightIcon",
-      "description": "Animated \"corner-up-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"corner-up-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2375,7 +2391,7 @@
       "name": "cpu",
       "type": "registry:component",
       "title": "CpuIcon",
-      "description": "Animated \"cpu\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cpu\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2391,7 +2407,7 @@
       "name": "credit-card",
       "type": "registry:component",
       "title": "CreditCardIcon",
-      "description": "Animated \"credit-card\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"credit-card\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2407,7 +2423,7 @@
       "name": "cup-soda",
       "type": "registry:component",
       "title": "CupSodaIcon",
-      "description": "Animated \"cup-soda\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cup-soda\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2423,7 +2439,7 @@
       "name": "cursor-click",
       "type": "registry:component",
       "title": "CursorClickIcon",
-      "description": "Animated \"cursor-click\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"cursor-click\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2439,7 +2455,7 @@
       "name": "database-backup",
       "type": "registry:component",
       "title": "DatabaseBackupIcon",
-      "description": "Animated \"database-backup\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"database-backup\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2455,7 +2471,7 @@
       "name": "delete",
       "type": "registry:component",
       "title": "DeleteIcon",
-      "description": "Animated \"delete\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"delete\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2471,7 +2487,7 @@
       "name": "disc-3",
       "type": "registry:component",
       "title": "Disc3Icon",
-      "description": "Animated \"disc-3\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"disc-3\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2487,7 +2503,7 @@
       "name": "discord",
       "type": "registry:component",
       "title": "DiscordIcon",
-      "description": "Animated \"discord\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"discord\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2503,7 +2519,7 @@
       "name": "dollar-sign",
       "type": "registry:component",
       "title": "DollarSignIcon",
-      "description": "Animated \"dollar-sign\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"dollar-sign\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2519,7 +2535,7 @@
       "name": "download",
       "type": "registry:component",
       "title": "DownloadIcon",
-      "description": "Animated \"download\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"download\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2535,7 +2551,7 @@
       "name": "downvote",
       "type": "registry:component",
       "title": "DownvoteIcon",
-      "description": "Animated \"downvote\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"downvote\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2551,7 +2567,7 @@
       "name": "dribbble",
       "type": "registry:component",
       "title": "DribbbleIcon",
-      "description": "Animated \"dribbble\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"dribbble\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2567,7 +2583,7 @@
       "name": "droplet",
       "type": "registry:component",
       "title": "DropletIcon",
-      "description": "Animated \"droplet\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"droplet\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2583,7 +2599,7 @@
       "name": "drum",
       "type": "registry:component",
       "title": "DrumIcon",
-      "description": "Animated \"drum\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"drum\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2599,7 +2615,7 @@
       "name": "earth",
       "type": "registry:component",
       "title": "EarthIcon",
-      "description": "Animated \"earth\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"earth\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2615,7 +2631,7 @@
       "name": "euro",
       "type": "registry:component",
       "title": "EuroIcon",
-      "description": "Animated \"euro\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"euro\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2631,7 +2647,7 @@
       "name": "ev-charger",
       "type": "registry:component",
       "title": "EvChargerIcon",
-      "description": "Animated \"ev-charger\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"ev-charger\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2647,7 +2663,7 @@
       "name": "expand",
       "type": "registry:component",
       "title": "ExpandIcon",
-      "description": "Animated \"expand\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"expand\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2663,7 +2679,7 @@
       "name": "eye",
       "type": "registry:component",
       "title": "EyeIcon",
-      "description": "Animated \"eye\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"eye\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2679,7 +2695,7 @@
       "name": "eye-off",
       "type": "registry:component",
       "title": "EyeOffIcon",
-      "description": "Animated \"eye-off\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"eye-off\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2695,7 +2711,7 @@
       "name": "file_text",
       "type": "registry:component",
       "title": "FILE_TEXT",
-      "description": "Animated \"file_text\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"file_text\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2711,7 +2727,7 @@
       "name": "facebook",
       "type": "registry:component",
       "title": "FacebookIcon",
-      "description": "Animated \"facebook\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"facebook\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2727,7 +2743,7 @@
       "name": "fan",
       "type": "registry:component",
       "title": "FanIcon",
-      "description": "Animated \"fan\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"fan\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2743,7 +2759,7 @@
       "name": "feather",
       "type": "registry:component",
       "title": "FeatherIcon",
-      "description": "Animated \"feather\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"feather\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2759,7 +2775,7 @@
       "name": "figma",
       "type": "registry:component",
       "title": "FigmaIcon",
-      "description": "Animated \"figma\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"figma\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2775,7 +2791,7 @@
       "name": "file-chart-line",
       "type": "registry:component",
       "title": "FileChartLineIcon",
-      "description": "Animated \"file-chart-line\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"file-chart-line\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2791,7 +2807,7 @@
       "name": "file-check-2",
       "type": "registry:component",
       "title": "FileCheck2Icon",
-      "description": "Animated \"file-check-2\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"file-check-2\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2807,7 +2823,7 @@
       "name": "file-check",
       "type": "registry:component",
       "title": "FileCheckIcon",
-      "description": "Animated \"file-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"file-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2823,7 +2839,7 @@
       "name": "file-cog",
       "type": "registry:component",
       "title": "FileCogIcon",
-      "description": "Animated \"file-cog\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"file-cog\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2839,7 +2855,7 @@
       "name": "file-pen-line",
       "type": "registry:component",
       "title": "FilePenLineIcon",
-      "description": "Animated \"file-pen-line\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"file-pen-line\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2855,7 +2871,7 @@
       "name": "file-stack",
       "type": "registry:component",
       "title": "FileStackIcon",
-      "description": "Animated \"file-stack\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"file-stack\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2871,7 +2887,7 @@
       "name": "fingerprint",
       "type": "registry:component",
       "title": "FingerprintIcon",
-      "description": "Animated \"fingerprint\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"fingerprint\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2887,7 +2903,7 @@
       "name": "fish-symbol",
       "type": "registry:component",
       "title": "FishSymbolIcon",
-      "description": "Animated \"fish-symbol\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"fish-symbol\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2903,7 +2919,7 @@
       "name": "flame",
       "type": "registry:component",
       "title": "FlameIcon",
-      "description": "Animated \"flame\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"flame\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2919,7 +2935,7 @@
       "name": "flask",
       "type": "registry:component",
       "title": "FlaskIcon",
-      "description": "Animated \"flask\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"flask\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2935,7 +2951,7 @@
       "name": "folder-archive",
       "type": "registry:component",
       "title": "FolderArchiveIcon",
-      "description": "Animated \"folder-archive\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-archive\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2951,7 +2967,7 @@
       "name": "folder-check",
       "type": "registry:component",
       "title": "FolderCheckIcon",
-      "description": "Animated \"folder-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2967,7 +2983,7 @@
       "name": "folder-clock",
       "type": "registry:component",
       "title": "FolderClockIcon",
-      "description": "Animated \"folder-clock\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-clock\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2983,7 +2999,7 @@
       "name": "folder-code",
       "type": "registry:component",
       "title": "FolderCodeIcon",
-      "description": "Animated \"folder-code\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-code\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -2999,7 +3015,7 @@
       "name": "folder-cog",
       "type": "registry:component",
       "title": "FolderCogIcon",
-      "description": "Animated \"folder-cog\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-cog\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3015,7 +3031,7 @@
       "name": "folder-dot",
       "type": "registry:component",
       "title": "FolderDotIcon",
-      "description": "Animated \"folder-dot\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-dot\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3031,7 +3047,7 @@
       "name": "folder-down",
       "type": "registry:component",
       "title": "FolderDownIcon",
-      "description": "Animated \"folder-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3047,7 +3063,7 @@
       "name": "folder-git-2",
       "type": "registry:component",
       "title": "FolderGit2Icon",
-      "description": "Animated \"folder-git-2\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-git-2\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3063,7 +3079,7 @@
       "name": "folder-git",
       "type": "registry:component",
       "title": "FolderGitIcon",
-      "description": "Animated \"folder-git\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-git\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3079,7 +3095,7 @@
       "name": "folder-heart",
       "type": "registry:component",
       "title": "FolderHeartIcon",
-      "description": "Animated \"folder-heart\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-heart\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3095,7 +3111,7 @@
       "name": "folder-input",
       "type": "registry:component",
       "title": "FolderInputIcon",
-      "description": "Animated \"folder-input\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-input\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3111,7 +3127,7 @@
       "name": "folder-kanban",
       "type": "registry:component",
       "title": "FolderKanbanIcon",
-      "description": "Animated \"folder-kanban\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-kanban\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3127,7 +3143,7 @@
       "name": "folder-key",
       "type": "registry:component",
       "title": "FolderKeyIcon",
-      "description": "Animated \"folder-key\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-key\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3143,7 +3159,7 @@
       "name": "folder-lock",
       "type": "registry:component",
       "title": "FolderLockIcon",
-      "description": "Animated \"folder-lock\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-lock\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3159,7 +3175,7 @@
       "name": "folder-minus",
       "type": "registry:component",
       "title": "FolderMinusIcon",
-      "description": "Animated \"folder-minus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-minus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3175,7 +3191,7 @@
       "name": "folder-open",
       "type": "registry:component",
       "title": "FolderOpenIcon",
-      "description": "Animated \"folder-open\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-open\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3191,7 +3207,7 @@
       "name": "folder-output",
       "type": "registry:component",
       "title": "FolderOutputIcon",
-      "description": "Animated \"folder-output\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-output\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3207,7 +3223,7 @@
       "name": "folder-plus",
       "type": "registry:component",
       "title": "FolderPlusIcon",
-      "description": "Animated \"folder-plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3223,7 +3239,7 @@
       "name": "folder-root",
       "type": "registry:component",
       "title": "FolderRootIcon",
-      "description": "Animated \"folder-root\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-root\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3239,7 +3255,7 @@
       "name": "folder-sync",
       "type": "registry:component",
       "title": "FolderSyncIcon",
-      "description": "Animated \"folder-sync\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-sync\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3255,7 +3271,7 @@
       "name": "folder-tree",
       "type": "registry:component",
       "title": "FolderTreeIcon",
-      "description": "Animated \"folder-tree\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-tree\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3271,7 +3287,7 @@
       "name": "folder-up",
       "type": "registry:component",
       "title": "FolderUpIcon",
-      "description": "Animated \"folder-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3287,7 +3303,7 @@
       "name": "folder-x",
       "type": "registry:component",
       "title": "FolderXIcon",
-      "description": "Animated \"folder-x\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folder-x\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3303,7 +3319,7 @@
       "name": "folders",
       "type": "registry:component",
       "title": "FoldersIcon",
-      "description": "Animated \"folders\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"folders\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3319,7 +3335,7 @@
       "name": "frame",
       "type": "registry:component",
       "title": "FrameIcon",
-      "description": "Animated \"frame\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"frame\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3335,7 +3351,7 @@
       "name": "frown",
       "type": "registry:component",
       "title": "FrownIcon",
-      "description": "Animated \"frown\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"frown\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3351,7 +3367,7 @@
       "name": "gallery-horizontal-end",
       "type": "registry:component",
       "title": "GalleryHorizontalEndIcon",
-      "description": "Animated \"gallery-horizontal-end\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"gallery-horizontal-end\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3367,7 +3383,7 @@
       "name": "gallery-thumbnails",
       "type": "registry:component",
       "title": "GalleryThumbnailsIcon",
-      "description": "Animated \"gallery-thumbnails\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"gallery-thumbnails\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3383,7 +3399,7 @@
       "name": "gallery-vertical-end",
       "type": "registry:component",
       "title": "GalleryVerticalEndIcon",
-      "description": "Animated \"gallery-vertical-end\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"gallery-vertical-end\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3399,7 +3415,7 @@
       "name": "gauge",
       "type": "registry:component",
       "title": "GaugeIcon",
-      "description": "Animated \"gauge\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"gauge\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3415,7 +3431,7 @@
       "name": "gavel",
       "type": "registry:component",
       "title": "GavelIcon",
-      "description": "Animated \"gavel\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"gavel\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3431,7 +3447,7 @@
       "name": "georgian-lari",
       "type": "registry:component",
       "title": "GeorgianLariIcon",
-      "description": "Animated \"georgian-lari\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"georgian-lari\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3447,7 +3463,7 @@
       "name": "git-branch",
       "type": "registry:component",
       "title": "GitBranchIcon",
-      "description": "Animated \"git-branch\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-branch\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3463,7 +3479,7 @@
       "name": "git-commit-horizontal",
       "type": "registry:component",
       "title": "GitCommitHorizontalIcon",
-      "description": "Animated \"git-commit-horizontal\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-commit-horizontal\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3479,7 +3495,7 @@
       "name": "git-commit-vertical",
       "type": "registry:component",
       "title": "GitCommitVerticalIcon",
-      "description": "Animated \"git-commit-vertical\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-commit-vertical\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3495,7 +3511,7 @@
       "name": "git-compare-arrows",
       "type": "registry:component",
       "title": "GitCompareArrowsIcon",
-      "description": "Animated \"git-compare-arrows\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-compare-arrows\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3511,7 +3527,7 @@
       "name": "git-compare",
       "type": "registry:component",
       "title": "GitCompareIcon",
-      "description": "Animated \"git-compare\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-compare\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3527,7 +3543,7 @@
       "name": "git-fork",
       "type": "registry:component",
       "title": "GitForkIcon",
-      "description": "Animated \"git-fork\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-fork\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3543,7 +3559,7 @@
       "name": "git-graph",
       "type": "registry:component",
       "title": "GitGraphIcon",
-      "description": "Animated \"git-graph\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-graph\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3559,7 +3575,7 @@
       "name": "git-merge",
       "type": "registry:component",
       "title": "GitMergeIcon",
-      "description": "Animated \"git-merge\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-merge\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3575,7 +3591,7 @@
       "name": "git-pull-request-closed",
       "type": "registry:component",
       "title": "GitPullRequestClosedIcon",
-      "description": "Animated \"git-pull-request-closed\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-pull-request-closed\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3591,7 +3607,7 @@
       "name": "git-pull-request-create",
       "type": "registry:component",
       "title": "GitPullRequestCreateIcon",
-      "description": "Animated \"git-pull-request-create\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-pull-request-create\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3607,7 +3623,7 @@
       "name": "git-pull-request",
       "type": "registry:component",
       "title": "GitPullRequestIcon",
-      "description": "Animated \"git-pull-request\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"git-pull-request\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3623,7 +3639,7 @@
       "name": "github",
       "type": "registry:component",
       "title": "GithubIcon",
-      "description": "Animated \"github\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"github\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3639,7 +3655,7 @@
       "name": "gitlab",
       "type": "registry:component",
       "title": "GitlabIcon",
-      "description": "Animated \"gitlab\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"gitlab\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3655,7 +3671,7 @@
       "name": "graduation-cap",
       "type": "registry:component",
       "title": "GraduationCapIcon",
-      "description": "Animated \"graduation-cap\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"graduation-cap\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3671,7 +3687,7 @@
       "name": "grip-horizontal",
       "type": "registry:component",
       "title": "GripHorizontalIcon",
-      "description": "Animated \"grip-horizontal\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"grip-horizontal\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3687,7 +3703,7 @@
       "name": "grip",
       "type": "registry:component",
       "title": "GripIcon",
-      "description": "Animated \"grip\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"grip\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3703,7 +3719,7 @@
       "name": "grip-vertical",
       "type": "registry:component",
       "title": "GripVerticalIcon",
-      "description": "Animated \"grip-vertical\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"grip-vertical\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3719,7 +3735,7 @@
       "name": "hammer",
       "type": "registry:component",
       "title": "HammerIcon",
-      "description": "Animated \"hammer\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hammer\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3735,7 +3751,7 @@
       "name": "hand-coins",
       "type": "registry:component",
       "title": "HandCoinsIcon",
-      "description": "Animated \"hand-coins\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hand-coins\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3751,7 +3767,7 @@
       "name": "hand-fist",
       "type": "registry:component",
       "title": "HandFistIcon",
-      "description": "Animated \"hand-fist\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hand-fist\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3767,7 +3783,7 @@
       "name": "hand-grab",
       "type": "registry:component",
       "title": "HandGrabIcon",
-      "description": "Animated \"hand-grab\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hand-grab\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3783,7 +3799,7 @@
       "name": "hand-heart",
       "type": "registry:component",
       "title": "HandHeartIcon",
-      "description": "Animated \"hand-heart\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hand-heart\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3799,7 +3815,7 @@
       "name": "hand-helping",
       "type": "registry:component",
       "title": "HandHelpingIcon",
-      "description": "Animated \"hand-helping\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hand-helping\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3815,7 +3831,7 @@
       "name": "hand",
       "type": "registry:component",
       "title": "HandIcon",
-      "description": "Animated \"hand\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hand\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3831,7 +3847,7 @@
       "name": "hand-metal",
       "type": "registry:component",
       "title": "HandMetalIcon",
-      "description": "Animated \"hand-metal\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hand-metal\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3847,7 +3863,7 @@
       "name": "hard-drive-download",
       "type": "registry:component",
       "title": "HardDriveDownloadIcon",
-      "description": "Animated \"hard-drive-download\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hard-drive-download\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3863,7 +3879,7 @@
       "name": "hard-drive-upload",
       "type": "registry:component",
       "title": "HardDriveUploadIcon",
-      "description": "Animated \"hard-drive-upload\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hard-drive-upload\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3879,7 +3895,7 @@
       "name": "heart-handshake",
       "type": "registry:component",
       "title": "HeartHandshakeIcon",
-      "description": "Animated \"heart-handshake\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"heart-handshake\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3895,7 +3911,7 @@
       "name": "heart",
       "type": "registry:component",
       "title": "HeartIcon",
-      "description": "Animated \"heart\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"heart\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3911,7 +3927,7 @@
       "name": "heart-pulse",
       "type": "registry:component",
       "title": "HeartPulseIcon",
-      "description": "Animated \"heart-pulse\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"heart-pulse\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3927,7 +3943,7 @@
       "name": "history",
       "type": "registry:component",
       "title": "HistoryIcon",
-      "description": "Animated \"history\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"history\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3943,7 +3959,7 @@
       "name": "home",
       "type": "registry:component",
       "title": "HomeIcon",
-      "description": "Animated \"home\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"home\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3959,7 +3975,7 @@
       "name": "hourglass",
       "type": "registry:component",
       "title": "HourglassIcon",
-      "description": "Animated \"hourglass\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"hourglass\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3975,7 +3991,7 @@
       "name": "id-card",
       "type": "registry:component",
       "title": "IdCardIcon",
-      "description": "Animated \"id-card\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"id-card\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -3991,7 +4007,7 @@
       "name": "indian-rupee",
       "type": "registry:component",
       "title": "IndianRupeeIcon",
-      "description": "Animated \"indian-rupee\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"indian-rupee\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4007,7 +4023,7 @@
       "name": "instagram",
       "type": "registry:component",
       "title": "InstagramIcon",
-      "description": "Animated \"instagram\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"instagram\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4023,7 +4039,7 @@
       "name": "italic",
       "type": "registry:component",
       "title": "ItalicIcon",
-      "description": "Animated \"italic\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"italic\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4039,7 +4055,7 @@
       "name": "japanese-yen",
       "type": "registry:component",
       "title": "JapaneseYenIcon",
-      "description": "Animated \"japanese-yen\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"japanese-yen\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4055,7 +4071,7 @@
       "name": "key-circle",
       "type": "registry:component",
       "title": "KeyCircleIcon",
-      "description": "Animated \"key-circle\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"key-circle\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4071,7 +4087,7 @@
       "name": "key",
       "type": "registry:component",
       "title": "KeyIcon",
-      "description": "Animated \"key\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"key\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4087,7 +4103,7 @@
       "name": "key-square",
       "type": "registry:component",
       "title": "KeySquareIcon",
-      "description": "Animated \"key-square\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"key-square\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4103,7 +4119,7 @@
       "name": "keyboard",
       "type": "registry:component",
       "title": "KeyboardIcon",
-      "description": "Animated \"keyboard\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"keyboard\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4119,7 +4135,7 @@
       "name": "languages",
       "type": "registry:component",
       "title": "LanguagesIcon",
-      "description": "Animated \"languages\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"languages\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4135,7 +4151,7 @@
       "name": "laptop-minimal-check",
       "type": "registry:component",
       "title": "LaptopMinimalCheckIcon",
-      "description": "Animated \"laptop-minimal-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"laptop-minimal-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4151,7 +4167,7 @@
       "name": "laugh",
       "type": "registry:component",
       "title": "LaughIcon",
-      "description": "Animated \"laugh\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"laugh\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4167,7 +4183,7 @@
       "name": "layers",
       "type": "registry:component",
       "title": "LayersIcon",
-      "description": "Animated \"layers\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"layers\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4183,7 +4199,7 @@
       "name": "layout-grid",
       "type": "registry:component",
       "title": "LayoutGridIcon",
-      "description": "Animated \"layout-grid\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"layout-grid\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4199,7 +4215,7 @@
       "name": "layout-panel-top",
       "type": "registry:component",
       "title": "LayoutPanelTopIcon",
-      "description": "Animated \"layout-panel-top\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"layout-panel-top\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4215,7 +4231,7 @@
       "name": "link",
       "type": "registry:component",
       "title": "LinkIcon",
-      "description": "Animated \"link\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"link\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4231,7 +4247,7 @@
       "name": "linkedin",
       "type": "registry:component",
       "title": "LinkedinIcon",
-      "description": "Animated \"linkedin\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"linkedin\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4247,7 +4263,7 @@
       "name": "loader-circle",
       "type": "registry:component",
       "title": "LoaderCircleIcon",
-      "description": "Animated \"loader-circle\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"loader-circle\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4263,7 +4279,7 @@
       "name": "loader",
       "type": "registry:component",
       "title": "LoaderIcon",
-      "description": "Animated \"loader\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"loader\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4279,7 +4295,7 @@
       "name": "loader-pinwheel",
       "type": "registry:component",
       "title": "LoaderPinwheelIcon",
-      "description": "Animated \"loader-pinwheel\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"loader-pinwheel\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4295,7 +4311,7 @@
       "name": "lock",
       "type": "registry:component",
       "title": "LockIcon",
-      "description": "Animated \"lock\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"lock\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4311,7 +4327,7 @@
       "name": "lock-keyhole",
       "type": "registry:component",
       "title": "LockKeyholeIcon",
-      "description": "Animated \"lock-keyhole\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"lock-keyhole\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4327,7 +4343,7 @@
       "name": "lock-keyhole-open",
       "type": "registry:component",
       "title": "LockKeyholeOpenIcon",
-      "description": "Animated \"lock-keyhole-open\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"lock-keyhole-open\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4343,7 +4359,7 @@
       "name": "lock-open",
       "type": "registry:component",
       "title": "LockOpenIcon",
-      "description": "Animated \"lock-open\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"lock-open\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4359,7 +4375,7 @@
       "name": "log-in",
       "type": "registry:component",
       "title": "LogInIcon",
-      "description": "Animated \"log-in\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"log-in\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4375,7 +4391,7 @@
       "name": "logout",
       "type": "registry:component",
       "title": "LogoutIcon",
-      "description": "Animated \"logout\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"logout\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4391,7 +4407,7 @@
       "name": "mail-check",
       "type": "registry:component",
       "title": "MailCheckIcon",
-      "description": "Animated \"mail-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"mail-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4407,7 +4423,7 @@
       "name": "mailbox",
       "type": "registry:component",
       "title": "MailboxIcon",
-      "description": "Animated \"mailbox\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"mailbox\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4423,7 +4439,7 @@
       "name": "map-pin-check",
       "type": "registry:component",
       "title": "MapPinCheckIcon",
-      "description": "Animated \"map-pin-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4439,7 +4455,7 @@
       "name": "map-pin-check-inside",
       "type": "registry:component",
       "title": "MapPinCheckInsideIcon",
-      "description": "Animated \"map-pin-check-inside\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin-check-inside\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4455,7 +4471,7 @@
       "name": "map-pin-house",
       "type": "registry:component",
       "title": "MapPinHouseIcon",
-      "description": "Animated \"map-pin-house\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin-house\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4471,7 +4487,7 @@
       "name": "map-pin",
       "type": "registry:component",
       "title": "MapPinIcon",
-      "description": "Animated \"map-pin\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4487,7 +4503,7 @@
       "name": "map-pin-minus",
       "type": "registry:component",
       "title": "MapPinMinusIcon",
-      "description": "Animated \"map-pin-minus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin-minus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4503,7 +4519,7 @@
       "name": "map-pin-minus-inside",
       "type": "registry:component",
       "title": "MapPinMinusInsideIcon",
-      "description": "Animated \"map-pin-minus-inside\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin-minus-inside\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4519,7 +4535,7 @@
       "name": "map-pin-off",
       "type": "registry:component",
       "title": "MapPinOffIcon",
-      "description": "Animated \"map-pin-off\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin-off\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4535,7 +4551,7 @@
       "name": "map-pin-plus",
       "type": "registry:component",
       "title": "MapPinPlusIcon",
-      "description": "Animated \"map-pin-plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin-plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4551,7 +4567,7 @@
       "name": "map-pin-plus-inside",
       "type": "registry:component",
       "title": "MapPinPlusInsideIcon",
-      "description": "Animated \"map-pin-plus-inside\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin-plus-inside\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4567,7 +4583,7 @@
       "name": "map-pin-x-inside",
       "type": "registry:component",
       "title": "MapPinXInsideIcon",
-      "description": "Animated \"map-pin-x-inside\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"map-pin-x-inside\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4583,7 +4599,7 @@
       "name": "maximize-2",
       "type": "registry:component",
       "title": "Maximize2Icon",
-      "description": "Animated \"maximize-2\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"maximize-2\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4599,7 +4615,7 @@
       "name": "maximize",
       "type": "registry:component",
       "title": "MaximizeIcon",
-      "description": "Animated \"maximize\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"maximize\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4615,7 +4631,7 @@
       "name": "meh",
       "type": "registry:component",
       "title": "MehIcon",
-      "description": "Animated \"meh\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"meh\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4631,7 +4647,7 @@
       "name": "menu",
       "type": "registry:component",
       "title": "MenuIcon",
-      "description": "Animated \"menu\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"menu\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4647,7 +4663,7 @@
       "name": "message-circle-check",
       "type": "registry:component",
       "title": "MessageCircleCheckIcon",
-      "description": "Animated \"message-circle-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-circle-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4663,7 +4679,7 @@
       "name": "message-circle-dashed",
       "type": "registry:component",
       "title": "MessageCircleDashedIcon",
-      "description": "Animated \"message-circle-dashed\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-circle-dashed\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4679,7 +4695,7 @@
       "name": "message-circle",
       "type": "registry:component",
       "title": "MessageCircleIcon",
-      "description": "Animated \"message-circle\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-circle\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4695,7 +4711,7 @@
       "name": "message-circle-more",
       "type": "registry:component",
       "title": "MessageCircleMoreIcon",
-      "description": "Animated \"message-circle-more\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-circle-more\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4711,7 +4727,7 @@
       "name": "message-circle-plus",
       "type": "registry:component",
       "title": "MessageCirclePlusIcon",
-      "description": "Animated \"message-circle-plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-circle-plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4727,7 +4743,7 @@
       "name": "message-circle-x",
       "type": "registry:component",
       "title": "MessageCircleXIcon",
-      "description": "Animated \"message-circle-x\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-circle-x\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4743,7 +4759,7 @@
       "name": "message-square-check",
       "type": "registry:component",
       "title": "MessageSquareCheckIcon",
-      "description": "Animated \"message-square-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-square-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4759,7 +4775,7 @@
       "name": "message-square-dashed",
       "type": "registry:component",
       "title": "MessageSquareDashedIcon",
-      "description": "Animated \"message-square-dashed\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-square-dashed\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4775,7 +4791,7 @@
       "name": "message-square",
       "type": "registry:component",
       "title": "MessageSquareIcon",
-      "description": "Animated \"message-square\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-square\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4791,7 +4807,7 @@
       "name": "message-square-more",
       "type": "registry:component",
       "title": "MessageSquareMoreIcon",
-      "description": "Animated \"message-square-more\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-square-more\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4807,7 +4823,7 @@
       "name": "message-square-plus",
       "type": "registry:component",
       "title": "MessageSquarePlusIcon",
-      "description": "Animated \"message-square-plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-square-plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4823,7 +4839,7 @@
       "name": "message-square-x",
       "type": "registry:component",
       "title": "MessageSquareXIcon",
-      "description": "Animated \"message-square-x\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"message-square-x\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4839,7 +4855,7 @@
       "name": "mic",
       "type": "registry:component",
       "title": "MicIcon",
-      "description": "Animated \"mic\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"mic\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4855,7 +4871,7 @@
       "name": "mic-off",
       "type": "registry:component",
       "title": "MicOffIcon",
-      "description": "Animated \"mic-off\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"mic-off\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4871,7 +4887,7 @@
       "name": "minimize",
       "type": "registry:component",
       "title": "MinimizeIcon",
-      "description": "Animated \"minimize\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"minimize\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4887,7 +4903,7 @@
       "name": "monitor-check",
       "type": "registry:component",
       "title": "MonitorCheckIcon",
-      "description": "Animated \"monitor-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"monitor-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4903,7 +4919,7 @@
       "name": "moon",
       "type": "registry:component",
       "title": "MoonIcon",
-      "description": "Animated \"moon\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"moon\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4919,7 +4935,7 @@
       "name": "nfc",
       "type": "registry:component",
       "title": "NfcIcon",
-      "description": "Animated \"nfc\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"nfc\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4935,7 +4951,7 @@
       "name": "panel-left-close",
       "type": "registry:component",
       "title": "PanelLeftCloseIcon",
-      "description": "Animated \"panel-left-close\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"panel-left-close\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4951,7 +4967,7 @@
       "name": "panel-left-open",
       "type": "registry:component",
       "title": "PanelLeftOpenIcon",
-      "description": "Animated \"panel-left-open\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"panel-left-open\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4967,7 +4983,7 @@
       "name": "panel-right-open",
       "type": "registry:component",
       "title": "PanelRightOpenIcon",
-      "description": "Animated \"panel-right-open\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"panel-right-open\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4983,7 +4999,7 @@
       "name": "party-popper",
       "type": "registry:component",
       "title": "PartyPopperIcon",
-      "description": "Animated \"party-popper\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"party-popper\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -4999,7 +5015,7 @@
       "name": "pause",
       "type": "registry:component",
       "title": "PauseIcon",
-      "description": "Animated \"pause\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"pause\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5015,7 +5031,7 @@
       "name": "pen-tool",
       "type": "registry:component",
       "title": "PenToolIcon",
-      "description": "Animated \"pen-tool\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"pen-tool\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5031,7 +5047,7 @@
       "name": "philippine-peso",
       "type": "registry:component",
       "title": "PhilippinePesoIcon",
-      "description": "Animated \"philippine-peso\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"philippine-peso\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5047,7 +5063,7 @@
       "name": "phone-call",
       "type": "registry:component",
       "title": "PhoneCallIcon",
-      "description": "Animated \"phone-call\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"phone-call\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5063,7 +5079,7 @@
       "name": "phone-forwarded",
       "type": "registry:component",
       "title": "PhoneForwardedIcon",
-      "description": "Animated \"phone-forwarded\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"phone-forwarded\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5079,7 +5095,7 @@
       "name": "phone",
       "type": "registry:component",
       "title": "PhoneIcon",
-      "description": "Animated \"phone\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"phone\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5095,7 +5111,7 @@
       "name": "phone-incoming",
       "type": "registry:component",
       "title": "PhoneIncomingIcon",
-      "description": "Animated \"phone-incoming\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"phone-incoming\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5111,7 +5127,7 @@
       "name": "phone-missed",
       "type": "registry:component",
       "title": "PhoneMissedIcon",
-      "description": "Animated \"phone-missed\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"phone-missed\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5127,7 +5143,7 @@
       "name": "phone-off",
       "type": "registry:component",
       "title": "PhoneOffIcon",
-      "description": "Animated \"phone-off\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"phone-off\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5143,7 +5159,7 @@
       "name": "pickaxe",
       "type": "registry:component",
       "title": "PickaxeIcon",
-      "description": "Animated \"pickaxe\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"pickaxe\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5159,7 +5175,7 @@
       "name": "play",
       "type": "registry:component",
       "title": "PlayIcon",
-      "description": "Animated \"play\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"play\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5175,7 +5191,7 @@
       "name": "plug-zap",
       "type": "registry:component",
       "title": "PlugZapIcon",
-      "description": "Animated \"plug-zap\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"plug-zap\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5191,7 +5207,7 @@
       "name": "plus",
       "type": "registry:component",
       "title": "PlusIcon",
-      "description": "Animated \"plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5207,7 +5223,7 @@
       "name": "pound-sterling",
       "type": "registry:component",
       "title": "PoundSterlingIcon",
-      "description": "Animated \"pound-sterling\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"pound-sterling\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5223,7 +5239,7 @@
       "name": "projector",
       "type": "registry:component",
       "title": "ProjectorIcon",
-      "description": "Animated \"projector\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"projector\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5239,7 +5255,7 @@
       "name": "rabbit",
       "type": "registry:component",
       "title": "RabbitIcon",
-      "description": "Animated \"rabbit\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"rabbit\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5255,7 +5271,7 @@
       "name": "radio",
       "type": "registry:component",
       "title": "RadioIcon",
-      "description": "Animated \"radio\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"radio\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5271,7 +5287,7 @@
       "name": "radio-tower",
       "type": "registry:component",
       "title": "RadioTowerIcon",
-      "description": "Animated \"radio-tower\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"radio-tower\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5287,7 +5303,7 @@
       "name": "receipt-cent",
       "type": "registry:component",
       "title": "ReceiptCentIcon",
-      "description": "Animated \"receipt-cent\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt-cent\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5303,7 +5319,7 @@
       "name": "receipt-euro",
       "type": "registry:component",
       "title": "ReceiptEuroIcon",
-      "description": "Animated \"receipt-euro\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt-euro\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5319,7 +5335,7 @@
       "name": "receipt",
       "type": "registry:component",
       "title": "ReceiptIcon",
-      "description": "Animated \"receipt\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5335,7 +5351,7 @@
       "name": "receipt-indian-rupee",
       "type": "registry:component",
       "title": "ReceiptIndianRupeeIcon",
-      "description": "Animated \"receipt-indian-rupee\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt-indian-rupee\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5351,7 +5367,7 @@
       "name": "receipt-japanese-yen",
       "type": "registry:component",
       "title": "ReceiptJapaneseYenIcon",
-      "description": "Animated \"receipt-japanese-yen\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt-japanese-yen\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5367,7 +5383,7 @@
       "name": "receipt-pound-sterling",
       "type": "registry:component",
       "title": "ReceiptPoundSterlingIcon",
-      "description": "Animated \"receipt-pound-sterling\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt-pound-sterling\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5383,7 +5399,7 @@
       "name": "receipt-russian-ruble",
       "type": "registry:component",
       "title": "ReceiptRussianRubleIcon",
-      "description": "Animated \"receipt-russian-ruble\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt-russian-ruble\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5399,7 +5415,7 @@
       "name": "receipt-swiss-franc",
       "type": "registry:component",
       "title": "ReceiptSwissFrancIcon",
-      "description": "Animated \"receipt-swiss-franc\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt-swiss-franc\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5415,7 +5431,7 @@
       "name": "receipt-text",
       "type": "registry:component",
       "title": "ReceiptTextIcon",
-      "description": "Animated \"receipt-text\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt-text\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5431,7 +5447,7 @@
       "name": "receipt-turkish-lira",
       "type": "registry:component",
       "title": "ReceiptTurkishLiraIcon",
-      "description": "Animated \"receipt-turkish-lira\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"receipt-turkish-lira\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5447,7 +5463,7 @@
       "name": "redo-dot",
       "type": "registry:component",
       "title": "RedoDotIcon",
-      "description": "Animated \"redo-dot\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"redo-dot\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5463,7 +5479,7 @@
       "name": "redo",
       "type": "registry:component",
       "title": "RedoIcon",
-      "description": "Animated \"redo\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"redo\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5479,7 +5495,7 @@
       "name": "refresh-ccw-dot",
       "type": "registry:component",
       "title": "RefreshCCWDotIcon",
-      "description": "Animated \"refresh-ccw-dot\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"refresh-ccw-dot\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5495,7 +5511,7 @@
       "name": "refresh-ccw",
       "type": "registry:component",
       "title": "RefreshCCWIcon",
-      "description": "Animated \"refresh-ccw\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"refresh-ccw\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5511,7 +5527,7 @@
       "name": "refresh-cw",
       "type": "registry:component",
       "title": "RefreshCWIcon",
-      "description": "Animated \"refresh-cw\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"refresh-cw\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5527,7 +5543,7 @@
       "name": "refresh-cw-off",
       "type": "registry:component",
       "title": "RefreshCWOffIcon",
-      "description": "Animated \"refresh-cw-off\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"refresh-cw-off\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5543,7 +5559,7 @@
       "name": "rocket",
       "type": "registry:component",
       "title": "RocketIcon",
-      "description": "Animated \"rocket\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"rocket\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5559,7 +5575,7 @@
       "name": "rocking-chair",
       "type": "registry:component",
       "title": "RockingChairIcon",
-      "description": "Animated \"rocking-chair\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"rocking-chair\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5575,7 +5591,7 @@
       "name": "roller-coaster",
       "type": "registry:component",
       "title": "RollerCoasterIcon",
-      "description": "Animated \"roller-coaster\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"roller-coaster\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5591,7 +5607,7 @@
       "name": "rotate-ccw",
       "type": "registry:component",
       "title": "RotateCCWIcon",
-      "description": "Animated \"rotate-ccw\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"rotate-ccw\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5607,7 +5623,7 @@
       "name": "rotate-cw",
       "type": "registry:component",
       "title": "RotateCWIcon",
-      "description": "Animated \"rotate-cw\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"rotate-cw\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5623,7 +5639,7 @@
       "name": "route",
       "type": "registry:component",
       "title": "RouteIcon",
-      "description": "Animated \"route\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"route\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5639,7 +5655,7 @@
       "name": "router",
       "type": "registry:component",
       "title": "RouterIcon",
-      "description": "Animated \"router\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"router\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5655,7 +5671,7 @@
       "name": "russian-ruble",
       "type": "registry:component",
       "title": "RussianRubleIcon",
-      "description": "Animated \"russian-ruble\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"russian-ruble\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5671,7 +5687,7 @@
       "name": "satellite-dish",
       "type": "registry:component",
       "title": "SatelliteDishIcon",
-      "description": "Animated \"satellite-dish\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"satellite-dish\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5687,7 +5703,7 @@
       "name": "saudi-riyal",
       "type": "registry:component",
       "title": "SaudiRiyalIcon",
-      "description": "Animated \"saudi-riyal\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"saudi-riyal\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5703,7 +5719,7 @@
       "name": "scan-face",
       "type": "registry:component",
       "title": "ScanFaceIcon",
-      "description": "Animated \"scan-face\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"scan-face\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5719,7 +5735,7 @@
       "name": "scan-text",
       "type": "registry:component",
       "title": "ScanTextIcon",
-      "description": "Animated \"scan-text\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"scan-text\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5735,7 +5751,7 @@
       "name": "search",
       "type": "registry:component",
       "title": "SearchIcon",
-      "description": "Animated \"search\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"search\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5751,7 +5767,7 @@
       "name": "send",
       "type": "registry:component",
       "title": "SendIcon",
-      "description": "Animated \"send\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"send\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5767,7 +5783,7 @@
       "name": "settings",
       "type": "registry:component",
       "title": "SettingsIcon",
-      "description": "Animated \"settings\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"settings\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5783,7 +5799,7 @@
       "name": "shield-check",
       "type": "registry:component",
       "title": "ShieldCheckIcon",
-      "description": "Animated \"shield-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"shield-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5799,7 +5815,7 @@
       "name": "ship",
       "type": "registry:component",
       "title": "ShipIcon",
-      "description": "Animated \"ship\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"ship\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5815,7 +5831,7 @@
       "name": "shower-head",
       "type": "registry:component",
       "title": "ShowerHeadIcon",
-      "description": "Animated \"shower-head\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"shower-head\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5831,7 +5847,7 @@
       "name": "shrink",
       "type": "registry:component",
       "title": "ShrinkIcon",
-      "description": "Animated \"shrink\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"shrink\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5847,7 +5863,7 @@
       "name": "sliders-horizontal",
       "type": "registry:component",
       "title": "SlidersHorizontalIcon",
-      "description": "Animated \"sliders-horizontal\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"sliders-horizontal\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5863,7 +5879,7 @@
       "name": "smartphone-charging",
       "type": "registry:component",
       "title": "SmartphoneChargingIcon",
-      "description": "Animated \"smartphone-charging\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"smartphone-charging\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5879,7 +5895,7 @@
       "name": "smartphone-nfc",
       "type": "registry:component",
       "title": "SmartphoneNfcIcon",
-      "description": "Animated \"smartphone-nfc\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"smartphone-nfc\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5895,7 +5911,7 @@
       "name": "smile",
       "type": "registry:component",
       "title": "SmileIcon",
-      "description": "Animated \"smile\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"smile\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5911,7 +5927,7 @@
       "name": "smile-plus",
       "type": "registry:component",
       "title": "SmilePlusIcon",
-      "description": "Animated \"smile-plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"smile-plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5927,7 +5943,7 @@
       "name": "snowflake",
       "type": "registry:component",
       "title": "SnowflakeIcon",
-      "description": "Animated \"snowflake\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"snowflake\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5943,7 +5959,7 @@
       "name": "sparkles",
       "type": "registry:component",
       "title": "SparklesIcon",
-      "description": "Animated \"sparkles\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"sparkles\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5959,7 +5975,7 @@
       "name": "square-activity",
       "type": "registry:component",
       "title": "SquareActivityIcon",
-      "description": "Animated \"square-activity\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-activity\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5975,7 +5991,7 @@
       "name": "square-arrow-down",
       "type": "registry:component",
       "title": "SquareArrowDownIcon",
-      "description": "Animated \"square-arrow-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-arrow-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -5991,7 +6007,7 @@
       "name": "square-arrow-left",
       "type": "registry:component",
       "title": "SquareArrowLeftIcon",
-      "description": "Animated \"square-arrow-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-arrow-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6007,7 +6023,7 @@
       "name": "square-arrow-right",
       "type": "registry:component",
       "title": "SquareArrowRightIcon",
-      "description": "Animated \"square-arrow-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-arrow-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6023,7 +6039,7 @@
       "name": "square-arrow-up",
       "type": "registry:component",
       "title": "SquareArrowUpIcon",
-      "description": "Animated \"square-arrow-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-arrow-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6039,7 +6055,7 @@
       "name": "square-chevron-down",
       "type": "registry:component",
       "title": "SquareChevronDownIcon",
-      "description": "Animated \"square-chevron-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-chevron-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6055,7 +6071,7 @@
       "name": "square-chevron-left",
       "type": "registry:component",
       "title": "SquareChevronLeftIcon",
-      "description": "Animated \"square-chevron-left\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-chevron-left\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6071,7 +6087,7 @@
       "name": "square-chevron-right",
       "type": "registry:component",
       "title": "SquareChevronRightIcon",
-      "description": "Animated \"square-chevron-right\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-chevron-right\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6087,7 +6103,7 @@
       "name": "square-chevron-up",
       "type": "registry:component",
       "title": "SquareChevronUpIcon",
-      "description": "Animated \"square-chevron-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-chevron-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6103,7 +6119,7 @@
       "name": "square-pen",
       "type": "registry:component",
       "title": "SquarePenIcon",
-      "description": "Animated \"square-pen\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-pen\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6119,7 +6135,7 @@
       "name": "square-stack",
       "type": "registry:component",
       "title": "SquareStackIcon",
-      "description": "Animated \"square-stack\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"square-stack\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6135,7 +6151,7 @@
       "name": "stamp",
       "type": "registry:component",
       "title": "StampIcon",
-      "description": "Animated \"stamp\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"stamp\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6151,7 +6167,7 @@
       "name": "stethoscope",
       "type": "registry:component",
       "title": "StethoscopeIcon",
-      "description": "Animated \"stethoscope\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"stethoscope\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6167,7 +6183,7 @@
       "name": "sun-dim",
       "type": "registry:component",
       "title": "SunDimIcon",
-      "description": "Animated \"sun-dim\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"sun-dim\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6183,7 +6199,7 @@
       "name": "sun",
       "type": "registry:component",
       "title": "SunIcon",
-      "description": "Animated \"sun\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"sun\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6199,7 +6215,7 @@
       "name": "sun-medium",
       "type": "registry:component",
       "title": "SunMediumIcon",
-      "description": "Animated \"sun-medium\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"sun-medium\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6215,7 +6231,7 @@
       "name": "sun-moon",
       "type": "registry:component",
       "title": "SunMoonIcon",
-      "description": "Animated \"sun-moon\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"sun-moon\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6231,7 +6247,7 @@
       "name": "sunset",
       "type": "registry:component",
       "title": "SunsetIcon",
-      "description": "Animated \"sunset\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"sunset\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6247,7 +6263,7 @@
       "name": "swiss-franc",
       "type": "registry:component",
       "title": "SwissFrancIcon",
-      "description": "Animated \"swiss-franc\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"swiss-franc\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6263,7 +6279,7 @@
       "name": "switch-camera",
       "type": "registry:component",
       "title": "SwitchCameraIcon",
-      "description": "Animated \"switch-camera\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"switch-camera\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6279,7 +6295,7 @@
       "name": "syringe",
       "type": "registry:component",
       "title": "SyringeIcon",
-      "description": "Animated \"syringe\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"syringe\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6295,7 +6311,7 @@
       "name": "telescope",
       "type": "registry:component",
       "title": "TelescopeIcon",
-      "description": "Animated \"telescope\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"telescope\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6311,7 +6327,7 @@
       "name": "terminal",
       "type": "registry:component",
       "title": "TerminalIcon",
-      "description": "Animated \"terminal\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"terminal\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6327,7 +6343,7 @@
       "name": "thermometer",
       "type": "registry:component",
       "title": "ThermometerIcon",
-      "description": "Animated \"thermometer\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"thermometer\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6343,7 +6359,7 @@
       "name": "timer",
       "type": "registry:component",
       "title": "TimerIcon",
-      "description": "Animated \"timer\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"timer\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6359,7 +6375,7 @@
       "name": "tornado",
       "type": "registry:component",
       "title": "TornadoIcon",
-      "description": "Animated \"tornado\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"tornado\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6375,7 +6391,7 @@
       "name": "train-track",
       "type": "registry:component",
       "title": "TrainTrackIcon",
-      "description": "Animated \"train-track\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"train-track\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6391,7 +6407,7 @@
       "name": "trending-down",
       "type": "registry:component",
       "title": "TrendingDownIcon",
-      "description": "Animated \"trending-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"trending-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6407,7 +6423,7 @@
       "name": "trending-up-down",
       "type": "registry:component",
       "title": "TrendingUpDownIcon",
-      "description": "Animated \"trending-up-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"trending-up-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6423,7 +6439,7 @@
       "name": "trending-up",
       "type": "registry:component",
       "title": "TrendingUpIcon",
-      "description": "Animated \"trending-up\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"trending-up\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6439,7 +6455,7 @@
       "name": "truck",
       "type": "registry:component",
       "title": "TruckIcon",
-      "description": "Animated \"truck\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"truck\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6455,7 +6471,7 @@
       "name": "turkish-lira",
       "type": "registry:component",
       "title": "TurkishLiraIcon",
-      "description": "Animated \"turkish-lira\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"turkish-lira\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6471,7 +6487,7 @@
       "name": "twitch",
       "type": "registry:component",
       "title": "TwitchIcon",
-      "description": "Animated \"twitch\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"twitch\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6487,7 +6503,7 @@
       "name": "twitter",
       "type": "registry:component",
       "title": "TwitterIcon",
-      "description": "Animated \"twitter\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"twitter\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6503,7 +6519,7 @@
       "name": "underline",
       "type": "registry:component",
       "title": "UnderlineIcon",
-      "description": "Animated \"underline\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"underline\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6519,7 +6535,7 @@
       "name": "undo-dot",
       "type": "registry:component",
       "title": "UndoDotIcon",
-      "description": "Animated \"undo-dot\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"undo-dot\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6535,7 +6551,7 @@
       "name": "undo",
       "type": "registry:component",
       "title": "UndoIcon",
-      "description": "Animated \"undo\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"undo\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6551,7 +6567,7 @@
       "name": "upload",
       "type": "registry:component",
       "title": "UploadIcon",
-      "description": "Animated \"upload\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"upload\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6567,7 +6583,7 @@
       "name": "upvote",
       "type": "registry:component",
       "title": "UpvoteIcon",
-      "description": "Animated \"upvote\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"upvote\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6583,7 +6599,7 @@
       "name": "user-check",
       "type": "registry:component",
       "title": "UserCheckIcon",
-      "description": "Animated \"user-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"user-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6599,7 +6615,7 @@
       "name": "user",
       "type": "registry:component",
       "title": "UserIcon",
-      "description": "Animated \"user\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"user\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6615,7 +6631,7 @@
       "name": "user-round-check",
       "type": "registry:component",
       "title": "UserRoundCheckIcon",
-      "description": "Animated \"user-round-check\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"user-round-check\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6631,7 +6647,7 @@
       "name": "user-round-cog",
       "type": "registry:component",
       "title": "UserRoundCogIcon",
-      "description": "Animated \"user-round-cog\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"user-round-cog\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6647,7 +6663,7 @@
       "name": "user-round-plus",
       "type": "registry:component",
       "title": "UserRoundPlusIcon",
-      "description": "Animated \"user-round-plus\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"user-round-plus\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6663,7 +6679,7 @@
       "name": "users",
       "type": "registry:component",
       "title": "UsersIcon",
-      "description": "Animated \"users\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"users\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6679,7 +6695,7 @@
       "name": "users-round",
       "type": "registry:component",
       "title": "UsersRoundIcon",
-      "description": "Animated \"users-round\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"users-round\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6695,7 +6711,7 @@
       "name": "vibrate",
       "type": "registry:component",
       "title": "VibrateIcon",
-      "description": "Animated \"vibrate\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"vibrate\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6711,7 +6727,7 @@
       "name": "volume",
       "type": "registry:component",
       "title": "VolumeIcon",
-      "description": "Animated \"volume\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"volume\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6727,7 +6743,7 @@
       "name": "wallet",
       "type": "registry:component",
       "title": "WalletIcon",
-      "description": "Animated \"wallet\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"wallet\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6743,7 +6759,7 @@
       "name": "washing-machine",
       "type": "registry:component",
       "title": "WashingMachineIcon",
-      "description": "Animated \"washing-machine\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"washing-machine\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6759,7 +6775,7 @@
       "name": "waves",
       "type": "registry:component",
       "title": "WavesIcon",
-      "description": "Animated \"waves\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"waves\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6775,7 +6791,7 @@
       "name": "waves-ladder",
       "type": "registry:component",
       "title": "WavesLadderIcon",
-      "description": "Animated \"waves-ladder\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"waves-ladder\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6791,7 +6807,7 @@
       "name": "waypoints",
       "type": "registry:component",
       "title": "WaypointsIcon",
-      "description": "Animated \"waypoints\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"waypoints\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6807,7 +6823,7 @@
       "name": "webhook",
       "type": "registry:component",
       "title": "WebhookIcon",
-      "description": "Animated \"webhook\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"webhook\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6823,7 +6839,7 @@
       "name": "wifi-cog",
       "type": "registry:component",
       "title": "WifiCogIcon",
-      "description": "Animated \"wifi-cog\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"wifi-cog\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6839,7 +6855,7 @@
       "name": "wifi",
       "type": "registry:component",
       "title": "WifiIcon",
-      "description": "Animated \"wifi\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"wifi\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6855,7 +6871,7 @@
       "name": "wifi-low",
       "type": "registry:component",
       "title": "WifiLowIcon",
-      "description": "Animated \"wifi-low\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"wifi-low\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6871,7 +6887,7 @@
       "name": "wifi-pen",
       "type": "registry:component",
       "title": "WifiPenIcon",
-      "description": "Animated \"wifi-pen\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"wifi-pen\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6887,7 +6903,7 @@
       "name": "wifi-sync",
       "type": "registry:component",
       "title": "WifiSyncIcon",
-      "description": "Animated \"wifi-sync\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"wifi-sync\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6903,7 +6919,7 @@
       "name": "wind-arrow-down",
       "type": "registry:component",
       "title": "WindArrowDownIcon",
-      "description": "Animated \"wind-arrow-down\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"wind-arrow-down\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6919,7 +6935,7 @@
       "name": "wind",
       "type": "registry:component",
       "title": "WindIcon",
-      "description": "Animated \"wind\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"wind\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6935,7 +6951,7 @@
       "name": "workflow",
       "type": "registry:component",
       "title": "WorkflowIcon",
-      "description": "Animated \"workflow\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"workflow\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6951,7 +6967,7 @@
       "name": "wrench",
       "type": "registry:component",
       "title": "WrenchIcon",
-      "description": "Animated \"wrench\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"wrench\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6967,7 +6983,7 @@
       "name": "x",
       "type": "registry:component",
       "title": "XIcon",
-      "description": "Animated \"x\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"x\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6983,7 +6999,7 @@
       "name": "youtube",
       "type": "registry:component",
       "title": "YoutubeIcon",
-      "description": "Animated \"youtube\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"youtube\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -6999,7 +7015,7 @@
       "name": "zap",
       "type": "registry:component",
       "title": "ZapIcon",
-      "description": "Animated \"zap\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"zap\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],
@@ -7015,7 +7031,7 @@
       "name": "zap-off",
       "type": "registry:component",
       "title": "ZapOffIcon",
-      "description": "Animated \"zap-off\" icon, ported from pqoqubbw/icons.",
+      "description": "Animated \"zap-off\" icon for Vue, built with motion-v.",
       "dependencies": [
         "motion-v"
       ],

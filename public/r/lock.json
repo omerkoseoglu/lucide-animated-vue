@@ -3,7 +3,7 @@
   "name": "lock",
   "type": "registry:component",
   "title": "LockIcon",
-  "description": "Animated \"lock\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"lock\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

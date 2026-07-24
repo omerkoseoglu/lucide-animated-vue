@@ -3,7 +3,7 @@
   "name": "wifi-sync",
   "type": "registry:component",
   "title": "WifiSyncIcon",
-  "description": "Animated \"wifi-sync\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"wifi-sync\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

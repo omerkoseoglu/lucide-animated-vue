@@ -3,7 +3,7 @@
   "name": "file-pen-line",
   "type": "registry:component",
   "title": "FilePenLineIcon",
-  "description": "Animated \"file-pen-line\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"file-pen-line\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

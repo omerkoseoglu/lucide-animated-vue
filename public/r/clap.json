@@ -3,7 +3,7 @@
   "name": "clap",
   "type": "registry:component",
   "title": "ClapIcon",
-  "description": "Animated \"clap\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"clap\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

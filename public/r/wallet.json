@@ -3,7 +3,7 @@
   "name": "wallet",
   "type": "registry:component",
   "title": "WalletIcon",
-  "description": "Animated \"wallet\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"wallet\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

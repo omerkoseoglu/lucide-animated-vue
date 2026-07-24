@@ -3,7 +3,7 @@
   "name": "waypoints",
   "type": "registry:component",
   "title": "WaypointsIcon",
-  "description": "Animated \"waypoints\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"waypoints\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

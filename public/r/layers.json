@@ -3,7 +3,7 @@
   "name": "layers",
   "type": "registry:component",
   "title": "LayersIcon",
-  "description": "Animated \"layers\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"layers\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

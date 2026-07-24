@@ -3,7 +3,7 @@
   "name": "attach-file",
   "type": "registry:component",
   "title": "AttachFileIcon",
-  "description": "Animated \"attach-file\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"attach-file\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

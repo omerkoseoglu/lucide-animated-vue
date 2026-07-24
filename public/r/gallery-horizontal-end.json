@@ -3,7 +3,7 @@
   "name": "gallery-horizontal-end",
   "type": "registry:component",
   "title": "GalleryHorizontalEndIcon",
-  "description": "Animated \"gallery-horizontal-end\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"gallery-horizontal-end\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

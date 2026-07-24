@@ -3,7 +3,7 @@
   "name": "axe",
   "type": "registry:component",
   "title": "AxeIcon",
-  "description": "Animated \"axe\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"axe\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

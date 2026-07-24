@@ -3,7 +3,7 @@
   "name": "battery-low",
   "type": "registry:component",
   "title": "BatteryLowIcon",
-  "description": "Animated \"battery-low\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"battery-low\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

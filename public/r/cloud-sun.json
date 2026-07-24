@@ -3,7 +3,7 @@
   "name": "cloud-sun",
   "type": "registry:component",
   "title": "CloudSunIcon",
-  "description": "Animated \"cloud-sun\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cloud-sun\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

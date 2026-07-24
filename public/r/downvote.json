@@ -3,7 +3,7 @@
   "name": "downvote",
   "type": "registry:component",
   "title": "DownvoteIcon",
-  "description": "Animated \"downvote\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"downvote\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

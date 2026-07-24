@@ -3,7 +3,7 @@
   "name": "message-square-dashed",
   "type": "registry:component",
   "title": "MessageSquareDashedIcon",
-  "description": "Animated \"message-square-dashed\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"message-square-dashed\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

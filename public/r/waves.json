@@ -3,7 +3,7 @@
   "name": "waves",
   "type": "registry:component",
   "title": "WavesIcon",
-  "description": "Animated \"waves\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"waves\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

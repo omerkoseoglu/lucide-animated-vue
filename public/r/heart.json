@@ -3,7 +3,7 @@
   "name": "heart",
   "type": "registry:component",
   "title": "HeartIcon",
-  "description": "Animated \"heart\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"heart\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

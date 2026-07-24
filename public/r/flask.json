@@ -3,7 +3,7 @@
   "name": "flask",
   "type": "registry:component",
   "title": "FlaskIcon",
-  "description": "Animated \"flask\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"flask\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

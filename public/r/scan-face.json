@@ -3,7 +3,7 @@
   "name": "scan-face",
   "type": "registry:component",
   "title": "ScanFaceIcon",
-  "description": "Animated \"scan-face\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"scan-face\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

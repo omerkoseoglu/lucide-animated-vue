@@ -3,7 +3,7 @@
   "name": "refresh-cw",
   "type": "registry:component",
   "title": "RefreshCWIcon",
-  "description": "Animated \"refresh-cw\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"refresh-cw\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

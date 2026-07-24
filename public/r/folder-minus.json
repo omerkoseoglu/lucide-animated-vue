@@ -3,7 +3,7 @@
   "name": "folder-minus",
   "type": "registry:component",
   "title": "FolderMinusIcon",
-  "description": "Animated \"folder-minus\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-minus\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

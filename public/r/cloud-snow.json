@@ -3,7 +3,7 @@
   "name": "cloud-snow",
   "type": "registry:component",
   "title": "CloudSnowIcon",
-  "description": "Animated \"cloud-snow\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cloud-snow\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

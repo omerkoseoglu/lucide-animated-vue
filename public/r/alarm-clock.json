@@ -3,7 +3,7 @@
   "name": "alarm-clock",
   "type": "registry:component",
   "title": "AlarmClockIcon",
-  "description": "Animated \"alarm-clock\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"alarm-clock\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

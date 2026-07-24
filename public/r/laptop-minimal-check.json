@@ -3,7 +3,7 @@
   "name": "laptop-minimal-check",
   "type": "registry:component",
   "title": "LaptopMinimalCheckIcon",
-  "description": "Animated \"laptop-minimal-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"laptop-minimal-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

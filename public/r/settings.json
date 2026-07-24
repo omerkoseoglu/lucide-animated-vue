@@ -3,7 +3,7 @@
   "name": "settings",
   "type": "registry:component",
   "title": "SettingsIcon",
-  "description": "Animated \"settings\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"settings\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

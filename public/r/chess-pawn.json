@@ -3,7 +3,7 @@
   "name": "chess-pawn",
   "type": "registry:component",
   "title": "ChessPawnIcon",
-  "description": "Animated \"chess-pawn\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chess-pawn\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

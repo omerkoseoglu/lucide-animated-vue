@@ -3,7 +3,7 @@
   "name": "satellite-dish",
   "type": "registry:component",
   "title": "SatelliteDishIcon",
-  "description": "Animated \"satellite-dish\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"satellite-dish\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

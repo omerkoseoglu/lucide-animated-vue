@@ -3,7 +3,7 @@
   "name": "philippine-peso",
   "type": "registry:component",
   "title": "PhilippinePesoIcon",
-  "description": "Animated \"philippine-peso\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"philippine-peso\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

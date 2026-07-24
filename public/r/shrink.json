@@ -3,7 +3,7 @@
   "name": "shrink",
   "type": "registry:component",
   "title": "ShrinkIcon",
-  "description": "Animated \"shrink\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"shrink\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

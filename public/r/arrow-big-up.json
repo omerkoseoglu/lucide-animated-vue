@@ -3,7 +3,7 @@
   "name": "arrow-big-up",
   "type": "registry:component",
   "title": "ArrowBigUpIcon",
-  "description": "Animated \"arrow-big-up\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"arrow-big-up\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

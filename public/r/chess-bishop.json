@@ -3,7 +3,7 @@
   "name": "chess-bishop",
   "type": "registry:component",
   "title": "ChessBishopIcon",
-  "description": "Animated \"chess-bishop\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chess-bishop\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

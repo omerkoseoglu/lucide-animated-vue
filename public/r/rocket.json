@@ -3,7 +3,7 @@
   "name": "rocket",
   "type": "registry:component",
   "title": "RocketIcon",
-  "description": "Animated \"rocket\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"rocket\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

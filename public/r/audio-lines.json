@@ -3,7 +3,7 @@
   "name": "audio-lines",
   "type": "registry:component",
   "title": "AudioLinesIcon",
-  "description": "Animated \"audio-lines\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"audio-lines\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

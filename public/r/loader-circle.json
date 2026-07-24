@@ -3,7 +3,7 @@
   "name": "loader-circle",
   "type": "registry:component",
   "title": "LoaderCircleIcon",
-  "description": "Animated \"loader-circle\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"loader-circle\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "hammer",
   "type": "registry:component",
   "title": "HammerIcon",
-  "description": "Animated \"hammer\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hammer\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

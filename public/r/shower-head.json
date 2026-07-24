@@ -3,7 +3,7 @@
   "name": "shower-head",
   "type": "registry:component",
   "title": "ShowerHeadIcon",
-  "description": "Animated \"shower-head\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"shower-head\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

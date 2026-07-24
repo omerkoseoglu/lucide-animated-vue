@@ -3,7 +3,7 @@
   "name": "user",
   "type": "registry:component",
   "title": "UserIcon",
-  "description": "Animated \"user\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"user\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

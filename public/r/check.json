@@ -3,7 +3,7 @@
   "name": "check",
   "type": "registry:component",
   "title": "CheckIcon",
-  "description": "Animated \"check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

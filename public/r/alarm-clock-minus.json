@@ -3,7 +3,7 @@
   "name": "alarm-clock-minus",
   "type": "registry:component",
   "title": "AlarmClockMinusIcon",
-  "description": "Animated \"alarm-clock-minus\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"alarm-clock-minus\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

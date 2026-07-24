@@ -3,7 +3,7 @@
   "name": "logout",
   "type": "registry:component",
   "title": "LogoutIcon",
-  "description": "Animated \"logout\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"logout\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

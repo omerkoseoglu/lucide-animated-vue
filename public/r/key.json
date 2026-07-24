@@ -3,7 +3,7 @@
   "name": "key",
   "type": "registry:component",
   "title": "KeyIcon",
-  "description": "Animated \"key\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"key\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

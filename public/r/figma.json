@@ -3,7 +3,7 @@
   "name": "figma",
   "type": "registry:component",
   "title": "FigmaIcon",
-  "description": "Animated \"figma\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"figma\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "atom",
   "type": "registry:component",
   "title": "AtomIcon",
-  "description": "Animated \"atom\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"atom\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

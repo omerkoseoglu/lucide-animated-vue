@@ -3,7 +3,7 @@
   "name": "message-circle-check",
   "type": "registry:component",
   "title": "MessageCircleCheckIcon",
-  "description": "Animated \"message-circle-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"message-circle-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

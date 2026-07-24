@@ -3,7 +3,7 @@
   "name": "saudi-riyal",
   "type": "registry:component",
   "title": "SaudiRiyalIcon",
-  "description": "Animated \"saudi-riyal\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"saudi-riyal\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

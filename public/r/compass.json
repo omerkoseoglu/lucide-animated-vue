@@ -3,7 +3,7 @@
   "name": "compass",
   "type": "registry:component",
   "title": "CompassIcon",
-  "description": "Animated \"compass\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"compass\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

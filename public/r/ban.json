@@ -3,7 +3,7 @@
   "name": "ban",
   "type": "registry:component",
   "title": "BanIcon",
-  "description": "Animated \"ban\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"ban\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "fish-symbol",
   "type": "registry:component",
   "title": "FishSymbolIcon",
-  "description": "Animated \"fish-symbol\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"fish-symbol\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

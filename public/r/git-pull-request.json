@@ -3,7 +3,7 @@
   "name": "git-pull-request",
   "type": "registry:component",
   "title": "GitPullRequestIcon",
-  "description": "Animated \"git-pull-request\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"git-pull-request\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

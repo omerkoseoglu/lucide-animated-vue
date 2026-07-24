@@ -3,7 +3,7 @@
   "name": "chart-line",
   "type": "registry:component",
   "title": "ChartLineIcon",
-  "description": "Animated \"chart-line\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-line\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

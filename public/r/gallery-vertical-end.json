@@ -3,7 +3,7 @@
   "name": "gallery-vertical-end",
   "type": "registry:component",
   "title": "GalleryVerticalEndIcon",
-  "description": "Animated \"gallery-vertical-end\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"gallery-vertical-end\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

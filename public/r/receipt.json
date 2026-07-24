@@ -3,7 +3,7 @@
   "name": "receipt",
   "type": "registry:component",
   "title": "ReceiptIcon",
-  "description": "Animated \"receipt\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"receipt\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "volume",
   "type": "registry:component",
   "title": "VolumeIcon",
-  "description": "Animated \"volume\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"volume\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "git-branch",
   "type": "registry:component",
   "title": "GitBranchIcon",
-  "description": "Animated \"git-branch\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"git-branch\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

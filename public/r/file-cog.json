@@ -3,7 +3,7 @@
   "name": "file-cog",
   "type": "registry:component",
   "title": "FileCogIcon",
-  "description": "Animated \"file-cog\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"file-cog\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

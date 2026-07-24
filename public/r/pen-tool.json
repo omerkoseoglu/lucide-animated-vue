@@ -3,7 +3,7 @@
   "name": "pen-tool",
   "type": "registry:component",
   "title": "PenToolIcon",
-  "description": "Animated \"pen-tool\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"pen-tool\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

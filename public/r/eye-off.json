@@ -3,7 +3,7 @@
   "name": "eye-off",
   "type": "registry:component",
   "title": "EyeOffIcon",
-  "description": "Animated \"eye-off\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"eye-off\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

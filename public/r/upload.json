@@ -3,7 +3,7 @@
   "name": "upload",
   "type": "registry:component",
   "title": "UploadIcon",
-  "description": "Animated \"upload\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"upload\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "log-in",
   "type": "registry:component",
   "title": "LogInIcon",
-  "description": "Animated \"log-in\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"log-in\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

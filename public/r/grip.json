@@ -3,7 +3,7 @@
   "name": "grip",
   "type": "registry:component",
   "title": "GripIcon",
-  "description": "Animated \"grip\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"grip\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

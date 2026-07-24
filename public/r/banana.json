@@ -3,7 +3,7 @@
   "name": "banana",
   "type": "registry:component",
   "title": "BananaIcon",
-  "description": "Animated \"banana\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"banana\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "pound-sterling",
   "type": "registry:component",
   "title": "PoundSterlingIcon",
-  "description": "Animated \"pound-sterling\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"pound-sterling\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

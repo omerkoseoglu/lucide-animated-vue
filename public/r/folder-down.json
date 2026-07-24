@@ -3,7 +3,7 @@
   "name": "folder-down",
   "type": "registry:component",
   "title": "FolderDownIcon",
-  "description": "Animated \"folder-down\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-down\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

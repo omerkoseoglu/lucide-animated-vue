@@ -3,7 +3,7 @@
   "name": "earth",
   "type": "registry:component",
   "title": "EarthIcon",
-  "description": "Animated \"earth\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"earth\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

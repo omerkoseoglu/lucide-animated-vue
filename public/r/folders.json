@@ -3,7 +3,7 @@
   "name": "folders",
   "type": "registry:component",
   "title": "FoldersIcon",
-  "description": "Animated \"folders\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folders\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

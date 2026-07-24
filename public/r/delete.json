@@ -3,7 +3,7 @@
   "name": "delete",
   "type": "registry:component",
   "title": "DeleteIcon",
-  "description": "Animated \"delete\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"delete\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

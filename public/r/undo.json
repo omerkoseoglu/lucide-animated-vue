@@ -3,7 +3,7 @@
   "name": "undo",
   "type": "registry:component",
   "title": "UndoIcon",
-  "description": "Animated \"undo\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"undo\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

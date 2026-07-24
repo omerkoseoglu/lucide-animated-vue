@@ -3,7 +3,7 @@
   "name": "cursor-click",
   "type": "registry:component",
   "title": "CursorClickIcon",
-  "description": "Animated \"cursor-click\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cursor-click\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

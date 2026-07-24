@@ -3,7 +3,7 @@
   "name": "switch-camera",
   "type": "registry:component",
   "title": "SwitchCameraIcon",
-  "description": "Animated \"switch-camera\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"switch-camera\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

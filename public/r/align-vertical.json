@@ -3,7 +3,7 @@
   "name": "align-vertical",
   "type": "registry:component",
   "title": "AlignVerticalIcon",
-  "description": "Animated \"align-vertical\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"align-vertical\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

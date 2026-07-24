@@ -3,7 +3,7 @@
   "name": "angry",
   "type": "registry:component",
   "title": "AngryIcon",
-  "description": "Animated \"angry\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"angry\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

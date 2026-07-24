@@ -3,7 +3,7 @@
   "name": "message-square-check",
   "type": "registry:component",
   "title": "MessageSquareCheckIcon",
-  "description": "Animated \"message-square-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"message-square-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

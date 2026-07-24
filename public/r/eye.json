@@ -3,7 +3,7 @@
   "name": "eye",
   "type": "registry:component",
   "title": "EyeIcon",
-  "description": "Animated \"eye\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"eye\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

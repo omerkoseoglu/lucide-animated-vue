@@ -3,7 +3,7 @@
   "name": "calendar-days",
   "type": "registry:component",
   "title": "CalendarDaysIcon",
-  "description": "Animated \"calendar-days\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"calendar-days\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

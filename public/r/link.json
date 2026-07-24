@@ -3,7 +3,7 @@
   "name": "link",
   "type": "registry:component",
   "title": "LinkIcon",
-  "description": "Animated \"link\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"link\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

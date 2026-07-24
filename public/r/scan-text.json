@@ -3,7 +3,7 @@
   "name": "scan-text",
   "type": "registry:component",
   "title": "ScanTextIcon",
-  "description": "Animated \"scan-text\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"scan-text\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

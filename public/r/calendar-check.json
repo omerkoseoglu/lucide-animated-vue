@@ -3,7 +3,7 @@
   "name": "calendar-check",
   "type": "registry:component",
   "title": "CalendarCheckIcon",
-  "description": "Animated \"calendar-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"calendar-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

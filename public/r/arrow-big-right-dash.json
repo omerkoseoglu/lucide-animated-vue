@@ -3,7 +3,7 @@
   "name": "arrow-big-right-dash",
   "type": "registry:component",
   "title": "ArrowBigRightDashIcon",
-  "description": "Animated \"arrow-big-right-dash\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"arrow-big-right-dash\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

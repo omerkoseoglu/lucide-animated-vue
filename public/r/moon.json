@@ -3,7 +3,7 @@
   "name": "moon",
   "type": "registry:component",
   "title": "MoonIcon",
-  "description": "Animated \"moon\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"moon\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

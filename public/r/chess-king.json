@@ -3,7 +3,7 @@
   "name": "chess-king",
   "type": "registry:component",
   "title": "ChessKingIcon",
-  "description": "Animated \"chess-king\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chess-king\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

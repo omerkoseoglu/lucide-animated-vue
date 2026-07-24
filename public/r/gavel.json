@@ -3,7 +3,7 @@
   "name": "gavel",
   "type": "registry:component",
   "title": "GavelIcon",
-  "description": "Animated \"gavel\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"gavel\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

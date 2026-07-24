@@ -3,7 +3,7 @@
   "name": "loader-pinwheel",
   "type": "registry:component",
   "title": "LoaderPinwheelIcon",
-  "description": "Animated \"loader-pinwheel\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"loader-pinwheel\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

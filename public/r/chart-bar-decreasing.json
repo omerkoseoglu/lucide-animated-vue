@@ -3,7 +3,7 @@
   "name": "chart-bar-decreasing",
   "type": "registry:component",
   "title": "ChartBarDecreasingIcon",
-  "description": "Animated \"chart-bar-decreasing\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-bar-decreasing\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

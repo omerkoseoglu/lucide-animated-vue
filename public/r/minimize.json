@@ -3,7 +3,7 @@
   "name": "minimize",
   "type": "registry:component",
   "title": "MinimizeIcon",
-  "description": "Animated \"minimize\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"minimize\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

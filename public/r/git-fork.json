@@ -3,7 +3,7 @@
   "name": "git-fork",
   "type": "registry:component",
   "title": "GitForkIcon",
-  "description": "Animated \"git-fork\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"git-fork\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

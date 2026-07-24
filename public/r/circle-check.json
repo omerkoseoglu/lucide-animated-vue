@@ -3,7 +3,7 @@
   "name": "circle-check",
   "type": "registry:component",
   "title": "CircleCheckIcon",
-  "description": "Animated \"circle-check\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"circle-check\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

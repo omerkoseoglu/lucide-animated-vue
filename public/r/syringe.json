@@ -3,7 +3,7 @@
   "name": "syringe",
   "type": "registry:component",
   "title": "SyringeIcon",
-  "description": "Animated \"syringe\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"syringe\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

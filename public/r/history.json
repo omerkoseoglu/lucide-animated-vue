@@ -3,7 +3,7 @@
   "name": "history",
   "type": "registry:component",
   "title": "HistoryIcon",
-  "description": "Animated \"history\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"history\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

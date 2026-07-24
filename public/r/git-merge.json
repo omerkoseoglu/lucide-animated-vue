@@ -3,7 +3,7 @@
   "name": "git-merge",
   "type": "registry:component",
   "title": "GitMergeIcon",
-  "description": "Animated \"git-merge\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"git-merge\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

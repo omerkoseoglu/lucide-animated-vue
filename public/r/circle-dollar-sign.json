@@ -3,7 +3,7 @@
   "name": "circle-dollar-sign",
   "type": "registry:component",
   "title": "CircleDollarSignIcon",
-  "description": "Animated \"circle-dollar-sign\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"circle-dollar-sign\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "folder-archive",
   "type": "registry:component",
   "title": "FolderArchiveIcon",
-  "description": "Animated \"folder-archive\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-archive\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

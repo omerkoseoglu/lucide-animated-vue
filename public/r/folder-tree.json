@@ -3,7 +3,7 @@
   "name": "folder-tree",
   "type": "registry:component",
   "title": "FolderTreeIcon",
-  "description": "Animated \"folder-tree\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-tree\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

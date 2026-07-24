@@ -3,7 +3,7 @@
   "name": "phone-incoming",
   "type": "registry:component",
   "title": "PhoneIncomingIcon",
-  "description": "Animated \"phone-incoming\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"phone-incoming\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

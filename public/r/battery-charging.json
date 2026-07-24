@@ -3,7 +3,7 @@
   "name": "battery-charging",
   "type": "registry:component",
   "title": "BatteryChargingIcon",
-  "description": "Animated \"battery-charging\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"battery-charging\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "wrench",
   "type": "registry:component",
   "title": "WrenchIcon",
-  "description": "Animated \"wrench\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"wrench\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

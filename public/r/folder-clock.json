@@ -3,7 +3,7 @@
   "name": "folder-clock",
   "type": "registry:component",
   "title": "FolderClockIcon",
-  "description": "Animated \"folder-clock\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"folder-clock\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

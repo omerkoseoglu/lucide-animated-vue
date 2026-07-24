@@ -3,7 +3,7 @@
   "name": "phone-forwarded",
   "type": "registry:component",
   "title": "PhoneForwardedIcon",
-  "description": "Animated \"phone-forwarded\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"phone-forwarded\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

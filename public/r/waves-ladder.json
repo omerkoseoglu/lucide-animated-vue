@@ -3,7 +3,7 @@
   "name": "waves-ladder",
   "type": "registry:component",
   "title": "WavesLadderIcon",
-  "description": "Animated \"waves-ladder\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"waves-ladder\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

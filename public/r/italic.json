@@ -3,7 +3,7 @@
   "name": "italic",
   "type": "registry:component",
   "title": "ItalicIcon",
-  "description": "Animated \"italic\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"italic\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

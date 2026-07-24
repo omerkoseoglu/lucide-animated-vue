@@ -3,7 +3,7 @@
   "name": "rotate-ccw",
   "type": "registry:component",
   "title": "RotateCCWIcon",
-  "description": "Animated \"rotate-ccw\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"rotate-ccw\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

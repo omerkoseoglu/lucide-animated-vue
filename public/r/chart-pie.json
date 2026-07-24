@@ -3,7 +3,7 @@
   "name": "chart-pie",
   "type": "registry:component",
   "title": "ChartPieIcon",
-  "description": "Animated \"chart-pie\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-pie\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

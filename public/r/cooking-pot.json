@@ -3,7 +3,7 @@
   "name": "cooking-pot",
   "type": "registry:component",
   "title": "CookingPotIcon",
-  "description": "Animated \"cooking-pot\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cooking-pot\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

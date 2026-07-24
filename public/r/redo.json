@@ -3,7 +3,7 @@
   "name": "redo",
   "type": "registry:component",
   "title": "RedoIcon",
-  "description": "Animated \"redo\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"redo\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

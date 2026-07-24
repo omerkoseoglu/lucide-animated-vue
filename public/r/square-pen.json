@@ -3,7 +3,7 @@
   "name": "square-pen",
   "type": "registry:component",
   "title": "SquarePenIcon",
-  "description": "Animated \"square-pen\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"square-pen\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

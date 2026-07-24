@@ -3,7 +3,7 @@
   "name": "timer",
   "type": "registry:component",
   "title": "TimerIcon",
-  "description": "Animated \"timer\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"timer\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

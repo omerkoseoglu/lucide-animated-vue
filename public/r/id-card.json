@@ -3,7 +3,7 @@
   "name": "id-card",
   "type": "registry:component",
   "title": "IdCardIcon",
-  "description": "Animated \"id-card\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"id-card\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

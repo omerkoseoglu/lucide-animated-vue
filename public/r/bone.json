@@ -3,7 +3,7 @@
   "name": "bone",
   "type": "registry:component",
   "title": "BoneIcon",
-  "description": "Animated \"bone\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"bone\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "chart-bar-increasing",
   "type": "registry:component",
   "title": "ChartBarIncreasingIcon",
-  "description": "Animated \"chart-bar-increasing\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-bar-increasing\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

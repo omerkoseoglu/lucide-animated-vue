@@ -3,7 +3,7 @@
   "name": "calendar-cog",
   "type": "registry:component",
   "title": "CalendarCogIcon",
-  "description": "Animated \"calendar-cog\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"calendar-cog\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

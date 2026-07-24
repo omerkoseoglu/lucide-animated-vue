@@ -3,7 +3,7 @@
   "name": "align-right",
   "type": "registry:component",
   "title": "AlignRightIcon",
-  "description": "Animated \"align-right\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"align-right\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

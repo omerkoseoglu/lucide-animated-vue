@@ -3,7 +3,7 @@
   "name": "receipt-turkish-lira",
   "type": "registry:component",
   "title": "ReceiptTurkishLiraIcon",
-  "description": "Animated \"receipt-turkish-lira\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"receipt-turkish-lira\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

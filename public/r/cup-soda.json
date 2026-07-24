@@ -3,7 +3,7 @@
   "name": "cup-soda",
   "type": "registry:component",
   "title": "CupSodaIcon",
-  "description": "Animated \"cup-soda\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cup-soda\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

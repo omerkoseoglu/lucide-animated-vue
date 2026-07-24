@@ -3,7 +3,7 @@
   "name": "sun-dim",
   "type": "registry:component",
   "title": "SunDimIcon",
-  "description": "Animated \"sun-dim\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"sun-dim\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

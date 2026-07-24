@@ -3,7 +3,7 @@
   "name": "accessibility",
   "type": "registry:component",
   "title": "AccessibilityIcon",
-  "description": "Animated \"accessibility\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"accessibility\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

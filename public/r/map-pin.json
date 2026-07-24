@@ -3,7 +3,7 @@
   "name": "map-pin",
   "type": "registry:component",
   "title": "MapPinIcon",
-  "description": "Animated \"map-pin\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"map-pin\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

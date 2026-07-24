@@ -3,7 +3,7 @@
   "name": "chart-scatter",
   "type": "registry:component",
   "title": "ChartScatterIcon",
-  "description": "Animated \"chart-scatter\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-scatter\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

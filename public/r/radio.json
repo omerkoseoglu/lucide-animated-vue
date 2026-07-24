@@ -3,7 +3,7 @@
   "name": "radio",
   "type": "registry:component",
   "title": "RadioIcon",
-  "description": "Animated \"radio\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"radio\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

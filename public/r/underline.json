@@ -3,7 +3,7 @@
   "name": "underline",
   "type": "registry:component",
   "title": "UnderlineIcon",
-  "description": "Animated \"underline\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"underline\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "instagram",
   "type": "registry:component",
   "title": "InstagramIcon",
-  "description": "Animated \"instagram\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"instagram\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

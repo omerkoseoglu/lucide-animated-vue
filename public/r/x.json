@@ -3,7 +3,7 @@
   "name": "x",
   "type": "registry:component",
   "title": "XIcon",
-  "description": "Animated \"x\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"x\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

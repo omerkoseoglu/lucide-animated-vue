@@ -3,7 +3,7 @@
   "name": "send",
   "type": "registry:component",
   "title": "SendIcon",
-  "description": "Animated \"send\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"send\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

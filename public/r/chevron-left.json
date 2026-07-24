@@ -3,7 +3,7 @@
   "name": "chevron-left",
   "type": "registry:component",
   "title": "ChevronLeftIcon",
-  "description": "Animated \"chevron-left\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chevron-left\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

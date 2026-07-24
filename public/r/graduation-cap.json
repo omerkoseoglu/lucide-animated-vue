@@ -3,7 +3,7 @@
   "name": "graduation-cap",
   "type": "registry:component",
   "title": "GraduationCapIcon",
-  "description": "Animated \"graduation-cap\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"graduation-cap\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

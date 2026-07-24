@@ -3,7 +3,7 @@
   "name": "badge-alert",
   "type": "registry:component",
   "title": "BadgeAlertIcon",
-  "description": "Animated \"badge-alert\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"badge-alert\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

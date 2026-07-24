@@ -3,7 +3,7 @@
   "name": "git-graph",
   "type": "registry:component",
   "title": "GitGraphIcon",
-  "description": "Animated \"git-graph\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"git-graph\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

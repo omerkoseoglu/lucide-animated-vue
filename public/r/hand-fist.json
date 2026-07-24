@@ -3,7 +3,7 @@
   "name": "hand-fist",
   "type": "registry:component",
   "title": "HandFistIcon",
-  "description": "Animated \"hand-fist\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hand-fist\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

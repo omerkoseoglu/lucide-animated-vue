@@ -3,7 +3,7 @@
   "name": "flame",
   "type": "registry:component",
   "title": "FlameIcon",
-  "description": "Animated \"flame\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"flame\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "alarm-smoke",
   "type": "registry:component",
   "title": "AlarmSmokeIcon",
-  "description": "Animated \"alarm-smoke\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"alarm-smoke\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

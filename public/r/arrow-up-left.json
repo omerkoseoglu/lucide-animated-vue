@@ -3,7 +3,7 @@
   "name": "arrow-up-left",
   "type": "registry:component",
   "title": "ArrowUpLeftIcon",
-  "description": "Animated \"arrow-up-left\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"arrow-up-left\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

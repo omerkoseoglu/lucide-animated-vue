@@ -3,7 +3,7 @@
   "name": "mailbox",
   "type": "registry:component",
   "title": "MailboxIcon",
-  "description": "Animated \"mailbox\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"mailbox\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

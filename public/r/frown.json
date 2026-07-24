@@ -3,7 +3,7 @@
   "name": "frown",
   "type": "registry:component",
   "title": "FrownIcon",
-  "description": "Animated \"frown\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"frown\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

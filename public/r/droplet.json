@@ -3,7 +3,7 @@
   "name": "droplet",
   "type": "registry:component",
   "title": "DropletIcon",
-  "description": "Animated \"droplet\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"droplet\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "rotate-cw",
   "type": "registry:component",
   "title": "RotateCWIcon",
-  "description": "Animated \"rotate-cw\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"rotate-cw\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

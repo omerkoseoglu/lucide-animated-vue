@@ -3,7 +3,7 @@
   "name": "workflow",
   "type": "registry:component",
   "title": "WorkflowIcon",
-  "description": "Animated \"workflow\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"workflow\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

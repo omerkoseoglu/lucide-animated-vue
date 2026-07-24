@@ -3,7 +3,7 @@
   "name": "search",
   "type": "registry:component",
   "title": "SearchIcon",
-  "description": "Animated \"search\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"search\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "battery-medium",
   "type": "registry:component",
   "title": "BatteryMediumIcon",
-  "description": "Animated \"battery-medium\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"battery-medium\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

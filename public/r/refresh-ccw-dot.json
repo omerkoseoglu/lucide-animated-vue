@@ -3,7 +3,7 @@
   "name": "refresh-ccw-dot",
   "type": "registry:component",
   "title": "RefreshCCWDotIcon",
-  "description": "Animated \"refresh-ccw-dot\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"refresh-ccw-dot\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

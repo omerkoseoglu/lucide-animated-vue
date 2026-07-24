@@ -3,7 +3,7 @@
   "name": "washing-machine",
   "type": "registry:component",
   "title": "WashingMachineIcon",
-  "description": "Animated \"washing-machine\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"washing-machine\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

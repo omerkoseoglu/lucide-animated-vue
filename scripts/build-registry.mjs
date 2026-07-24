@@ -38,7 +38,7 @@ for (const file of files) {
     name,
     type: 'registry:component',
     title: componentName,
-    description: `Animated "${name}" icon, ported from pqoqubbw/icons.`,
+    description: `Animated "${name}" icon for Vue, built with motion-v.`,
     dependencies: ['motion-v'],
     files: [
       {

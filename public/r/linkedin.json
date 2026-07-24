@@ -3,7 +3,7 @@
   "name": "linkedin",
   "type": "registry:component",
   "title": "LinkedinIcon",
-  "description": "Animated \"linkedin\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"linkedin\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "archive",
   "type": "registry:component",
   "title": "ArchiveIcon",
-  "description": "Animated \"archive\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"archive\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

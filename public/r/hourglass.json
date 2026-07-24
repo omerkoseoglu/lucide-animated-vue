@@ -3,7 +3,7 @@
   "name": "hourglass",
   "type": "registry:component",
   "title": "HourglassIcon",
-  "description": "Animated \"hourglass\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hourglass\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

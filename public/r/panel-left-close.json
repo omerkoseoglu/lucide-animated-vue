@@ -3,7 +3,7 @@
   "name": "panel-left-close",
   "type": "registry:component",
   "title": "PanelLeftCloseIcon",
-  "description": "Animated \"panel-left-close\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"panel-left-close\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

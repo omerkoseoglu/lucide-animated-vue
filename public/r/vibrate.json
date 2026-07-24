@@ -3,7 +3,7 @@
   "name": "vibrate",
   "type": "registry:component",
   "title": "VibrateIcon",
-  "description": "Animated \"vibrate\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"vibrate\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

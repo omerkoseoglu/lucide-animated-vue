@@ -3,7 +3,7 @@
   "name": "chart-spline",
   "type": "registry:component",
   "title": "ChartSplineIcon",
-  "description": "Animated \"chart-spline\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"chart-spline\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

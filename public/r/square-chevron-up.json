@@ -3,7 +3,7 @@
   "name": "square-chevron-up",
   "type": "registry:component",
   "title": "SquareChevronUpIcon",
-  "description": "Animated \"square-chevron-up\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"square-chevron-up\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

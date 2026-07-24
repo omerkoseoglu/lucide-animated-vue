@@ -3,7 +3,7 @@
   "name": "smartphone-nfc",
   "type": "registry:component",
   "title": "SmartphoneNfcIcon",
-  "description": "Animated \"smartphone-nfc\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"smartphone-nfc\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "git-commit-horizontal",
   "type": "registry:component",
   "title": "GitCommitHorizontalIcon",
-  "description": "Animated \"git-commit-horizontal\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"git-commit-horizontal\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

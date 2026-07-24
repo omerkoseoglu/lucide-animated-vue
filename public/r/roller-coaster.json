@@ -3,7 +3,7 @@
   "name": "roller-coaster",
   "type": "registry:component",
   "title": "RollerCoasterIcon",
-  "description": "Animated \"roller-coaster\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"roller-coaster\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

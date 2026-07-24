@@ -3,7 +3,7 @@
   "name": "map-pin-plus-inside",
   "type": "registry:component",
   "title": "MapPinPlusInsideIcon",
-  "description": "Animated \"map-pin-plus-inside\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"map-pin-plus-inside\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

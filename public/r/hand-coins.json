@@ -3,7 +3,7 @@
   "name": "hand-coins",
   "type": "registry:component",
   "title": "HandCoinsIcon",
-  "description": "Animated \"hand-coins\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"hand-coins\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

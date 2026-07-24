@@ -3,7 +3,7 @@
   "name": "router",
   "type": "registry:component",
   "title": "RouterIcon",
-  "description": "Animated \"router\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"router\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

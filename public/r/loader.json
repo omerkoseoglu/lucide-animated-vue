@@ -3,7 +3,7 @@
   "name": "loader",
   "type": "registry:component",
   "title": "LoaderIcon",
-  "description": "Animated \"loader\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"loader\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

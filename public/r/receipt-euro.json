@@ -3,7 +3,7 @@
   "name": "receipt-euro",
   "type": "registry:component",
   "title": "ReceiptEuroIcon",
-  "description": "Animated \"receipt-euro\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"receipt-euro\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

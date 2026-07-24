@@ -3,7 +3,7 @@
   "name": "cart",
   "type": "registry:component",
   "title": "CartIcon",
-  "description": "Animated \"cart\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"cart\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

@@ -3,7 +3,7 @@
   "name": "bold",
   "type": "registry:component",
   "title": "BoldIcon",
-  "description": "Animated \"bold\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"bold\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

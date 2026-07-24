@@ -3,7 +3,7 @@
   "name": "database-backup",
   "type": "registry:component",
   "title": "DatabaseBackupIcon",
-  "description": "Animated \"database-backup\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"database-backup\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],

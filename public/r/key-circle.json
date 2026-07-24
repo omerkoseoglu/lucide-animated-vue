@@ -3,7 +3,7 @@
   "name": "key-circle",
   "type": "registry:component",
   "title": "KeyCircleIcon",
-  "description": "Animated \"key-circle\" icon, ported from pqoqubbw/icons.",
+  "description": "Animated \"key-circle\" icon for Vue, built with motion-v.",
   "dependencies": [
     "motion-v"
   ],
