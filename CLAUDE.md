@@ -39,15 +39,20 @@ Every icon is published as its own [shadcn-vue registry item](https://www.shadcn
 
 - `scripts/build-registry.mjs` generates all of this: one `public/r/<name>.json` per icon (full file content, `type: "registry:component"`, `dependencies: ["motion-v"]`), plus `public/r/registry.json` and root `registry.json` (a catalog listing every item *without* file content, per the shadcn registry.json spec — content only lives in the per-item files that get fetched at install time).
 - Re-run `node scripts/build-registry.mjs` after porting new icons or changing an existing icon's source.
-- The detail page (`app/pages/icons/[name].vue`) builds the install command from `useRequestURL().origin` — it's always correct for wherever the site is actually being served (localhost in dev, the real domain once deployed), no hardcoded URL to keep in sync.
+- The detail page (`app/pages/icons/[name].vue`) and `CliInstallBlock.vue` build the install command from `useSiteOrigin()` (see "Deployment" above) — always correct for wherever the site is actually being served, no hardcoded URL to keep in sync.
 - Upstream's own registry (`.reference-icons/scripts/registry-build.ts`) was the reference for this — same two-tier shape (full-content item files + content-stripped root catalog), adapted from their React/shadcn (`registry:ui`) version to ours (Vue/shadcn-vue, `registry:component`).
 
-### pnpm + shadcn-vue CLI gotcha
+### pnpm build-approval gotcha (`ERR_PNPM_IGNORED_BUILDS`)
 
-The `shadcn-vue` CLI shells out to `pnpm add` internally. When pnpm hits an unapproved build script (e.g. `vue-demi`) in a non-interactive shell, it doesn't just warn — it **overwrites `pnpm-workspace.yaml`** with a broken placeholder (`allowBuilds:\n  vue-demi: set this to true or false`) and then fails. If any `shadcn-vue add`/`init` command fails with `ERR_PNPM_IGNORED_BUILDS`:
-1. Rewrite `pnpm-workspace.yaml` back to just `onlyBuiltDependencies: [esbuild, vue-demi]` (add whatever package it just choked on).
-2. `pnpm install` (settles the approval, no prompt since it's now pre-approved).
-3. Re-run the original `shadcn-vue` command — it typically succeeds the second time since no new packages need approval.
+pnpm 10+ has two *separate* mechanisms here, and only having one of them in `pnpm-workspace.yaml` is a silent trap: `onlyBuiltDependencies` just lists which packages are *eligible* to run install scripts — it does **not** itself approve them. Without a matching `allowBuilds` map recording the actual yes/no, a from-scratch `pnpm install --frozen-lockfile` (any fresh clone, any CI runner) fails with `ERR_PNPM_IGNORED_BUILDS` and **exit code 1** — this bit us in GitHub Actions even though `onlyBuiltDependencies` was already committed and correct, because `allowBuilds` was missing. (If you test this locally and it seems to pass, check you didn't pipe the command through something like `| tail` — that silently swaps the exit code you see for the pipe's, masking exactly this failure.)
+
+The fix, once, from a clean `node_modules`:
+```bash
+rm -rf node_modules && pnpm install --frozen-lockfile   # fails, that's expected — creates node_modules first
+pnpm approve-builds --all                                # non-interactive; runs the pending scripts AND writes allowBuilds
+pnpm install --frozen-lockfile                            # now clean, exit 0
+```
+Commit the resulting `pnpm-workspace.yaml` (should have both `allowBuilds` and `onlyBuiltDependencies`). Separately: the `shadcn-vue` CLI shells out to `pnpm add` internally, and if it hits an unapproved build in a non-interactive shell it **overwrites `pnpm-workspace.yaml`** with a broken placeholder (`allowBuilds:\n  vue-demi: set this to true or false`) instead of real values, then fails. If a `shadcn-vue add`/`init` command fails this way: restore `pnpm-workspace.yaml` from git (`git checkout -- pnpm-workspace.yaml`), then re-run the three commands above for whatever new package it choked on, then retry the `shadcn-vue` command.
 
 ## Reference clone
 
