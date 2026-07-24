@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "corner-up-right",
+  "type": "registry:component",
+  "title": "CornerUpRightIcon",
+  "description": "Animated \"corner-up-right\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/CornerUpRightIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst STRETCH_VARIANTS: Variants = {\n  normal: { scaleX: 1, x: 0, opacity: 1 },\n  animate: {\n    scaleX: [1, 1.15, 1],\n    x: [0, 2, 0],\n    transition: {\n      duration: 0.45,\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      initial=\"normal\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :variants=\"STRETCH_VARIANTS\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"m15 14 5-5-5-5\" />\n      <path d=\"M4 20v-7a4 4 0 0 1 4-4h12\" />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/CornerUpRightIcon.vue"
+    }
+  ]
+}

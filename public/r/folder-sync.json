@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "folder-sync",
+  "type": "registry:component",
+  "title": "FolderSyncIcon",
+  "description": "Animated \"folder-sync\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/FolderSyncIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants, Transition } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst SYNC_VARIANTS: Variants = {\n  normal: { rotate: 0 },\n  animate: { rotate: -360 },\n};\n\nconst SYNC_TRANSITION: Transition = {\n  duration: 1.2,\n  ease: \"easeInOut\",\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v.5\"\n      />\n      <motion.g\n        :animate=\"controls\"\n        initial=\"normal\"\n        :transition=\"SYNC_TRANSITION\"\n        :variants=\"SYNC_VARIANTS\"\n      >\n        <path d=\"M12 10v4h4\" />\n        <path d=\"m12 14 1.535-1.605a5 5 0 0 1 8 1.5\" />\n        <path d=\"M22 22v-4h-4\" />\n        <path d=\"m22 18-1.535 1.605a5 5 0 0 1-8-1.5\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/FolderSyncIcon.vue"
+    }
+  ]
+}

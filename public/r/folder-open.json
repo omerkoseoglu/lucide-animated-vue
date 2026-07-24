@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "folder-open",
+  "type": "registry:component",
+  "title": "FolderOpenIcon",
+  "description": "Animated \"folder-open\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/FolderOpenIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst VARIANTS: Variants = {\n  normal: { rotate: 0 },\n  animate: {\n    rotate: [0, -8, 6, -4, 0],\n    transition: {\n      ease: \"easeInOut\",\n      rotate: {\n        duration: 0.6,\n      },\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        d=\"m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2\"\n        initial=\"normal\"\n        :style=\"{ transformOrigin: '12px 12px' }\"\n        :variants=\"VARIANTS\"\n      />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/FolderOpenIcon.vue"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+<script setup lang="ts">
+import type { Transition } from "motion-v";
+import { motion, useAnimationControls } from "motion-v";
+import { ref } from "vue";
+
+interface Props {
+  size?: number;
+}
+
+withDefaults(defineProps<Props>(), { size: 28 });
+
+const DEFAULT_TRANSITION: Transition = {
+  type: "spring",
+  stiffness: 250,
+  damping: 25,
+};
+
+const controls = useAnimationControls();
+const isControlled = ref(false);
+
+function startAnimation() {
+  isControlled.value = true;
+  controls.start("animate");
+}
+
+function stopAnimation() {
+  isControlled.value = true;
+  controls.start("normal");
+}
+
+defineExpose({ startAnimation, stopAnimation });
+
+function handleMouseEnter() {
+  if (!isControlled.value) {
+    controls.start("animate");
+  }
+}
+
+function handleMouseLeave() {
+  if (!isControlled.value) {
+    controls.start("normal");
+  }
+}
+</script>
+
+<template>
+  <div @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+    <svg
+      fill="none"
+      :height="size"
+      stroke="currentColor"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      :width="size"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <motion.path
+        :animate="controls"
+        d="M8 3H5a2 2 0 0 0-2 2v3"
+        :transition="DEFAULT_TRANSITION"
+        :variants="{
+          normal: { translateX: '0%', translateY: '0%' },
+          animate: { translateX: '-2px', translateY: '-2px' },
+        }"
+      />
+      <motion.path
+        :animate="controls"
+        d="M21 8V5a2 2 0 0 0-2-2h-3"
+        :transition="DEFAULT_TRANSITION"
+        :variants="{
+          normal: { translateX: '0%', translateY: '0%' },
+          animate: { translateX: '2px', translateY: '-2px' },
+        }"
+      />
+      <motion.path
+        :animate="controls"
+        d="M3 16v3a2 2 0 0 0 2 2h3"
+        :transition="DEFAULT_TRANSITION"
+        :variants="{
+          normal: { translateX: '0%', translateY: '0%' },
+          animate: { translateX: '-2px', translateY: '2px' },
+        }"
+      />
+      <motion.path
+        :animate="controls"
+        d="M16 21h3a2 2 0 0 0 2-2v-3"
+        :transition="DEFAULT_TRANSITION"
+        :variants="{
+          normal: { translateX: '0%', translateY: '0%' },
+          animate: { translateX: '2px', translateY: '2px' },
+        }"
+      />
+    </svg>
+  </div>
+</template>

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "align-vertical",
+  "type": "registry:component",
+  "title": "AlignVerticalIcon",
+  "description": "Animated \"align-vertical\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/AlignVerticalIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Transition } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst DEFAULT_TRANSITION: Transition = {\n  type: \"spring\",\n  stiffness: 160,\n  damping: 17,\n  mass: 1,\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.rect\n        :animate=\"controls\"\n        height=\"6\"\n        rx=\"2\"\n        :transition=\"DEFAULT_TRANSITION\"\n        :variants=\"{\n          normal: { scaleY: 1 },\n          animate: { scaleY: 0.8 },\n        }\"\n        width=\"10\"\n        x=\"7\"\n        y=\"9\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M22 20H2\"\n        :transition=\"DEFAULT_TRANSITION\"\n        :variants=\"{\n          normal: { translateY: 0, scaleX: 1 },\n          animate: {\n            translateY: -2,\n            scaleX: 0.9,\n          },\n        }\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M22 4H2\"\n        :transition=\"DEFAULT_TRANSITION\"\n        :variants=\"{\n          normal: { translateY: 0, scaleX: 1 },\n          animate: {\n            translateY: 2,\n            scaleX: 0.9,\n          },\n        }\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/AlignVerticalIcon.vue"
+    }
+  ]
+}

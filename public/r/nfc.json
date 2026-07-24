@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "nfc",
+  "type": "registry:component",
+  "title": "NfcIcon",
+  "description": "Animated \"nfc\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/NfcIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst PATH_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    transition: {\n      duration: 0.4,\n    },\n  },\n  fadeOut: {\n    opacity: 0,\n    transition: { duration: 0.3 },\n  },\n  fadeIn: (i: number) => ({\n    opacity: 1,\n    transition: {\n      type: \"spring\",\n      stiffness: 300,\n      damping: 20,\n      delay: i * 0.1,\n    },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nasync function startAnimation() {\n  isControlled.value = true;\n  await controls.start(\"fadeOut\");\n  controls.start(\"fadeIn\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nasync function handleMouseEnter() {\n  if (!isControlled.value) {\n    await controls.start(\"fadeOut\");\n    controls.start(\"fadeIn\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"0\"\n        d=\"M6 8.32a7.43 7.43 0 0 1 0 7.36\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"PATH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"1\"\n        d=\"M9.46 6.21a11.76 11.76 0 0 1 0 11.58\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"PATH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"2\"\n        d=\"M12.91 4.1a15.91 15.91 0 0 1 .01 15.8\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"PATH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"3\"\n        d=\"M16.37 2a20.16 20.16 0 0 1 0 20\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"PATH_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/NfcIcon.vue"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "cpu",
+  "type": "registry:component",
+  "title": "CpuIcon",
+  "description": "Animated \"cpu\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/CpuIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Transition, Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst TRANSITION: Transition = {\n  duration: 0.5,\n  ease: \"easeInOut\",\n  repeat: 1,\n};\n\nconst Y_VARIANTS: Variants = {\n  normal: {\n    scale: 1,\n    rotate: 0,\n    opacity: 1,\n  },\n  animate: {\n    scaleY: [1, 1.5, 1],\n    opacity: [1, 0.8, 1],\n  },\n};\n\nconst X_VARIANTS: Variants = {\n  normal: {\n    scale: 1,\n    rotate: 0,\n    opacity: 1,\n  },\n  animate: {\n    scaleX: [1, 1.5, 1],\n    opacity: [1, 0.8, 1],\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <rect height=\"16\" rx=\"2\" width=\"16\" x=\"4\" y=\"4\" />\n      <rect height=\"6\" rx=\"1\" width=\"6\" x=\"9\" y=\"9\" />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M15 2v2\"\n        :transition=\"TRANSITION\"\n        :variants=\"Y_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M15 20v2\"\n        :transition=\"TRANSITION\"\n        :variants=\"Y_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M2 15h2\"\n        :transition=\"TRANSITION\"\n        :variants=\"X_VARIANTS\"\n      />\n      <motion.path :animate=\"controls\" d=\"M2 9h2\" :transition=\"TRANSITION\" :variants=\"X_VARIANTS\" />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M20 15h2\"\n        :transition=\"TRANSITION\"\n        :variants=\"X_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M20 9h2\"\n        :transition=\"TRANSITION\"\n        :variants=\"X_VARIANTS\"\n      />\n      <motion.path :animate=\"controls\" d=\"M9 2v2\" :transition=\"TRANSITION\" :variants=\"Y_VARIANTS\" />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M9 20v2\"\n        :transition=\"TRANSITION\"\n        :variants=\"Y_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/CpuIcon.vue"
+    }
+  ]
+}

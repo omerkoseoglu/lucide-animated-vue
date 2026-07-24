@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "rabbit",
+  "type": "registry:component",
+  "title": "RabbitIcon",
+  "description": "Animated \"rabbit\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/RabbitIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Transition, Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst TRANSITION: Transition = {\n  duration: 0.6,\n  ease: [0.42, 0, 0.58, 1],\n};\n\nconst SPEED_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n    x: 0,\n    y: 0,\n  },\n  animate: {\n    rotate: [0, 5, -5, 3, -3, 0],\n    x: [0, 3, -3, 2, -2, 0],\n    y: [0, 1.5, -1.5, 1, -1, 0],\n    transition: TRANSITION,\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :variants=\"SPEED_VARIANTS\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M18 21h-8a4 4 0 0 1-4-4 7 7 0 0 1 7-7h.2L9.6 6.4a1 1 0 1 1 2.8-2.8L15.8 7h.2c3.3 0 6 2.7 6 6v1a2 2 0 0 1-2 2h-1a3 3 0 0 0-3 3\"\n      />\n      <path d=\"M13 16a3 3 0 0 1 2.24 5\" />\n      <path d=\"M18 12h.01\" />\n      <path d=\"M20 8.54V4a2 2 0 1 0-4 0v3\" />\n      <path d=\"M7.612 12.524a3 3 0 1 0-1.6 4.3\" />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/RabbitIcon.vue"
+    }
+  ]
+}

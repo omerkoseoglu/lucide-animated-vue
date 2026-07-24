@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "annoyed",
+  "type": "registry:component",
+  "title": "AnnoyedIcon",
+  "description": "Animated \"annoyed\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/AnnoyedIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nconst faceVariants: Variants = {\n  normal: {\n    scale: 1,\n    transition: { duration: 0.2, ease: \"easeOut\" },\n  },\n  animate: {\n    scale: 1.05,\n    transition: {\n      duration: 0.3,\n      ease: \"easeOut\",\n    },\n  },\n};\n\nconst mouthVariants: Variants = {\n  normal: {\n    scaleX: 1,\n    y: 0,\n    transition: { duration: 0.2, ease: \"easeOut\" },\n  },\n  animate: {\n    scaleX: 0.8,\n    y: 1,\n    transition: {\n      duration: 0.3,\n      ease: \"easeOut\",\n    },\n  },\n};\n\nconst leftEyebrowVariants: Variants = {\n  normal: {\n    rotate: 0,\n    y: 0,\n    x: 0,\n    transition: { duration: 0.2, ease: \"easeOut\" },\n  },\n  animate: {\n    rotate: 15,\n    y: -1,\n    x: -0.5,\n    transition: {\n      duration: 0.25,\n      ease: \"easeOut\",\n    },\n  },\n};\n\nconst rightEyebrowVariants: Variants = {\n  normal: {\n    rotate: 0,\n    y: 0,\n    x: 0,\n    transition: { duration: 0.2, ease: \"easeOut\" },\n  },\n  animate: {\n    rotate: 15,\n    y: -1,\n    x: 0.5,\n    transition: {\n      duration: 0.25,\n      ease: \"easeOut\",\n      delay: 0.05,\n    },\n  },\n};\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      initial=\"normal\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :variants=\"faceVariants\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n      <motion.path :animate=\"controls\" d=\"M8 15h8\" initial=\"normal\" :variants=\"mouthVariants\" />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M8 9h2\"\n        initial=\"normal\"\n        :variants=\"leftEyebrowVariants\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M14 9h2\"\n        initial=\"normal\"\n        :variants=\"rightEyebrowVariants\"\n      />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/AnnoyedIcon.vue"
+    }
+  ]
+}

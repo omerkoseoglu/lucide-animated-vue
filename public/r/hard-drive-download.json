@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "hard-drive-download",
+  "type": "registry:component",
+  "title": "HardDriveDownloadIcon",
+  "description": "Animated \"hard-drive-download\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/HardDriveDownloadIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst ARROW_VARIANTS: Variants = {\n  normal: { y: -1 },\n  animate: {\n    y: 0,\n    transition: {\n      type: \"spring\",\n      stiffness: 200,\n      damping: 10,\n      mass: 1,\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <rect height=\"8\" rx=\"2\" width=\"20\" x=\"2\" y=\"14\" />\n      <path d=\"M6 18h.01\" />\n      <path d=\"M10 18h.01\" />\n      <motion.g :animate=\"controls\" :variants=\"ARROW_VARIANTS\">\n        <path d=\"M12 2v8\" />\n        <path d=\"m16 6-4 4-4-4\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/HardDriveDownloadIcon.vue"
+    }
+  ]
+}

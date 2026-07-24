@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "calendar-cog",
+  "type": "registry:component",
+  "title": "CalendarCogIcon",
+  "description": "Animated \"calendar-cog\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/CalendarCogIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst G_VARIANTS: Variants = {\n  normal: { rotate: 0 },\n  animate: { rotate: 180 },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M21 10.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6\" />\n      <path d=\"M16 2v4\" />\n      <path d=\"M3 10h18\" />\n      <path d=\"M8 2v4\" />\n      <motion.g\n        :animate=\"controls\"\n        :transition=\"{ type: 'spring', stiffness: 50, damping: 10 }\"\n        :variants=\"G_VARIANTS\"\n      >\n        <path d=\"m15.2 16.9-.9-.4\" />\n        <path d=\"m15.2 19.1-.9.4\" />\n        <path d=\"m16.9 15.2-.4-.9\" />\n        <path d=\"m16.9 20.8-.4.9\" />\n        <path d=\"m19.5 14.3-.4.9\" />\n        <path d=\"m19.5 21.7-.4-.9\" />\n        <path d=\"m21.7 16.5-.9.4\" />\n        <path d=\"m21.7 19.5-.9-.4\" />\n        <circle cx=\"18\" cy=\"18\" r=\"3\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/CalendarCogIcon.vue"
+    }
+  ]
+}

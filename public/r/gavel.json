@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "gavel",
+  "type": "registry:component",
+  "title": "GavelIcon",
+  "description": "Animated \"gavel\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/GavelIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst GAVEL_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n    transition: {\n      duration: 0.3,\n      ease: \"easeOut\",\n    },\n  },\n  animate: {\n    rotate: [0, -20, 25, 0],\n    transition: {\n      duration: 0.8,\n      times: [0, 0.6, 0.8, 1],\n      ease: [\"easeInOut\", \"easeOut\", \"easeOut\"],\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      initial=\"normal\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :style=\"{ transformOrigin: '0% 100%', transformBox: 'fill-box' }\"\n      :variants=\"GAVEL_VARIANTS\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381\" />\n      <path d=\"m16 16 6-6\" />\n      <path d=\"m21.5 10.5-8-8\" />\n      <path d=\"m8 8 6-6\" />\n      <path d=\"m8.5 7.5 8 8\" />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/GavelIcon.vue"
+    }
+  ]
+}

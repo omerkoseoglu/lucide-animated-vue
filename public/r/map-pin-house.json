@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "map-pin-house",
+  "type": "registry:component",
+  "title": "MapPinHouseIcon",
+  "description": "Animated \"map-pin-house\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/MapPinHouseIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst SVG_VARIANTS: Variants = {\n  normal: {\n    y: 0,\n  },\n  animate: {\n    y: [0, -5, -3],\n    transition: {\n      duration: 0.5,\n      times: [0, 0.6, 1],\n    },\n  },\n};\n\nconst HOUSE_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n  },\n  animate: {\n    opacity: [0, 1],\n    pathLength: [0, 1],\n    transition: {\n      delay: 0.3,\n      duration: 0.3,\n      opacity: { duration: 0.1, delay: 0.3 },\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      initial=\"normal\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :variants=\"SVG_VARIANTS\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M18 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 .601.2\" />\n      <circle cx=\"10\" cy=\"10\" r=\"3\" />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M15 22a1 1 0 0 1-1-1v-4a1 1 0 0 1 .445-.832l3-2a1 1 0 0 1 1.11 0l3 2A1 1 0 0 1 22 17v4a1 1 0 0 1-1 1z M18 22v-3\"\n        initial=\"normal\"\n        :variants=\"HOUSE_VARIANTS\"\n      />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/MapPinHouseIcon.vue"
+    }
+  ]
+}

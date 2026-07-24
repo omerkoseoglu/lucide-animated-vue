@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "sunset",
+  "type": "registry:component",
+  "title": "SunsetIcon",
+  "description": "Animated \"sunset\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/SunsetIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst ARROW_VARIANTS: Variants = {\n  normal: {\n    y: 0,\n  },\n  animate: {\n    y: [0, 1, 0],\n  },\n};\n\nconst RAYS_VARIANTS: Variants = {\n  normal: { opacity: 1 },\n  animate: (i: number) => ({\n    opacity: [0, 1],\n    transition: { delay: i * 0.1, duration: 0.3 },\n  }),\n};\n\nconst arrowControls = useAnimationControls();\nconst raysControls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  arrowControls.start(\"animate\");\n  raysControls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  arrowControls.start(\"normal\");\n  raysControls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    arrowControls.start(\"animate\");\n    raysControls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    arrowControls.start(\"normal\");\n    raysControls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.g :animate=\"arrowControls\" initial=\"normal\" :variants=\"ARROW_VARIANTS\">\n        <path d=\"M12 10V2\" />\n        <path d=\"m16 6-4 4-4-4\" />\n      </motion.g>\n      <motion.path\n        v-for=\"(d, index) in [\n          'm4.93 10.93 1.41 1.41',\n          'M2 18h2',\n          'M20 18h2',\n          'm19.07 10.93-1.41 1.41',\n          'M22 22H2',\n          ,\n        ]\"\n        :key=\"d\"\n        :animate=\"raysControls\"\n        :custom=\"index + 1\"\n        :d=\"d\"\n        initial=\"normal\"\n        :variants=\"RAYS_VARIANTS\"\n      />\n      <path d=\"M16 18a4 4 0 0 0-8 0\" />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/SunsetIcon.vue"
+    }
+  ]
+}

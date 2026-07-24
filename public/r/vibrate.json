@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "vibrate",
+  "type": "registry:component",
+  "title": "VibrateIcon",
+  "description": "Animated \"vibrate\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/VibrateIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst RECT_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n  },\n  animate: {\n    rotate: [0, -5, 5, -5, 5, 0],\n    transition: {\n      duration: 0.4,\n      times: [0, 0.2, 0.4, 0.6, 0.8, 1],\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"m2 8 2 2-2 2 2 2-2 2\" />\n      <path d=\"m22 8-2 2 2 2-2 2 2 2\" />\n      <motion.rect\n        :animate=\"controls\"\n        height=\"14\"\n        rx=\"1\"\n        :style=\"{ transformOrigin: 'center' }\"\n        :variants=\"RECT_VARIANTS\"\n        width=\"8\"\n        x=\"8\"\n        y=\"5\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/VibrateIcon.vue"
+    }
+  ]
+}

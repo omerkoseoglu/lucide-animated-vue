@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "router",
+  "type": "registry:component",
+  "title": "RouterIcon",
+  "description": "Animated \"router\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/RouterIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst PATH_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    transition: {\n      duration: 0.4,\n    },\n  },\n  fadeOut: {\n    opacity: 0,\n    transition: { duration: 0.3 },\n  },\n  fadeIn: (i: number) => ({\n    opacity: 1,\n    transition: {\n      type: \"spring\",\n      stiffness: 300,\n      damping: 20,\n      delay: i * 0.1,\n    },\n  }),\n};\n\nconst pathControls = useAnimationControls();\nconst isControlled = ref(false);\n\nasync function runPathIntro() {\n  await pathControls.start(\"fadeOut\");\n  pathControls.start(\"fadeIn\");\n}\n\nasync function startAnimation() {\n  isControlled.value = true;\n  await runPathIntro();\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  pathControls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nasync function handleMouseEnter() {\n  if (!isControlled.value) {\n    await runPathIntro();\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    pathControls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <rect height=\"8\" rx=\"2\" width=\"20\" x=\"2\" y=\"14\" />\n      <path d=\"M6.01 18H6\" />\n      <path d=\"M10.01 18H10\" />\n      <path d=\"M15 10v4\" />\n      <motion.path\n        :animate=\"pathControls\"\n        :custom=\"1\"\n        d=\"M17.84 7.17a4 4 0 0 0-5.66 0\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"PATH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"pathControls\"\n        :custom=\"2\"\n        d=\"M20.66 4.34a8 8 0 0 0-11.31 0\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"PATH_VARIANTS\"\n      />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/RouterIcon.vue"
+    }
+  ]
+}

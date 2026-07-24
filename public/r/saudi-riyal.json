@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "saudi-riyal",
+  "type": "registry:component",
+  "title": "SaudiRiyalIcon",
+  "description": "Animated \"saudi-riyal\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/SaudiRiyalIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst SAUDI_RIYAL_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    pathLength: 1,\n    transition: {\n      duration: 0.4,\n      opacity: { duration: 0.1 },\n    },\n  },\n  animate: {\n    opacity: [0, 1],\n    pathLength: [0, 1],\n    transition: {\n      duration: 0.6,\n      opacity: { duration: 0.1 },\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        d=\"m20 19.5-5.5 1.2\"\n        initial=\"normal\"\n        :variants=\"SAUDI_RIYAL_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M14.5 4v11.22a1 1 0 0 0 1.242.97L20 15.2\"\n        initial=\"normal\"\n        :variants=\"SAUDI_RIYAL_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"m2.978 19.351 5.549-1.363A2 2 0 0 0 10 16V2\"\n        initial=\"normal\"\n        :variants=\"SAUDI_RIYAL_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M20 10 4 13.5\"\n        initial=\"normal\"\n        :variants=\"SAUDI_RIYAL_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/SaudiRiyalIcon.vue"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "credit-card",
+  "type": "registry:component",
+  "title": "CreditCardIcon",
+  "description": "Animated \"credit-card\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/CreditCardIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst CARD_VARIANTS: Variants = {\n  normal: {\n    x: 0,\n    transition: {\n      type: \"spring\",\n      stiffness: 280,\n      damping: 18,\n    },\n  },\n  animate: {\n    x: [0, -4, 1.5, 0],\n    transition: {\n      duration: 0.7,\n      times: [0, 0.4, 0.75, 1],\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      class=\"overflow-visible\"\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.g :animate=\"controls\" initial=\"normal\" :variants=\"CARD_VARIANTS\">\n        <rect height=\"14\" rx=\"2\" width=\"20\" x=\"2\" y=\"5\" />\n        <line x1=\"2\" x2=\"22\" y1=\"10\" y2=\"10\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/CreditCardIcon.vue"
+    }
+  ]
+}

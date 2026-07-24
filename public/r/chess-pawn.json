@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "chess-pawn",
+  "type": "registry:component",
+  "title": "ChessPawnIcon",
+  "description": "Animated \"chess-pawn\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/ChessPawnIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst HEAD_VARIANTS: Variants = {\n  normal: {\n    x: 0,\n    y: 0,\n    scale: 1,\n    rotate: 0,\n    transition: {\n      type: \"spring\",\n      stiffness: 180,\n      damping: 16,\n    },\n  },\n  animate: {\n    x: [0, -5, 5, 0],\n    rotate: [0, -15, 15, 0],\n    transition: {\n      duration: 2.4,\n      times: [0, 0.33, 0.66, 1],\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst BODY_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n    transition: {\n      type: \"spring\",\n      stiffness: 260,\n      damping: 16,\n    },\n  },\n  animate: {\n    rotate: [0, 5, 5, 5, 3, 0],\n    transition: {\n      duration: 1.8,\n      times: [0, 0.08, 0.3, 0.52, 0.72, 1],\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst headControls = useAnimationControls();\nconst bodyControls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  headControls.start(\"animate\");\n  bodyControls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  headControls.start(\"normal\");\n  bodyControls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    headControls.start(\"animate\");\n    bodyControls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    headControls.start(\"normal\");\n    bodyControls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.g\n        :animate=\"bodyControls\"\n        initial=\"normal\"\n        :style=\"{ transformBox: 'view-box', transformOrigin: '12px 21px' }\"\n        :variants=\"BODY_VARIANTS\"\n      >\n        <path d=\"M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z\" />\n        <path d=\"m14.5 10 1.5 8\" />\n        <path d=\"M7 10h10\" />\n        <path d=\"m8 18 1.5-8\" />\n      </motion.g>\n      <motion.circle\n        :animate=\"headControls\"\n        cx=\"12\"\n        cy=\"6\"\n        initial=\"normal\"\n        r=\"4\"\n        :style=\"{ transformBox: 'fill-box', transformOrigin: 'center' }\"\n        :variants=\"HEAD_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/ChessPawnIcon.vue"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "grip-vertical",
+  "type": "registry:component",
+  "title": "GripVerticalIcon",
+  "description": "Animated \"grip-vertical\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/GripVerticalIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst CIRCLES = [\n  { cx: 9, cy: 5 },\n  { cx: 9, cy: 12 },\n  { cx: 9, cy: 19 },\n  { cx: 15, cy: 5 },\n  { cx: 15, cy: 12 },\n  { cx: 15, cy: 19 },\n];\n\nconst ROWS = 3;\n\nconst VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    scale: 1,\n    transition: { duration: 0.25, ease: \"easeOut\" },\n  },\n  animate: (data: { index: number }) => {\n    const row = data.index % ROWS;\n    const col = Math.floor(data.index / ROWS);\n    const delay = row * 0.15 + col * (ROWS * 0.15 - 0.2);\n\n    return {\n      opacity: [1, 0.4, 1],\n      scale: [1, 0.85, 1],\n      transition: { delay, duration: 1, ease: \"easeInOut\" },\n    };\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\nconst isAnimatingRef = ref(false);\n\nasync function startAnimation() {\n  isControlled.value = true;\n  if (isAnimatingRef.value) return;\n  isAnimatingRef.value = true;\n  await controls.start(\"animate\");\n  await controls.start(\"normal\");\n  isAnimatingRef.value = false;\n}\n\nasync function stopAnimation() {\n  isControlled.value = true;\n  if (!isAnimatingRef.value) return;\n  await controls.start(\"normal\");\n  isAnimatingRef.value = false;\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    startAnimation();\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    stopAnimation();\n  }\n}\n</script>\n\n<template>\n  <div\n    class=\"inline-flex items-center justify-center\"\n    @mouseenter=\"handleMouseEnter\"\n    @mouseleave=\"handleMouseLeave\"\n  >\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.circle\n        v-for=\"(circle, index) in CIRCLES\"\n        :key=\"`${circle.cx}-${circle.cy}`\"\n        :animate=\"controls\"\n        :custom=\"{ index }\"\n        :cx=\"circle.cx\"\n        :cy=\"circle.cy\"\n        initial=\"normal\"\n        r=\"1\"\n        :variants=\"VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/GripVerticalIcon.vue"
+    }
+  ]
+}

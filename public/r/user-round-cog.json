@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "user-round-cog",
+  "type": "registry:component",
+  "title": "UserRoundCogIcon",
+  "description": "Animated \"user-round-cog\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/UserRoundCogIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst COG_VARIANTS: Variants = {\n  normal: { rotate: 0 },\n  animate: { rotate: 180 },\n};\n\nconst COG_TRANSITION = {\n  transition: { type: \"spring\", stiffness: 50, damping: 10 },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      height=\"24\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      width=\"24\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M2 21a8 8 0 0 1 10.434-7.62\" />\n      <circle cx=\"10\" cy=\"8\" r=\"5\" />\n      <motion.g :animate=\"controls\" :transition=\"COG_TRANSITION\" :variants=\"COG_VARIANTS\">\n        <circle cx=\"18\" cy=\"18\" r=\"3\" />\n        <path d=\"m14.305 19.53.923-.382\" />\n        <path d=\"m15.228 16.852-.923-.383\" />\n        <path d=\"m16.852 15.228-.383-.923\" />\n        <path d=\"m16.852 20.772-.383.924\" />\n        <path d=\"m19.148 15.228.383-.923\" />\n        <path d=\"m19.53 21.696-.382-.924\" />\n        <path d=\"m20.772 16.852.924-.383\" />\n        <path d=\"m20.772 19.148.924.383\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/UserRoundCogIcon.vue"
+    }
+  ]
+}

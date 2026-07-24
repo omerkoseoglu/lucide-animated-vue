@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "map-pin-off",
+  "type": "registry:component",
+  "title": "MapPinOffIcon",
+  "description": "Animated \"map-pin-off\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/MapPinOffIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst SVG_VARIANTS: Variants = {\n  normal: {\n    y: 0,\n  },\n  animate: {\n    y: [0, -5, -3],\n    transition: {\n      duration: 0.5,\n      times: [0, 0.6, 1],\n    },\n  },\n};\n\nconst BAR_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n  },\n  animate: {\n    opacity: [0, 1],\n    pathLength: [0, 1],\n    transition: {\n      delay: 0.3,\n      duration: 0.3,\n      opacity: { duration: 0.1, delay: 0.3 },\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      initial=\"normal\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :variants=\"SVG_VARIANTS\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M12.75 7.09a3 3 0 0 1 2.16 2.16\" />\n      <path\n        d=\"M17.072 17.072c-1.634 2.17-3.527 3.912-4.471 4.727a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 1.432-4.568\"\n      />\n      <motion.path :animate=\"controls\" d=\"m2 2 20 20\" initial=\"normal\" :variants=\"BAR_VARIANTS\" />\n      <path d=\"M8.475 2.818A8 8 0 0 1 20 10c0 1.183-.31 2.377-.81 3.533\" />\n      <path d=\"M9.13 9.13a3 3 0 0 0 3.74 3.74\" />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/MapPinOffIcon.vue"
+    }
+  ]
+}

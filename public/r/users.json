@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "users",
+  "type": "registry:component",
+  "title": "UsersIcon",
+  "description": "Animated \"users\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/UsersIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst PATH_VARIANTS: Variants = {\n  normal: {\n    translateX: 0,\n    transition: {\n      type: \"spring\",\n      stiffness: 200,\n      damping: 13,\n    },\n  },\n  animate: {\n    translateX: [-6, 0],\n    transition: {\n      delay: 0.1,\n      type: \"spring\",\n      stiffness: 200,\n      damping: 13,\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\" />\n      <circle cx=\"9\" cy=\"7\" r=\"4\" />\n      <motion.path :animate=\"controls\" d=\"M22 21v-2a4 4 0 0 0-3-3.87\" :variants=\"PATH_VARIANTS\" />\n      <motion.path :animate=\"controls\" d=\"M16 3.13a4 4 0 0 1 0 7.75\" :variants=\"PATH_VARIANTS\" />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/UsersIcon.vue"
+    }
+  ]
+}

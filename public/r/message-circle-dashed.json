@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "message-circle-dashed",
+  "type": "registry:component",
+  "title": "MessageCircleDashedIcon",
+  "description": "Animated \"message-circle-dashed\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/MessageCircleDashedIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst PATH_VARIANTS: Variants = {\n  normal: { opacity: 1 },\n  animate: (i: number) => ({\n    opacity: [0, 1],\n    transition: { delay: i * 0.1, duration: 0.3 },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        v-for=\"(d, index) in [\n          'M13.5 3.1c-.5 0-1-.1-1.5-.1s-1 .1-1.5.1',\n          'M19.3 6.8a10.45 10.45 0 0 0-2.1-2.1',\n          'M20.9 13.5c.1-.5.1-1 .1-1.5s-.1-1-.1-1.5',\n          'M17.2 19.3a10.45 10.45 0 0 0 2.1-2.1',\n          'M10.5 20.9c.5.1 1 .1 1.5.1s1-.1 1.5-.1',\n          'M3.5 17.5 2 22l4.5-1.5',\n          'M3.1 10.5c0 .5-.1 1-.1 1.5s.1 1 .1 1.5',\n          'M6.8 4.7a10.45 10.45 0 0 0-2.1 2.1',\n        ]\"\n        :key=\"d\"\n        :animate=\"controls\"\n        :custom=\"index + 1\"\n        :d=\"d\"\n        :variants=\"PATH_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/MessageCircleDashedIcon.vue"
+    }
+  ]
+}

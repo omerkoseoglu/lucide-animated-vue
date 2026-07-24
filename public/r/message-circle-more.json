@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "message-circle-more",
+  "type": "registry:component",
+  "title": "MessageCircleMoreIcon",
+  "description": "Animated \"message-circle-more\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/MessageCircleMoreIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst DOT_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n  },\n  animate: (custom: number) => ({\n    opacity: [1, 0, 0, 1, 1, 0, 0, 1],\n    transition: {\n      opacity: {\n        times: [\n          0,\n          0.1,\n          0.1 + custom * 0.1,\n          0.1 + custom * 0.1 + 0.1,\n          0.5,\n          0.6,\n          0.6 + custom * 0.1,\n          0.6 + custom * 0.1 + 0.1,\n        ],\n        duration: 1.5,\n      },\n    },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\" />\n      <motion.path :animate=\"controls\" :custom=\"0\" d=\"M8 12h.01\" :variants=\"DOT_VARIANTS\" />\n      <motion.path :animate=\"controls\" :custom=\"1\" d=\"M12 12h.01\" :variants=\"DOT_VARIANTS\" />\n      <motion.path :animate=\"controls\" :custom=\"2\" d=\"M16 12h.01\" :variants=\"DOT_VARIANTS\" />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/MessageCircleMoreIcon.vue"
+    }
+  ]
+}

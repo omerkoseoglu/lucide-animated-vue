@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "drum",
+  "type": "registry:component",
+  "title": "DrumIcon",
+  "description": "Animated \"drum\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/DrumIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n  },\n  animate: (custom: number) => ({\n    rotate: custom === 1 ? [-10, 10, 0] : [10, -10, 0],\n    transition: {\n      delay: 0.1 * custom,\n      repeat: Number.POSITIVE_INFINITY,\n      repeatType: \"reverse\",\n      duration: 0.5,\n    },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path :animate=\"controls\" :custom=\"1\" d=\"m2 2 8 8\" :variants=\"VARIANTS\" />\n      <motion.path :animate=\"controls\" :custom=\"2\" d=\"m22 2-8 8\" :variants=\"VARIANTS\" />\n      <ellipse cx=\"12\" cy=\"9\" rx=\"10\" ry=\"5\" />\n      <path d=\"M7 13.4v7.9\" />\n      <path d=\"M12 14v8\" />\n      <path d=\"M17 13.4v7.9\" />\n      <path d=\"M2 9v8a10 5 0 0 0 20 0V9\" />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/DrumIcon.vue"
+    }
+  ]
+}

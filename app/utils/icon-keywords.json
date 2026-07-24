@@ -1,0 +1,3458 @@
+{
+  "receipt": [
+    "receipt",
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil",
+    "invoice",
+    "details",
+    "transaction",
+    "purchase",
+    "expense"
+  ],
+  "receipt-cent": [
+    "receipt",
+    "cent",
+    "currency",
+    "money",
+    "payment",
+    "bill",
+    "invoice"
+  ],
+  "receipt-euro": [
+    "receipt",
+    "euro",
+    "currency",
+    "money",
+    "payment",
+    "bill",
+    "invoice"
+  ],
+  "receipt-indian-rupee": [
+    "receipt",
+    "indian rupee",
+    "inr",
+    "currency",
+    "money",
+    "payment",
+    "bill"
+  ],
+  "receipt-japanese-yen": [
+    "receipt",
+    "japanese yen",
+    "yen",
+    "currency",
+    "money",
+    "payment",
+    "bill"
+  ],
+  "receipt-pound-sterling": [
+    "receipt",
+    "pound sterling",
+    "gbp",
+    "currency",
+    "money",
+    "payment",
+    "bill"
+  ],
+  "receipt-russian-ruble": [
+    "receipt",
+    "russian ruble",
+    "ruble",
+    "currency",
+    "money",
+    "payment",
+    "bill"
+  ],
+  "receipt-swiss-franc": [
+    "receipt",
+    "swiss franc",
+    "chf",
+    "currency",
+    "money",
+    "payment",
+    "bill"
+  ],
+  "receipt-text": [
+    "receipt",
+    "text",
+    "details",
+    "invoice",
+    "bill",
+    "purchase"
+  ],
+  "receipt-turkish-lira": [
+    "receipt",
+    "turkish lira",
+    "try",
+    "currency",
+    "money",
+    "payment",
+    "bill"
+  ],
+  "briefcase-business": [
+    "briefcase",
+    "business",
+    "work",
+    "office",
+    "case",
+    "luggage",
+    "job",
+    "career"
+  ],
+  "wallet": [
+    "wallet",
+    "money",
+    "purse",
+    "billfold",
+    "cash",
+    "finance",
+    "payment"
+  ],
+  "credit-card": [
+    "credit card",
+    "card",
+    "payment",
+    "debit",
+    "money",
+    "finance",
+    "bank"
+  ],
+  "stamp": [
+    "stamp",
+    "postage",
+    "letter",
+    "mail",
+    "mark",
+    "seal",
+    "official",
+    "document"
+  ],
+  "biceps-flexed": [
+    "biceps",
+    "flexed",
+    "muscle",
+    "arm",
+    "strong",
+    "fitness",
+    "workout",
+    "gym"
+  ],
+  "phone": [
+    "phone",
+    "call",
+    "communication",
+    "signal",
+    "wireless"
+  ],
+  "phone-call": [
+    "phone",
+    "call",
+    "communication",
+    "signal",
+    "wireless"
+  ],
+  "phone-forwarded": [
+    "phone",
+    "forwarded",
+    "communication",
+    "signal",
+    "wireless"
+  ],
+  "phone-incoming": [
+    "phone",
+    "incoming",
+    "communication",
+    "signal",
+    "wireless"
+  ],
+  "phone-missed": [
+    "phone",
+    "missed",
+    "communication",
+    "signal",
+    "wireless"
+  ],
+  "phone-off": [
+    "phone",
+    "off",
+    "communication",
+    "signal",
+    "wireless"
+  ],
+  "router": [
+    "router",
+    "network",
+    "communication",
+    "signal",
+    "wireless"
+  ],
+  "satellite-dish": [
+    "satellite",
+    "dish",
+    "communication",
+    "signal",
+    "wireless"
+  ],
+  "projector": [
+    "projector",
+    "screen",
+    "display",
+    "video",
+    "projection"
+  ],
+  "fan": [
+    "fan",
+    "air",
+    "ventilation",
+    "breeze"
+  ],
+  "switch-camera": [
+    "switch",
+    "camera",
+    "video",
+    "photo",
+    "capture"
+  ],
+  "wifi-cog": [
+    "wifi",
+    "cog",
+    "settings",
+    "configuration"
+  ],
+  "wifi-sync": [
+    "wifi",
+    "sync",
+    "synchronize",
+    "update"
+  ],
+  "wifi-pen": [
+    "wifi",
+    "pen",
+    "edit",
+    "write"
+  ],
+  "user-round-cog": [
+    "user",
+    "cog",
+    "settings",
+    "configuration"
+  ],
+  "users-round": [
+    "users",
+    "group",
+    "team",
+    "people"
+  ],
+  "layout-grid": [
+    "layout",
+    "grid",
+    "dashboard",
+    "tiles",
+    "panels",
+    "gallery",
+    "window",
+    "interface"
+  ],
+  "login": [
+    "sign in",
+    "arrow",
+    "enter",
+    "auth"
+  ],
+  "axe": [
+    "hatchet",
+    "weapon",
+    "chop",
+    "sharp",
+    "equipment",
+    "fireman",
+    "firefighter",
+    "brigade",
+    "lumberjack",
+    "woodcutter",
+    "logger",
+    "forestry"
+  ],
+  "pickaxe": [
+    "mining",
+    "mine",
+    "land worker",
+    "extraction",
+    "labor",
+    "construction",
+    "progress",
+    "advancement",
+    "crafting",
+    "building",
+    "creation"
+  ],
+  "hammer": [
+    "mallet",
+    "nails",
+    "diy",
+    "toolbox",
+    "build",
+    "construction"
+  ],
+  "gavel": [
+    "justice",
+    "law",
+    "court",
+    "judgment",
+    "legal",
+    "hands",
+    "penalty",
+    "decision",
+    "authority",
+    "hammer",
+    "mallet"
+  ],
+  "mailbox": [
+    "emails",
+    "messages",
+    "letters",
+    "mailing list",
+    "newsletter"
+  ],
+  "send": [
+    "email",
+    "message",
+    "mail",
+    "paper airplane",
+    "paper aeroplane",
+    "submit"
+  ],
+  "heart-pulse": [
+    "heartbeat",
+    "pulse",
+    "health",
+    "medical",
+    "cardiac",
+    "ecg",
+    "vital"
+  ],
+  "graduation-cap": [
+    "school",
+    "university",
+    "learn",
+    "study",
+    "mortarboard",
+    "education",
+    "ceremony",
+    "academic",
+    "hat",
+    "diploma",
+    "bachlor's",
+    "master's",
+    "doctorate"
+  ],
+  "brain": [
+    "medical",
+    "mind",
+    "mental",
+    "intellect",
+    "cerebral",
+    "consciousness",
+    "genius",
+    "artificial intelligence",
+    "ai",
+    "think",
+    "thought",
+    "insight",
+    "intelligent",
+    "smart"
+  ],
+  "truck": [
+    "delivery",
+    "van",
+    "shipping",
+    "haulage",
+    "lorry",
+    "transportation"
+  ],
+  "mic": [
+    "microphone",
+    "audio",
+    "sound",
+    "record",
+    "voice"
+  ],
+  "mic-off": [
+    "microphone",
+    "audio",
+    "sound",
+    "mute",
+    "silent",
+    "disabled"
+  ],
+  "align-left": [
+    "text",
+    "alignment",
+    "left",
+    "paragraph",
+    "format"
+  ],
+  "align-right": [
+    "text",
+    "alignment",
+    "right",
+    "paragraph",
+    "format"
+  ],
+  "folder-lock": [
+    "folder",
+    "lock",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-key": [
+    "folder",
+    "key",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-input": [
+    "folder",
+    "input",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-heart": [
+    "folder",
+    "heart",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-root": [
+    "folder",
+    "root",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-tree": [
+    "folder",
+    "tree",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-open": [
+    "folder",
+    "open",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-kanban": [
+    "folder",
+    "kanban",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-code": [
+    "folder",
+    "code",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-sync": [
+    "folder",
+    "sync",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-plus": [
+    "folder",
+    "plus",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-minus": [
+    "folder",
+    "minus",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-archive": [
+    "folder",
+    "archive",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-x": [
+    "folder",
+    "x",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-dot": [
+    "folder",
+    "dot",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-cog": [
+    "folder",
+    "cog",
+    "settings",
+    "configuration"
+  ],
+  "folder-git-2": [
+    "folder",
+    "git",
+    "version control",
+    "repository"
+  ],
+  "folder-git": [
+    "folder",
+    "git",
+    "version control",
+    "repository"
+  ],
+  "folder-down": [
+    "folder",
+    "down",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-output": [
+    "folder",
+    "output",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-up": [
+    "folder",
+    "up",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-check": [
+    "folder",
+    "check",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "folder-clock": [
+    "folder",
+    "clock",
+    "time",
+    "schedule"
+  ],
+  "feather": [
+    "feather",
+    "quill",
+    "writing",
+    "light",
+    "bird"
+  ],
+  "bell-electric": [
+    "bell",
+    "electric",
+    "notification",
+    "alert"
+  ],
+  "concierge-bell": [
+    "bell",
+    "icon-bell",
+    "notification",
+    "alert"
+  ],
+  "corner-up-right": [
+    "corner",
+    "up",
+    "right",
+    "arrow"
+  ],
+  "corner-up-left": [
+    "corner",
+    "up",
+    "left",
+    "arrow"
+  ],
+  "corner-right-up": [
+    "corner",
+    "right",
+    "up",
+    "arrow"
+  ],
+  "corner-right-down": [
+    "corner",
+    "right",
+    "down",
+    "arrow"
+  ],
+  "corner-left-up": [
+    "corner",
+    "left",
+    "up",
+    "arrow"
+  ],
+  "corner-left-down": [
+    "corner",
+    "left",
+    "down",
+    "arrow"
+  ],
+  "corner-down-right": [
+    "corner",
+    "down",
+    "right",
+    "arrow"
+  ],
+  "corner-down-left": [
+    "corner",
+    "down",
+    "left",
+    "arrow"
+  ],
+  "git-pull-request-create": [
+    "git",
+    "pull request",
+    "create",
+    "version control",
+    "repository"
+  ],
+  "git-pull-request-closed": [
+    "git",
+    "pull request",
+    "closed",
+    "version control",
+    "repository"
+  ],
+  "gitlab": [
+    "git",
+    "gitlab",
+    "version control",
+    "repository"
+  ],
+  "git-graph": [
+    "git",
+    "graph",
+    "version control",
+    "repository"
+  ],
+  "git-compare-arrows": [
+    "git",
+    "compare",
+    "arrows",
+    "version control",
+    "repository"
+  ],
+  "git-compare": [
+    "git",
+    "compare",
+    "version control",
+    "repository"
+  ],
+  "git-fork": [
+    "git",
+    "fork",
+    "version control",
+    "repository"
+  ],
+  "git-branch": [
+    "git",
+    "branch",
+    "version control",
+    "repository"
+  ],
+  "hourglass": [
+    "hourglass",
+    "time",
+    "timer",
+    "sandglass"
+  ],
+  "cloud-snow": [
+    "cloud snow",
+    "weather",
+    "blizzard"
+  ],
+  "chevron-first": [
+    "chevron",
+    "first",
+    "down",
+    "arrow"
+  ],
+  "bot": [
+    "bot",
+    "user",
+    "avatar"
+  ],
+  "grip-horizontal": [
+    "grip",
+    "move",
+    "drag",
+    "resize",
+    "drag and drop"
+  ],
+  "grip-vertical": [
+    "grip",
+    "move",
+    "drag",
+    "resize",
+    "drag and drop"
+  ],
+  "bot-message-square": [
+    "bot",
+    "message",
+    "square",
+    "bubble",
+    "chat",
+    "conversation"
+  ],
+  "bookmark": [
+    "bookmark",
+    "save",
+    "tag",
+    "label"
+  ],
+  "bookmark-x": [
+    "bookmark",
+    "x",
+    "remove",
+    "delete",
+    "tag",
+    "label"
+  ],
+  "bookmark-minus": [
+    "bookmark",
+    "minus",
+    "remove",
+    "delete",
+    "tag",
+    "label"
+  ],
+  "bookmark-plus": [
+    "bookmark",
+    "plus",
+    "add",
+    "create",
+    "tag",
+    "label"
+  ],
+  "bookmark-check": [
+    "bookmark",
+    "check",
+    "save",
+    "tag",
+    "label"
+  ],
+  "washing-machine": [
+    "washing machine",
+    "tumble dryer",
+    "electronics",
+    "cycle",
+    "clothes",
+    "rinse",
+    "spin",
+    "drum"
+  ],
+  "accessibility": [
+    "accessibility",
+    "disabled",
+    "wheelchair",
+    "assistive"
+  ],
+  "lock-keyhole-open": [
+    "security",
+    "password",
+    "secure",
+    "admin",
+    "lock",
+    "open"
+  ],
+  "lock-open": [
+    "security",
+    "password",
+    "secure",
+    "admin",
+    "lock",
+    "open"
+  ],
+  "lock-keyhole": [
+    "security",
+    "password",
+    "secure",
+    "admin",
+    "lock"
+  ],
+  "lock": [
+    "security",
+    "password",
+    "secure",
+    "admin",
+    "lock"
+  ],
+  "folders": [
+    "folder",
+    "directory",
+    "file",
+    "storage",
+    "organization"
+  ],
+  "snowflake": [
+    "snow",
+    "weather",
+    "cold",
+    "winter",
+    "flake"
+  ],
+  "thermometer": [
+    "temperature",
+    "celsius",
+    "fahrenheit",
+    "weather"
+  ],
+  "droplet": [
+    "water",
+    "weather",
+    "liquid",
+    "fluid",
+    "wet",
+    "moisture",
+    "damp",
+    "bead",
+    "globule"
+  ],
+  "plus": [
+    "add",
+    "new",
+    "increase",
+    "increment",
+    "positive",
+    "calculate",
+    "toolbar",
+    "crosshair",
+    "aim",
+    "target",
+    "scope",
+    "sight",
+    "reticule",
+    "maximum",
+    "upgrade",
+    "extra",
+    "+"
+  ],
+  "heart": [
+    "like",
+    "love",
+    "emotion",
+    "suit",
+    "playing",
+    "cards"
+  ],
+  "smartphone-charging": [
+    "phone",
+    "cellphone",
+    "device",
+    "power",
+    "screen"
+  ],
+  "smartphone-nfc": [
+    "phone",
+    "cellphone",
+    "device",
+    "nfc",
+    "screen"
+  ],
+  "nfc": [
+    "nfc",
+    "near field communication",
+    "wireless",
+    "signal"
+  ],
+  "history": [
+    "history",
+    "back",
+    "previous",
+    "arrow"
+  ],
+  "hard-drive-upload": [
+    "hard drive",
+    "upload",
+    "storage",
+    "data",
+    "save"
+  ],
+  "hard-drive-download": [
+    "hard drive",
+    "download",
+    "storage",
+    "data",
+    "save"
+  ],
+  "square-activity": [
+    "activity"
+  ],
+  "square-arrow-down": [
+    "arrow",
+    "down",
+    "a"
+  ],
+  "square-arrow-left": [
+    "arrow",
+    "left",
+    "a"
+  ],
+  "square-arrow-right": [
+    "arrow",
+    "right",
+    "a"
+  ],
+  "square-arrow-up": [
+    "arrow",
+    "up",
+    "a"
+  ],
+  "scan-face": [
+    "scan",
+    "face",
+    "emotion"
+  ],
+  "frown": [
+    "frown",
+    "emotion",
+    "face",
+    "sad"
+  ],
+  "smile-plus": [
+    "smile",
+    "plus",
+    "emotion",
+    "face"
+  ],
+  "smile": [
+    "smile",
+    "emotion",
+    "face"
+  ],
+  "laugh": [
+    "laugh",
+    "emotion",
+    "face"
+  ],
+  "annoyed": [
+    "annoyed",
+    "emotion",
+    "face"
+  ],
+  "meh": [
+    "meh",
+    "emotion",
+    "face"
+  ],
+  "key": [
+    "key",
+    "authentication",
+    "security",
+    "access",
+    "password"
+  ],
+  "key-square": [
+    "key",
+    "authentication",
+    "security",
+    "access",
+    "password"
+  ],
+  "key-circle": [
+    "key",
+    "authentication",
+    "security",
+    "access",
+    "password"
+  ],
+  "maximize": [
+    "maximize",
+    "fullscreen",
+    "expand",
+    "screen"
+  ],
+  "maximize-2": [
+    "maximize",
+    "fullscreen",
+    "expand",
+    "screen"
+  ],
+  "minimize": [
+    "minimize",
+    "contract",
+    "reduce",
+    "small",
+    "smaller"
+  ],
+  "shrink": [
+    "shrink",
+    "contract",
+    "reduce",
+    "small",
+    "smaller"
+  ],
+  "rotate-cw": [
+    "rotate",
+    "clockwise",
+    "turn",
+    "degrees",
+    "degrees",
+    "clockwise",
+    "counterclockwise"
+  ],
+  "rotate-ccw": [
+    "rotate",
+    "counterclockwise",
+    "turn",
+    "degrees",
+    "degrees",
+    "clockwise",
+    "counterclockwise"
+  ],
+  "refresh-cw-off": [
+    "refresh",
+    "rotate",
+    "reload",
+    "rerun",
+    "circular",
+    "cycle"
+  ],
+  "refresh-cw": [
+    "refresh",
+    "rotate",
+    "reload",
+    "rerun",
+    "circular",
+    "cycle"
+  ],
+  "refresh-ccw-dot": [
+    "refresh",
+    "rotate",
+    "reload",
+    "rerun",
+    "circular",
+    "cycle"
+  ],
+  "redo": [
+    "redo",
+    "repeat",
+    "undo",
+    "back",
+    "previous",
+    "arrow"
+  ],
+  "undo-dot": [
+    "undo",
+    "repeat",
+    "back",
+    "previous",
+    "arrow"
+  ],
+  "redo-dot": [
+    "redo",
+    "repeat",
+    "undo",
+    "back",
+    "previous",
+    "arrow"
+  ],
+  "arrow-big-down": [
+    "arrow",
+    "down",
+    "big",
+    "below",
+    "south",
+    "bottom"
+  ],
+  "arrow-big-left": [
+    "arrow",
+    "left",
+    "big",
+    "west",
+    "previous",
+    "<-"
+  ],
+  "arrow-big-right": [
+    "arrow",
+    "right",
+    "big",
+    "east",
+    "next",
+    "->"
+  ],
+  "arrow-big-up": [
+    "arrow",
+    "up",
+    "big",
+    "north",
+    "top"
+  ],
+  "a-arrow-up": [
+    "arrow",
+    "up",
+    "a"
+  ],
+  "chart-spline": [
+    "chart",
+    "spline",
+    "graph",
+    "statistics",
+    "analytics",
+    "diagram",
+    "presentation",
+    "analytics"
+  ],
+  "arrow-up": [
+    "up",
+    "above",
+    "direction",
+    "north",
+    "top"
+  ],
+  "arrow-down": [
+    "down",
+    "below",
+    "direction",
+    "south",
+    "bottom"
+  ],
+  "arrow-down-left": [
+    "arrow",
+    "down",
+    "left",
+    "direction",
+    "southwest",
+    "bottom left"
+  ],
+  "arrow-down-right": [
+    "arrow",
+    "down",
+    "right",
+    "direction",
+    "southeast",
+    "bottom right"
+  ],
+  "arrow-up-left": [
+    "arrow",
+    "up",
+    "left",
+    "direction",
+    "northwest",
+    "top left"
+  ],
+  "arrow-up-right": [
+    "arrow",
+    "up",
+    "right",
+    "direction",
+    "northeast",
+    "top right"
+  ],
+  "vibrate": [
+    "smartphone",
+    "notification",
+    "rumble",
+    "haptic feedback",
+    "screen"
+  ],
+  "waves-ladder": [
+    "waves",
+    "ladder",
+    "water",
+    "ocean",
+    "sea"
+  ],
+  "waves": [
+    "waves",
+    "water",
+    "ocean",
+    "sea",
+    "wave",
+    "sea wave"
+  ],
+  "wind-arrow-down": [
+    "wind",
+    "arrow",
+    "down",
+    "wind arrow down"
+  ],
+  "air-vent": [
+    "air",
+    "vent",
+    "fan",
+    "air conditioning",
+    "wind",
+    "cooling"
+  ],
+  "tornado": [
+    "tornado",
+    "wind",
+    "weather",
+    "spin",
+    "twister",
+    "whirlwind"
+  ],
+  "cloud-download": [
+    "cloud",
+    "download",
+    "weather",
+    "cloud download"
+  ],
+  "cloud-upload": [
+    "cloud",
+    "upload",
+    "weather",
+    "cloud upload"
+  ],
+  "cloud-cog": [
+    "cloud",
+    "cog",
+    "cloud cog",
+    "edit",
+    "gear",
+    "preferences"
+  ],
+  "cloud-lightning": [
+    "cloud",
+    "lightning",
+    "weather",
+    "cloud lightning"
+  ],
+  "cloud-rain": [
+    "cloud",
+    "rain",
+    "weather",
+    "cloud rain"
+  ],
+  "cloud-rain-wind": [
+    "cloud",
+    "rain",
+    "wind",
+    "weather",
+    "cloud rain wind"
+  ],
+  "arrow-big-down-dash": [
+    "arrow",
+    "down",
+    "big",
+    "below",
+    "south",
+    "bottom",
+    "dash"
+  ],
+  "arrow-big-left-dash": [
+    "arrow",
+    "left",
+    "big",
+    "below",
+    "west",
+    "dash"
+  ],
+  "arrow-big-right-dash": [
+    "arrow",
+    "right",
+    "big",
+    "below",
+    "east",
+    "dash"
+  ],
+  "arrow-big-up-dash": [
+    "arrow",
+    "up",
+    "big",
+    "above",
+    "north",
+    "dash"
+  ],
+  "moon": [
+    "night",
+    "dark",
+    "moon"
+  ],
+  "facebook": [
+    "social",
+    "network",
+    "facebook"
+  ],
+  "twitter": [
+    "social",
+    "network",
+    "twitter",
+    "X"
+  ],
+  "linkedin": [
+    "social",
+    "network",
+    "linkedin"
+  ],
+  "youtube": [
+    "social",
+    "network",
+    "youtube"
+  ],
+  "instagram": [
+    "social",
+    "network",
+    "instagram"
+  ],
+  "twitch": [
+    "social",
+    "network",
+    "twitch"
+  ],
+  "dribbble": [
+    "social",
+    "network",
+    "dribbble"
+  ],
+  "discord": [
+    "social",
+    "network",
+    "discord"
+  ],
+  "search": [
+    "find",
+    "scan",
+    "magnifier",
+    "magnifying glass"
+  ],
+  "cloud-sun": [
+    "weather",
+    "sun",
+    "cloud",
+    "light",
+    "bright"
+  ],
+  "sunset": [
+    "sun",
+    "sunset",
+    "weather",
+    "bright",
+    "dawn",
+    "evening"
+  ],
+  "sun-dim": [
+    "sun",
+    "dim",
+    "weather",
+    "light",
+    "day"
+  ],
+  "sun-medium": [
+    "sun",
+    "medium",
+    "weather",
+    "light",
+    "day"
+  ],
+  "sun-moon": [
+    "sun",
+    "moon",
+    "day",
+    "night",
+    "evening"
+  ],
+  "cart": [
+    "trolley",
+    "cart",
+    "basket",
+    "e-commerce",
+    "store",
+    "purchase",
+    "products",
+    "items",
+    "ingredients"
+  ],
+  "stethoscope": [
+    "phonendoscope",
+    "medical",
+    "heart",
+    "lungs",
+    "sound"
+  ],
+  "circle-check": [
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "earth": [
+    "world",
+    "browser",
+    "language",
+    "translate",
+    "globe"
+  ],
+  "workflow": [
+    "action",
+    "continuous integration",
+    "ci",
+    "automation",
+    "devops",
+    "network",
+    "node",
+    "connection"
+  ],
+  "wrench": [
+    "account",
+    "settings",
+    "spanner",
+    "diy",
+    "toolbox",
+    "build",
+    "construction"
+  ],
+  "logout": [
+    "sign out",
+    "arrow",
+    "exit",
+    "auth"
+  ],
+  "circle-help": [
+    "question mark"
+  ],
+  "user": [
+    "person",
+    "account",
+    "contact"
+  ],
+  "flame": [
+    "fire",
+    "flame",
+    "hot"
+  ],
+  "audio-lines": [
+    "graphic equaliser",
+    "sound",
+    "noise",
+    "listen",
+    "hearing",
+    "hertz",
+    "frequency",
+    "wavelength",
+    "vibrate",
+    "sine",
+    "synthesizer",
+    "synthesiser",
+    "levels",
+    "track",
+    "music",
+    "playback",
+    "radio",
+    "broadcast",
+    "airwaves",
+    "voice",
+    "vocals",
+    "singer",
+    "song"
+  ],
+  "eye-off": [
+    "view",
+    "watch",
+    "see",
+    "hide",
+    "conceal",
+    "mask",
+    "hidden",
+    "visibility",
+    "vision"
+  ],
+  "eye": [
+    "view",
+    "watch",
+    "see",
+    "show",
+    "expose",
+    "reveal",
+    "display",
+    "visible",
+    "visibility",
+    "vision",
+    "preview",
+    "read"
+  ],
+  "square-stack": [
+    "versions",
+    "clone",
+    "copy",
+    "duplicate",
+    "multiple",
+    "revisions",
+    "version control",
+    "backup",
+    "history"
+  ],
+  "chess-king": [
+    "chess",
+    "king",
+    "piece",
+    "board game",
+    "strategy",
+    "game",
+    "checkmate",
+    "royal",
+    "crown"
+  ],
+  "chess-knight": [
+    "chess",
+    "knight",
+    "piece",
+    "board game",
+    "strategy",
+    "game",
+    "horse",
+    "L-shape",
+    "move"
+  ],
+  "chess-pawn": [
+    "chess",
+    "pawn",
+    "piece",
+    "board game",
+    "strategy",
+    "game",
+    "pawn",
+    "pawn-shape",
+    "move"
+  ],
+  "chess-bishop": [
+    "chess",
+    "bishop",
+    "piece",
+    "board game",
+    "strategy",
+    "game",
+    "bishop",
+    "bishop-shape",
+    "move"
+  ],
+  "badge-alert": [
+    "check",
+    "verified",
+    "unverified",
+    "security",
+    "safety",
+    "issue"
+  ],
+  "message-circle": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble"
+  ],
+  "message-circle-check": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "moderate",
+    "check",
+    "done",
+    "todo",
+    "complete"
+  ],
+  "message-circle-more": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "typing",
+    "writing",
+    "responding",
+    "ellipsis",
+    "etc"
+  ],
+  "message-circle-plus": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "add"
+  ],
+  "message-circle-x": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "clear",
+    "close",
+    "delete",
+    "remove",
+    "cancel",
+    "silence",
+    "mute",
+    "moderate"
+  ],
+  "message-square": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "message"
+  ],
+  "message-square-check": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "moderate",
+    "check",
+    "done",
+    "todo",
+    "complete"
+  ],
+  "message-square-more": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "typing",
+    "writing",
+    "message",
+    "responding",
+    "ellipsis",
+    "etc"
+  ],
+  "message-square-plus": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "add"
+  ],
+  "message-square-x": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "clear",
+    "close",
+    "delete",
+    "remove",
+    "cancel",
+    "silence",
+    "mute",
+    "moderate"
+  ],
+  "message-circle-dashed": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "typing",
+    "writing",
+    "message",
+    "responding",
+    "ellipsis",
+    "etc"
+  ],
+  "message-square-dashed": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "typing",
+    "writing",
+    "message",
+    "responding",
+    "ellipsis",
+    "etc"
+  ],
+  "clipboard-check": [
+    "clipboard",
+    "check",
+    "clipboard-check",
+    "clipboard-checkmark"
+  ],
+  "home": [
+    "home",
+    "living",
+    "building",
+    "residence",
+    "architecture"
+  ],
+  "arrow-left": [
+    "previous",
+    "back",
+    "direction",
+    "west",
+    "<-"
+  ],
+  "arrow-right": [
+    "forward",
+    "next",
+    "direction",
+    "east",
+    "->"
+  ],
+  "expand": [
+    "scale",
+    "fullscreen"
+  ],
+  "route": [
+    "path",
+    "journey",
+    "planner",
+    "points",
+    "stops",
+    "stations"
+  ],
+  "airplane": [
+    "flight",
+    "path",
+    "journey",
+    "planner",
+    "points",
+    "stops",
+    "stations"
+  ],
+  "airplay": [
+    "stream",
+    "cast",
+    "device",
+    "screen",
+    "monitor"
+  ],
+  "refresh-ccw": [
+    "arrows",
+    "rotate",
+    "reload",
+    "rerun",
+    "synchronise",
+    "synchronize",
+    "circular",
+    "cycle"
+  ],
+  "undo": [
+    "redo",
+    "rerun",
+    "history"
+  ],
+  "download": [
+    "import",
+    "export",
+    "save"
+  ],
+  "square-pen": [
+    "pencil",
+    "change",
+    "create",
+    "draw",
+    "sketch",
+    "draft",
+    "writer",
+    "writing",
+    "biro",
+    "ink",
+    "marker",
+    "felt tip",
+    "stationery",
+    "artist"
+  ],
+  "delete": [
+    "garbage",
+    "delete",
+    "remove",
+    "bin"
+  ],
+  "sliders-horizontal": [
+    "settings",
+    "filters",
+    "controls"
+  ],
+  "settings": [
+    "cog",
+    "edit",
+    "gear",
+    "preferences"
+  ],
+  "calendar-cog": [
+    "date",
+    "day",
+    "month",
+    "year",
+    "events",
+    "settings",
+    "gear",
+    "cog"
+  ],
+  "cursor-click": [
+    "click",
+    "select"
+  ],
+  "menu": [
+    "bars",
+    "navigation",
+    "hamburger",
+    "options"
+  ],
+  "clock": [
+    "time",
+    "watch",
+    "alarm"
+  ],
+  "file-stack": [
+    "versions",
+    "multiple",
+    "copy",
+    "documents",
+    "revisions",
+    "version control",
+    "history"
+  ],
+  "file-pen-line": [
+    "edit"
+  ],
+  "archive": [
+    "index",
+    "backup",
+    "box",
+    "storage",
+    "records"
+  ],
+  "copy": [
+    "clone",
+    "duplicate",
+    "multiple"
+  ],
+  "attach-file": [
+    "attachment",
+    "file"
+  ],
+  "alarm-clock": [
+    "morning"
+  ],
+  "bold": [
+    "text",
+    "strong",
+    "format"
+  ],
+  "italic": [
+    "oblique",
+    "text",
+    "format"
+  ],
+  "underline": [
+    "text",
+    "format"
+  ],
+  "scan-text": [
+    "recognition",
+    "read",
+    "translate",
+    "copy",
+    "lines"
+  ],
+  "languages": [
+    "translate"
+  ],
+  "at-sign": [
+    "mention",
+    "at",
+    "email",
+    "message",
+    "@"
+  ],
+  "atom": [
+    "science",
+    "physics",
+    "chemistry",
+    "nucleus",
+    "electron"
+  ],
+  "bell": [
+    "alarm",
+    "notification",
+    "sound",
+    "reminder"
+  ],
+  "users": [
+    "group",
+    "people"
+  ],
+  "upvote": [
+    "like",
+    "good",
+    "emotion"
+  ],
+  "downvote": [
+    "dislike",
+    "bad",
+    "emotion"
+  ],
+  "circle-dollar-sign": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "dollar-sign": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "indian-rupee": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "japanese-yen": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "philippine-peso": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "euro": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "pound-sterling": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "georgian-lari": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "russian-ruble": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "saudi-riyal": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "swiss-franc": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "turkish-lira": [
+    "monetization",
+    "marketing",
+    "currency",
+    "money",
+    "payment"
+  ],
+  "hand-coins": [
+    "savings",
+    "banking",
+    "money",
+    "finance",
+    "offers",
+    "mortgage",
+    "payment",
+    "received",
+    "wage",
+    "payroll",
+    "allowance",
+    "pocket money",
+    "handout",
+    "pennies"
+  ],
+  "badge-percent": [
+    "verified",
+    "unverified",
+    "sale",
+    "discount",
+    "offer",
+    "marketing",
+    "sticker",
+    "price tag"
+  ],
+  "chart-pie": [
+    "statistics",
+    "analytics",
+    "diagram",
+    "presentation"
+  ],
+  "chart-scatter": [
+    "chart",
+    "analytics",
+    "scatter"
+  ],
+  "gauge": [
+    "dashboard",
+    "dial",
+    "meter",
+    "speed",
+    "pressure",
+    "measure",
+    "level"
+  ],
+  "pen-tool": [
+    "vector",
+    "drawing",
+    "path"
+  ],
+  "fingerprint": [
+    "2fa",
+    "authentication",
+    "biometric",
+    "identity",
+    "security"
+  ],
+  "link": [
+    "chain",
+    "url"
+  ],
+  "layers": [
+    "stack",
+    "pile",
+    "pages",
+    "sheets",
+    "paperwork",
+    "copies",
+    "copy"
+  ],
+  "grip": [
+    "grab",
+    "dots",
+    "handle",
+    "move",
+    "drag"
+  ],
+  "git-pull-request": [
+    "code",
+    "version control",
+    "open"
+  ],
+  "github": [
+    "logo",
+    "version control",
+    "repository",
+    "source code",
+    "git"
+  ],
+  "connect": [
+    "electricity",
+    "energy",
+    "electronics",
+    "socket",
+    "outlet",
+    "disconnect"
+  ],
+  "volume": [
+    "music",
+    "sound",
+    "mute",
+    "speaker"
+  ],
+  "sun": [
+    "brightness",
+    "weather",
+    "light",
+    "summer"
+  ],
+  "party-popper": [
+    "emoji",
+    "congratulations",
+    "celebration",
+    "party",
+    "tada",
+    "🎉",
+    "🎊",
+    "excitement",
+    "exciting",
+    "excites",
+    "confetti"
+  ],
+  "frame": [
+    "logo",
+    "design",
+    "tool"
+  ],
+  "bone": [
+    "health",
+    "skeleton",
+    "skull",
+    "death",
+    "pets",
+    "dog"
+  ],
+  "align-center": [
+    "text",
+    "alignment",
+    "center"
+  ],
+  "align-vertical": [
+    "center",
+    "items",
+    "flex",
+    "justify",
+    "distribute",
+    "between"
+  ],
+  "align-horizontal": [
+    "center",
+    "items",
+    "flex",
+    "justify",
+    "distribute",
+    "between"
+  ],
+  "compass": [
+    "direction",
+    "navigation",
+    "north",
+    "south",
+    "east",
+    "west",
+    "compass"
+  ],
+  "shield-check": [
+    "security",
+    "verified",
+    "safe",
+    "protection",
+    "secure"
+  ],
+  "trending-down": [
+    "down",
+    "trend",
+    "graph",
+    "downward",
+    "decrease",
+    "statistics"
+  ],
+  "trending-up": [
+    "up",
+    "trend",
+    "graph",
+    "upward",
+    "increase",
+    "statistics"
+  ],
+  "trending-up-down": [
+    "up",
+    "trend",
+    "graph",
+    "upward",
+    "increase",
+    "statistics",
+    "down",
+    "trend",
+    "graph",
+    "downward",
+    "decrease"
+  ],
+  "timer": [
+    "time",
+    "watch",
+    "alarm",
+    "stopwatch",
+    "stopwatch"
+  ],
+  "bluetooth": [
+    "tool",
+    "connection",
+    "network"
+  ],
+  "bluetooth-searching": [
+    "tool",
+    "connection",
+    "network"
+  ],
+  "bluetooth-connected": [
+    "tool",
+    "connection",
+    "network"
+  ],
+  "bluetooth-off": [
+    "tool",
+    "connection",
+    "network"
+  ],
+  "flask": [
+    "beaker",
+    "erlenmeyer",
+    "lab",
+    "chemistry",
+    "experiment",
+    "test"
+  ],
+  "syringe": [
+    "medicine",
+    "medical",
+    "needle",
+    "pump",
+    "plunger",
+    "nozzle",
+    "blood"
+  ],
+  "play": [
+    "video",
+    "play",
+    "start"
+  ],
+  "pause": [
+    "video",
+    "pause",
+    "stop"
+  ],
+  "chart-column-decreasing": [
+    "chart",
+    "column",
+    "decreasing"
+  ],
+  "chart-column-increasing": [
+    "chart",
+    "column",
+    "increasing"
+  ],
+  "chart-bar-decreasing": [
+    "chart",
+    "bar",
+    "decreasing"
+  ],
+  "chart-bar-increasing": [
+    "chart",
+    "bar",
+    "increasing"
+  ],
+  "chevron-down": [
+    "chevron",
+    "down",
+    "expand",
+    "unfold",
+    "vertical"
+  ],
+  "chevron-up": [
+    "chevron",
+    "up",
+    "collapse",
+    "fold",
+    "vertical"
+  ],
+  "chevron-left": [
+    "chevron",
+    "left",
+    "previous",
+    "back",
+    "direction"
+  ],
+  "chevron-right": [
+    "chevron",
+    "right",
+    "next",
+    "forward",
+    "direction"
+  ],
+  "chevrons-up-down": [
+    "expand",
+    "unfold",
+    "vertical",
+    "chevron"
+  ],
+  "chevrons-down-up": [
+    "collapse",
+    "fold",
+    "vertical",
+    "chevron"
+  ],
+  "chevrons-left-right": [
+    "expand",
+    "unfold",
+    "horizontal",
+    "chevron"
+  ],
+  "chevrons-right-left": [
+    "collapse",
+    "fold",
+    "horizontal",
+    "chevron"
+  ],
+  "circle-chevron-down": [
+    "back",
+    "menu",
+    "chevron"
+  ],
+  "circle-chevron-left": [
+    "back",
+    "previous",
+    "less than",
+    "fewer",
+    "menu",
+    "<",
+    "chevron"
+  ],
+  "circle-chevron-right": [
+    "next",
+    "forward",
+    "more than",
+    "greater",
+    "menu",
+    ">",
+    "chevron"
+  ],
+  "square-chevron-down": [
+    "chevron",
+    "down",
+    "expand"
+  ],
+  "square-chevron-up": [
+    "chevron",
+    "up",
+    "collapse"
+  ],
+  "square-chevron-right": [
+    "chevron",
+    "right",
+    "next"
+  ],
+  "square-chevron-left": [
+    "chevron",
+    "left",
+    "previous"
+  ],
+  "a-arrow-down": [
+    "arrow",
+    "down",
+    "a"
+  ],
+  "circle-dashed": [
+    "dashed",
+    "circle",
+    "dashed circle"
+  ],
+  "circle-chevron-up": [
+    "caret",
+    "ahead",
+    "forward",
+    "menu",
+    "chevron"
+  ],
+  "check": [
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "check-check": [
+    "done",
+    "received",
+    "double",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "id-card": [
+    "identification",
+    "personal",
+    "details",
+    "profile",
+    "card",
+    "badge",
+    "identity",
+    "authentication",
+    "secure"
+  ],
+  "loader-pinwheel": [
+    "loading",
+    "wait",
+    "busy",
+    "progress",
+    "throbber",
+    "spinner",
+    "spinning",
+    "beach ball",
+    "frozen",
+    "freeze"
+  ],
+  "rocking-chair": [
+    "furniture",
+    "seat",
+    "rock",
+    "relax",
+    "sit",
+    "chair"
+  ],
+  "banana": [
+    "fruit",
+    "food",
+    "yellow",
+    "tropical"
+  ],
+  "wifi": [
+    "internet",
+    "electronic",
+    "connection",
+    "data"
+  ],
+  "chrome": [
+    "browser",
+    "google",
+    "internet",
+    "web",
+    "logo"
+  ],
+  "figma": [
+    "design",
+    "tool",
+    "logo"
+  ],
+  "fish-symbol": [
+    "fish",
+    "seafood",
+    "ocean",
+    "marine",
+    "dish",
+    "restaurant",
+    "course",
+    "meal",
+    "seafood",
+    "pet",
+    "sea",
+    "marine"
+  ],
+  "git-commit-vertical": [
+    "code",
+    "open",
+    "version control ",
+    "waypoint",
+    "stop",
+    "station"
+  ],
+  "git-commit-horizontal": [
+    "code",
+    "open",
+    "version control ",
+    "waypoint",
+    "stop",
+    "station"
+  ],
+  "waypoints": [
+    "indirection",
+    "vpn",
+    "virtual private network",
+    "proxy",
+    "connections",
+    "bounce",
+    "reroute",
+    "path",
+    "journey",
+    "planner",
+    "stops",
+    "stations",
+    "shared",
+    "spread",
+    "vira"
+  ],
+  "ship": [
+    "boat",
+    "vessel",
+    "sea",
+    "ocean",
+    "water",
+    "transport",
+    "knots",
+    "nautical mile",
+    "maritime",
+    "sailing",
+    "yacht",
+    "cruise",
+    "ocean liner",
+    "tanker",
+    "vessel",
+    "navy",
+    "trip"
+  ],
+  "roller-coaster": [
+    "ride",
+    "fun",
+    "amusement",
+    "park",
+    "thrill",
+    "excitement",
+    "attraction",
+    "entertainment",
+    "amusement park",
+    "theme park",
+    "funfair"
+  ],
+  "drum": [
+    "music",
+    "instrument",
+    "percussion",
+    "beat",
+    "rhythm",
+    "sound"
+  ],
+  "train-track": [
+    "railway",
+    "track",
+    "train",
+    "transport",
+    "travel",
+    "line"
+  ],
+  "webhook": [
+    "api",
+    "integration",
+    "web",
+    "hook",
+    "connect",
+    "link",
+    "push api",
+    "callback"
+  ],
+  "rabbit": [
+    "bunny",
+    "hare",
+    "animal",
+    "mammal",
+    "ears",
+    "fluffy",
+    "rodent",
+    "pet",
+    "pest",
+    "bunny",
+    "hare",
+    "fast",
+    "speed",
+    "hop"
+  ],
+  "cog": [
+    "gear",
+    "settings",
+    "preferences",
+    "controls",
+    "computing",
+    "settings",
+    "cog",
+    "edit"
+  ],
+  "cpu": [
+    "processor",
+    "chip",
+    "computer",
+    "hardware",
+    "central processing unit",
+    "computing",
+    "cores",
+    "technology",
+    "circuit",
+    "memory",
+    "ram",
+    "specs",
+    "gigahertz",
+    "ghz"
+  ],
+  "sparkles": [
+    "sparkles",
+    "sparkle",
+    "star",
+    "stars",
+    "shine",
+    "shining"
+  ],
+  "rocket": [
+    "launch",
+    "space",
+    "boost",
+    "release",
+    "version"
+  ],
+  "activity": [
+    "pulse",
+    "action",
+    "motion/react",
+    "movement",
+    "exercise",
+    "fitness",
+    "healthcare",
+    "heart rate monitor",
+    "vital signs",
+    "vitals",
+    "emergency room",
+    "er",
+    "intensive care",
+    "hospital",
+    "defibrillator",
+    "earthquake",
+    "siesmic",
+    "magnitude",
+    "richter scale",
+    "aftershock",
+    "tremor",
+    "shockwave",
+    "audio",
+    "waveform",
+    "synthesizer",
+    "synthesiser",
+    "music"
+  ],
+  "ban": [
+    "ban",
+    "stop",
+    "prevent",
+    "no"
+  ],
+  "map-pin": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address"
+  ],
+  "map-pin-check-inside": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address",
+    "waypoint",
+    "done",
+    "tick",
+    "complete",
+    "task",
+    "added"
+  ],
+  "map-pin-minus-inside": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address",
+    "waypoint",
+    "delete",
+    "remove",
+    "erase"
+  ],
+  "map-pin-plus-inside": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address",
+    "waypoint",
+    "add",
+    "create",
+    "new"
+  ],
+  "map-pin-off": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address",
+    "waypoint",
+    "off",
+    "remove",
+    "non available",
+    "invalid"
+  ],
+  "map-pin-check": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address",
+    "waypoint",
+    "done",
+    "tick",
+    "complete",
+    "task",
+    "added"
+  ],
+  "map-pin-house": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address",
+    "waypoint",
+    "home",
+    "living",
+    "place",
+    "landmark"
+  ],
+  "map-pin-minus": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address",
+    "waypoint",
+    "delete",
+    "remove",
+    "erase"
+  ],
+  "map-pin-plus": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address",
+    "waypoint",
+    "add",
+    "create",
+    "new"
+  ],
+  "map-pin-x-inside": [
+    "map",
+    "pin",
+    "marker",
+    "location",
+    "address",
+    "waypoint",
+    "delete",
+    "remove",
+    "erase"
+  ],
+  "battery-full": [
+    "battery",
+    "power",
+    "energy",
+    "full",
+    "charge"
+  ],
+  "battery-medium": [
+    "battery",
+    "power",
+    "energy",
+    "medium",
+    "charge"
+  ],
+  "battery-low": [
+    "battery",
+    "power",
+    "energy",
+    "low",
+    "charge"
+  ],
+  "terminal": [
+    "terminal",
+    "console",
+    "command line",
+    "shell",
+    "prompt"
+  ],
+  "keyboard": [
+    "keyboard",
+    "input",
+    "text",
+    "type",
+    "input method"
+  ],
+  "clap": [
+    "clap",
+    "movie",
+    "film",
+    "video",
+    "camera",
+    "cinema",
+    "cut",
+    "action",
+    "television",
+    "tv",
+    "show",
+    "entertainment"
+  ],
+  "layout-panel-top": [
+    "window",
+    "webpage",
+    "block",
+    "section",
+    "grid",
+    "template",
+    "structure"
+  ],
+  "contrast": [
+    "contrast",
+    "brightness",
+    "adjust",
+    "enhance",
+    "change",
+    "theme",
+    "dark",
+    "light",
+    "mode"
+  ],
+  "cooking-pot": [
+    "pod",
+    "cooking",
+    "recipe",
+    "food",
+    "kitchen",
+    "chef",
+    "restaurant",
+    "dinner",
+    "lunch",
+    "breakfast",
+    "meal",
+    "eat"
+  ],
+  "book-text": [
+    "reading",
+    "booklet",
+    "magazine",
+    "leaflet",
+    "pamphlet",
+    "tome",
+    "library"
+  ],
+  "ev-charger": [
+    "ev",
+    "charger",
+    "charge",
+    "electric",
+    "vehicle"
+  ],
+  "plug-zap": [
+    "plug",
+    "zap",
+    "power",
+    "energy",
+    "charge"
+  ],
+  "shower-head": [
+    "shower",
+    "bath",
+    "bathroom",
+    "amenities",
+    "services"
+  ],
+  "telescope": [
+    "telescope",
+    "astronomy",
+    "space",
+    "discovery",
+    "exploration",
+    "explore",
+    "vision",
+    "perspective",
+    "focus",
+    "stargazing",
+    "observe",
+    "view"
+  ],
+  "wind": [
+    "wind",
+    "weather",
+    "air",
+    "blow"
+  ],
+  "angry": [
+    "mad",
+    "upset",
+    "angry",
+    "furious",
+    "emotion",
+    "face"
+  ],
+  "ambulance": [
+    "ambulance",
+    "emergency",
+    "medical",
+    "hospital",
+    "vehicle",
+    "rescue",
+    "siren",
+    "healthcare",
+    "transportation",
+    "urgent",
+    "first aid"
+  ],
+  "cctv": [
+    "cctv",
+    "camera",
+    "surveillance",
+    "recording",
+    "film",
+    "videotape",
+    "crime",
+    "watching"
+  ],
+  "coffee": [
+    "coffee",
+    "drink",
+    "cup",
+    "mug",
+    "tea",
+    "cafe",
+    "hot",
+    "beverage"
+  ],
+  "cup-soda": [
+    "beverage",
+    "cup",
+    "drink",
+    "soda",
+    "straw",
+    "water"
+  ],
+  "arrow-down-a-z": [
+    "filter",
+    "sort",
+    "ascending",
+    "descending",
+    "increasing",
+    "decreasing",
+    "rising",
+    "falling",
+    "alphabetical"
+  ],
+  "arrow-down-z-a": [
+    "filter",
+    "sort",
+    "ascending",
+    "descending",
+    "increasing",
+    "decreasing",
+    "rising",
+    "falling",
+    "alphabetical"
+  ],
+  "arrow-down-0-1": [
+    "filter",
+    "sort",
+    "ascending",
+    "descending",
+    "increasing",
+    "decreasing",
+    "rising",
+    "falling",
+    "numerical"
+  ],
+  "arrow-down-1-0": [
+    "filter",
+    "sort",
+    "ascending",
+    "descending",
+    "increasing",
+    "decreasing",
+    "rising",
+    "falling",
+    "numerical"
+  ],
+  "x": [
+    "x",
+    "close",
+    "delete",
+    "remove",
+    "cancel",
+    "exit",
+    "stop"
+  ],
+  "cast": [
+    "cast",
+    "screen",
+    "chromecast",
+    "airplay"
+  ],
+  "upload": [
+    "upload",
+    "send",
+    "share"
+  ],
+  "file-cog": [
+    "file",
+    "cog",
+    "settings",
+    "preferences",
+    "controls"
+  ],
+  "calendar-days": [
+    "calendar",
+    "days",
+    "days of the week",
+    "week",
+    "month"
+  ],
+  "chart-line": [
+    "chart",
+    "line",
+    "increasing",
+    "linechart",
+    "chartline"
+  ],
+  "file-chart-line": [
+    "file",
+    "chart",
+    "line",
+    "increasing",
+    "filechartline",
+    "filechartline"
+  ],
+  "chart-no-axes-column-increasing": [
+    "chart",
+    "column",
+    "increasing",
+    "chartnoaxes"
+  ],
+  "chart-no-axes-column-decreasing": [
+    "chart",
+    "column",
+    "decreasing",
+    "chartnoaxes"
+  ],
+  "radio": [
+    "radio",
+    "signal",
+    "broadcast",
+    "wireless",
+    "frequency",
+    "connectivity",
+    "live"
+  ],
+  "radio-tower": [
+    "radio",
+    "tower",
+    "radio tower",
+    "signal",
+    "broadcast",
+    "wireless",
+    "frequency",
+    "connectivity",
+    "live"
+  ],
+  "blocks": [
+    "block",
+    "blocks",
+    "addon",
+    "plugin",
+    "integration",
+    "extension",
+    "package",
+    "build",
+    "stack",
+    "toys",
+    "kids",
+    "children",
+    "learning"
+  ],
+  "calendar-check": [
+    "calendar",
+    "check",
+    "checkmark",
+    "tick",
+    "done",
+    "confirm",
+    "complete"
+  ],
+  "calendar-check-2": [
+    "calendar",
+    "check",
+    "checkmark",
+    "tick",
+    "done",
+    "confirm",
+    "complete"
+  ],
+  "file-check": [
+    "file",
+    "check",
+    "checkmark",
+    "tick",
+    "done",
+    "document",
+    "confirm",
+    "complete"
+  ],
+  "file-check-2": [
+    "file",
+    "check",
+    "checkmark",
+    "tick",
+    "done",
+    "document",
+    "confirm",
+    "complete"
+  ],
+  "mail-check": [
+    "mail",
+    "check",
+    "checkmark",
+    "tick",
+    "done",
+    "email",
+    "confirm",
+    "complete",
+    "delivered",
+    "message",
+    "sent"
+  ],
+  "monitor-check": [
+    "monitor",
+    "check",
+    "checkmark",
+    "tick",
+    "done",
+    "confirm",
+    "complete",
+    "tv",
+    "screen",
+    "display",
+    "desktop",
+    "running",
+    "active",
+    "virtual machine",
+    "vm"
+  ],
+  "laptop-minimal-check": [
+    "laptop",
+    "check",
+    "checkmark",
+    "tick",
+    "done",
+    "confirm",
+    "complete",
+    "computer",
+    "laptop",
+    "running",
+    "active",
+    "virtual machine",
+    "vm"
+  ],
+  "gallery-horizontal-end": [
+    "gallery",
+    "horizontal",
+    "end",
+    "last",
+    "carousel",
+    "pictures",
+    "images",
+    "scroll",
+    "swipe",
+    "album",
+    "portfolio",
+    "history",
+    "versions",
+    "backup",
+    "time machine"
+  ],
+  "gallery-vertical-end": [
+    "carousel",
+    "pictures",
+    "images",
+    "scroll",
+    "swipe",
+    "album",
+    "portfolio",
+    "history",
+    "versions",
+    "backup",
+    "time machine"
+  ],
+  "hand-heart": [
+    "hand",
+    "heart",
+    "love",
+    "affection",
+    "hug",
+    "cuddle",
+    "emotion"
+  ],
+  "gallery-thumbnails": [
+    "gallery",
+    "thumbnails",
+    "images",
+    "carousel",
+    "pictures",
+    "album",
+    "portfolio",
+    "preview"
+  ],
+  "user-check": [
+    "user",
+    "check",
+    "checkmark",
+    "tick",
+    "done",
+    "confirm",
+    "complete"
+  ],
+  "user-round-check": [
+    "user",
+    "check",
+    "checkmark",
+    "tick",
+    "done",
+    "confirm",
+    "complete"
+  ],
+  "box": [
+    "cube",
+    "package",
+    "container",
+    "storage",
+    "geometry",
+    "3d",
+    "isometric"
+  ],
+  "boxes": [
+    "boxes",
+    "box",
+    "container",
+    "package",
+    "shipping"
+  ],
+  "file-text": [
+    "file",
+    "text",
+    "document",
+    "document",
+    "document"
+  ],
+  "user-round-plus": [
+    "user",
+    "plus",
+    "add",
+    "create",
+    "new"
+  ],
+  "panel-left-open": [
+    "panel",
+    "left",
+    "open",
+    "menu",
+    "navigation"
+  ],
+  "panel-left-close": [
+    "panel",
+    "left",
+    "close",
+    "menu",
+    "navigation"
+  ],
+  "panel-right-open": [
+    "panel",
+    "right",
+    "open",
+    "menu",
+    "navigation"
+  ],
+  "construction": [
+    "roadwork",
+    "maintenance",
+    "blockade",
+    "barricade",
+    "development"
+  ],
+  "git-merge": [
+    "code",
+    "version control",
+    "merge",
+    "git",
+    "branch"
+  ],
+  "zap": [
+    "electricity",
+    "energy",
+    "power",
+    "lightning",
+    "bolt"
+  ],
+  "zap-off": [
+    "electricity",
+    "energy",
+    "power",
+    "lightning",
+    "bolt",
+    "off"
+  ],
+  "battery-charging": [
+    "battery",
+    "charging",
+    "power",
+    "electricity",
+    "energy"
+  ],
+  "battery": [
+    "power",
+    "electricity",
+    "energy",
+    "accumulator",
+    "charge"
+  ],
+  "battery-plus": [
+    "accumulator",
+    "charge",
+    "plus",
+    "add",
+    "battery",
+    "new"
+  ],
+  "battery-warning": [
+    "battery",
+    "warning",
+    "power",
+    "electricity",
+    "energy",
+    "alert",
+    "exclamation"
+  ],
+  "hand": [
+    "wave",
+    "hand",
+    "hello",
+    "bye",
+    "gesture"
+  ],
+  "hand-grab": [
+    "gesture",
+    "hand",
+    "grab"
+  ],
+  "heart-handshake": [
+    "agreement",
+    "charity",
+    "deal",
+    "handshake",
+    "heart",
+    "love",
+    "partnership",
+    "relationship",
+    "support",
+    "together"
+  ],
+  "hand-fist": [
+    "fist",
+    "bump",
+    "power",
+    "punch",
+    "strength",
+    "rock"
+  ],
+  "hand-helping": [
+    "agreement",
+    "assistance",
+    "help",
+    "partnership",
+    "support",
+    "volunteer"
+  ],
+  "hand-metal": [
+    "rock",
+    "metal",
+    "heavy metal",
+    "music",
+    "gesture",
+    "concert",
+    "horns"
+  ],
+  "wifi-low": [
+    "internet",
+    "electronic",
+    "connection",
+    "data"
+  ],
+  "database-backup": [
+    "database",
+    "backup",
+    "restore",
+    "storage",
+    "reload",
+    "sync",
+    "recovery",
+    "data"
+  ],
+  "disc-3": [
+    "disc",
+    "vinyl",
+    "record",
+    "music",
+    "audio",
+    "spin",
+    "rotate",
+    "cd",
+    "dvd",
+    "media"
+  ],
+  "loader-circle": [
+    "loader",
+    "loading",
+    "spinner",
+    "spin",
+    "circle",
+    "progress",
+    "wait",
+    "processing"
+  ],
+  "loader": [
+    "loader",
+    "loading",
+    "spinner",
+    "spin",
+    "rotate",
+    "progress",
+    "wait",
+    "processing"
+  ]
+}

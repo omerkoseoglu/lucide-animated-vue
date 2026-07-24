@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "grip",
+  "type": "registry:component",
+  "title": "GripIcon",
+  "description": "Animated \"grip\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/GripIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst CIRCLES = [\n  { cx: 19, cy: 5 },\n  { cx: 19, cy: 12 },\n  { cx: 12, cy: 5 },\n  { cx: 19, cy: 19 },\n  { cx: 12, cy: 12 },\n  { cx: 5, cy: 5 },\n  { cx: 12, cy: 19 },\n  { cx: 5, cy: 12 },\n  { cx: 5, cy: 19 },\n];\n\nconst VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    transition: { duration: 0.25 },\n  },\n  animate: (index: number) => ({\n    opacity: [1, 0.3, 0.3, 1],\n    transition: {\n      delay: index * 0.07,\n      duration: 1.1,\n      times: [0, 0.2, 0.8, 1],\n    },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\nconst isAnimatingRef = ref(false);\n\nasync function startAnimation() {\n  isControlled.value = true;\n  if (isAnimatingRef.value) return;\n  isAnimatingRef.value = true;\n  await controls.start(\"animate\");\n  await controls.start(\"normal\");\n  isAnimatingRef.value = false;\n}\n\nasync function stopAnimation() {\n  isControlled.value = true;\n  if (!isAnimatingRef.value) return;\n  await controls.start(\"normal\");\n  isAnimatingRef.value = false;\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    startAnimation();\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    stopAnimation();\n  }\n}\n</script>\n\n<template>\n  <div\n    class=\"inline-flex items-center justify-center\"\n    @mouseenter=\"handleMouseEnter\"\n    @mouseleave=\"handleMouseLeave\"\n  >\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.circle\n        v-for=\"(circle, index) in CIRCLES\"\n        :key=\"`${circle.cx}-${circle.cy}`\"\n        :animate=\"controls\"\n        :custom=\"index\"\n        :cx=\"circle.cx\"\n        :cy=\"circle.cy\"\n        initial=\"normal\"\n        r=\"1\"\n        :variants=\"VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/GripIcon.vue"
+    }
+  ]
+}

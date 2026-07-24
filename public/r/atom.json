@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "atom",
+  "type": "registry:component",
+  "title": "AtomIcon",
+  "description": "Animated \"atom\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/AtomIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst PATH_VARIANTS: Variants = {\n  normal: (custom: number) => ({\n    opacity: 1,\n    pathLength: 1,\n    pathOffset: 0,\n    transition: {\n      duration: 0.4,\n      ease: \"easeInOut\",\n      delay: custom,\n    },\n  }),\n  animate: (custom: number) => ({\n    opacity: [0, 1],\n    pathLength: [0, 1],\n    pathOffset: [1, 0],\n    transition: {\n      duration: 0.4,\n      ease: \"easeInOut\",\n      delay: custom,\n    },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.circle\n        :animate=\"controls\"\n        :custom=\"0\"\n        cx=\"12\"\n        cy=\"12\"\n        r=\"1\"\n        :variants=\"PATH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"0.3\"\n        d=\"M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z\"\n        :variants=\"PATH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"0.6\"\n        d=\"M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z\"\n        :variants=\"PATH_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/AtomIcon.vue"
+    }
+  ]
+}

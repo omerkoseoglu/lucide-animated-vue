@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "radio",
+  "type": "registry:component",
+  "title": "RadioIcon",
+  "description": "Animated \"radio\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/RadioIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    transition: {\n      duration: 0.4,\n    },\n  },\n  fadeOut: {\n    opacity: 0,\n    transition: { duration: 0.3 },\n  },\n  fadeIn: (i: number) => ({\n    opacity: 1,\n    transition: {\n      type: \"spring\",\n      stiffness: 300,\n      damping: 20,\n      delay: i * 0.1,\n    },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nasync function startAnimation() {\n  isControlled.value = true;\n  await controls.start(\"fadeOut\");\n  controls.start(\"fadeIn\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nasync function handleMouseEnter() {\n  if (!isControlled.value) {\n    await controls.start(\"fadeOut\");\n    controls.start(\"fadeIn\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"1\"\n        d=\"M4.9 19.1C1 15.2 1 8.8 4.9 4.9\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"0\"\n        d=\"M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"VARIANTS\"\n      />\n      <circle cx=\"12\" cy=\"12\" r=\"2\" />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"0\"\n        d=\"M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"1\"\n        d=\"M19.1 4.9C23 8.8 23 15.1 19.1 19\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/RadioIcon.vue"
+    }
+  ]
+}

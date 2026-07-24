@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "loader-circle",
+  "type": "registry:component",
+  "title": "LoaderCircleIcon",
+  "description": "Animated \"loader-circle\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/LoaderCircleIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants, Transition } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst G_VARIANTS: Variants = {\n  normal: { rotate: 0 },\n  animate: {\n    rotate: 360,\n    transition: {\n      repeat: Number.POSITIVE_INFINITY,\n      duration: 0.8,\n      ease: \"linear\",\n    },\n  },\n};\n\nconst DEFAULT_TRANSITION: Transition = {\n  type: \"spring\",\n  stiffness: 50,\n  damping: 10,\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        d=\"M21 12a9 9 0 1 1-6.219-8.56\"\n        :style=\"{ transformOrigin: '12px 12px' }\"\n        :transition=\"DEFAULT_TRANSITION\"\n        :variants=\"G_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/LoaderCircleIcon.vue"
+    }
+  ]
+}

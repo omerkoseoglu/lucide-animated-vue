@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "washing-machine",
+  "type": "registry:component",
+  "title": "WashingMachineIcon",
+  "description": "Animated \"washing-machine\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/WashingMachineIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.g\n        :animate=\"controls\"\n        :variants=\"{\n          normal: {\n            x: 0,\n          },\n          animate: {\n            x: [0, 0.5, -0.5, 0.3, -0.3, 0],\n            transition: {\n              duration: 0.8,\n              repeat: Number.POSITIVE_INFINITY,\n              ease: 'easeInOut',\n            },\n          },\n        }\"\n      >\n        <path d=\"M3 6h3\" />\n        <path d=\"M17 6h.01\" />\n        <rect height=\"20\" rx=\"2\" width=\"18\" x=\"3\" y=\"2\" />\n      </motion.g>\n      <motion.g\n        :animate=\"controls\"\n        :variants=\"{\n          normal: {\n            rotate: 0,\n            y: 0,\n            transition: {\n              duration: 0.5,\n              ease: 'linear',\n            },\n          },\n          animate: {\n            rotate: 360,\n            y: [0, -0.3, 0, 0.3, 0],\n            transition: {\n              rotate: {\n                duration: 1,\n                repeat: Number.POSITIVE_INFINITY,\n                ease: 'linear',\n              },\n              y: {\n                duration: 0.3,\n                repeat: Number.POSITIVE_INFINITY,\n                ease: 'easeInOut',\n              },\n            },\n          },\n        }\"\n      >\n        <circle cx=\"12\" cy=\"13\" r=\"5\" />\n        <path d=\"M12 18a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 1 0-5\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/WashingMachineIcon.vue"
+    }
+  ]
+}

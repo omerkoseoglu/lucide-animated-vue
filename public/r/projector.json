@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "projector",
+  "type": "registry:component",
+  "title": "ProjectorIcon",
+  "description": "Animated \"projector\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/ProjectorIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst RAY_LINE_VARIANTS: Variants = {\n  hidden: {\n    pathLength: 0,\n    opacity: 0,\n  },\n  animate: {\n    pathLength: 1,\n    opacity: 1,\n    transition: {\n      duration: 0.4,\n      ease: \"easeOut\",\n    },\n  },\n  visible: {\n    pathLength: 1,\n    opacity: 1,\n  },\n};\n\nconst PROJECTOR_BODY_VARIANTS: Variants = {\n  normal: {\n    scale: 1,\n    y: 0,\n  },\n  animate: {\n    scale: [1, 1.08, 1],\n    y: [0, -1, 0],\n    transition: {\n      duration: 0.8,\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst pathControls = useAnimationControls();\nconst bodyControls = useAnimationControls();\nconst isControlled = ref(false);\n\nasync function startAll() {\n  bodyControls.start(\"animate\").catch(() => {\n    // ignore when interrupted by a new animation\n  });\n  await pathControls.start(\"hidden\");\n  await pathControls.start(\"animate\");\n}\n\nfunction stopAll() {\n  bodyControls.start(\"normal\").catch(() => {\n    // ignore when interrupted\n  });\n  pathControls.start(\"visible\").catch(() => {\n    // ignore when interrupted\n  });\n}\n\nfunction startAnimation() {\n  isControlled.value = true;\n  startAll().catch(() => {\n    // ignore when interrupted\n  });\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  stopAll();\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nasync function handleMouseEnter() {\n  if (!isControlled.value) {\n    await startAll();\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    stopAll();\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"pathControls\"\n        d=\"M5 7 3 5\"\n        initial=\"visible\"\n        :variants=\"RAY_LINE_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"pathControls\"\n        d=\"M9 6V3\"\n        initial=\"visible\"\n        :variants=\"RAY_LINE_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"pathControls\"\n        d=\"m13 7 2-2\"\n        initial=\"visible\"\n        :variants=\"RAY_LINE_VARIANTS\"\n      />\n      <motion.g :animate=\"bodyControls\" initial=\"normal\" :variants=\"PROJECTOR_BODY_VARIANTS\">\n        <circle cx=\"9\" cy=\"13\" r=\"3\" />\n        <path\n          d=\"M11.83 12H20a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h2.17\"\n        />\n        <path d=\"M16 16h2\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/ProjectorIcon.vue"
+    }
+  ]
+}

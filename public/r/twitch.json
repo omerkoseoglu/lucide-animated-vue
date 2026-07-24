@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "twitch",
+  "type": "registry:component",
+  "title": "TwitchIcon",
+  "description": "Animated \"twitch\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/TwitchIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst PATH_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    pathLength: 1,\n    pathOffset: 0,\n    transition: {\n      duration: 0.4,\n      opacity: { duration: 0.1 },\n    },\n  },\n  animate: {\n    opacity: [0, 1],\n    pathLength: [0, 1],\n    pathOffset: [1, 0],\n    transition: {\n      duration: 0.6,\n      ease: \"linear\",\n      opacity: { duration: 0.1 },\n    },\n  },\n};\n\nconst LINE_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    pathLength: 1,\n    pathOffset: 0,\n    transition: {\n      duration: 0.4,\n      opacity: { duration: 0.1 },\n    },\n  },\n  animate: {\n    opacity: [0, 1],\n    pathLength: [0, 1],\n    pathOffset: [1, 0],\n    transition: {\n      duration: 0.6,\n      ease: \"linear\",\n      opacity: { duration: 0.1 },\n    },\n  },\n};\n\nconst pathControls = useAnimationControls();\nconst line1Controls = useAnimationControls();\nconst line2Controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  pathControls.start(\"animate\");\n  line1Controls.start(\"animate\");\n  line2Controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  pathControls.start(\"normal\");\n  line1Controls.start(\"normal\");\n  line2Controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    pathControls.start(\"animate\");\n    line1Controls.start(\"animate\");\n    line2Controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    pathControls.start(\"normal\");\n    line1Controls.start(\"normal\");\n    line2Controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"pathControls\"\n        d=\"M21 2H3v16h5v4l4-4h5l4-4V2z\"\n        initial=\"normal\"\n        :variants=\"PATH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"line1Controls\"\n        d=\"M11 11V7\"\n        initial=\"normal\"\n        :variants=\"LINE_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"line2Controls\"\n        d=\"M16 11V7\"\n        initial=\"normal\"\n        :variants=\"LINE_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/TwitchIcon.vue"
+    }
+  ]
+}

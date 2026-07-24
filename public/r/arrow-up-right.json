@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "arrow-up-right",
+  "type": "registry:component",
+  "title": "ArrowUpRightIcon",
+  "description": "Animated \"arrow-up-right\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/ArrowUpRightIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst ARROW_VARIANTS: Variants = {\n  normal: {\n    scale: 1,\n    translateX: 0,\n    translateY: 0,\n  },\n  animate: {\n    scale: [1, 0.85, 1],\n    translateX: [0, -4, 0],\n    translateY: [0, 4, 0],\n    originX: 1,\n    originY: 0,\n    transition: {\n      duration: 0.5,\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.g :animate=\"controls\" :variants=\"ARROW_VARIANTS\">\n        <path d=\"M7 7H17\" />\n        <path d=\"M17 7V17\" />\n        <path d=\"M7 17L17 7\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/ArrowUpRightIcon.vue"
+    }
+  ]
+}

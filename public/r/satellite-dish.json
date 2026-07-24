@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "satellite-dish",
+  "type": "registry:component",
+  "title": "SatelliteDishIcon",
+  "description": "Animated \"satellite-dish\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/SatelliteDishIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst SATELLITE_DISH_VARIANTS: Variants = {\n  normal: {\n    y: 0,\n    rotate: 0,\n  },\n  animate: {\n    y: [0, 1, 2, 0],\n    rotate: [0, -15, 0],\n    transition: {\n      duration: 1.5,\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst PATH_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    transition: {\n      duration: 1.1,\n    },\n  },\n  fadeOut: {\n    opacity: 0,\n    transition: { duration: 1.1 },\n  },\n  fadeIn: (i: number) => ({\n    opacity: 1,\n    transition: {\n      type: \"spring\",\n      stiffness: 300,\n      damping: 20,\n      delay: i * 0.1,\n    },\n  }),\n};\n\nconst svgControls = useAnimationControls();\nconst pathControls = useAnimationControls();\nconst isControlled = ref(false);\n\nasync function runPathIntro() {\n  await pathControls.start(\"fadeOut\");\n  pathControls.start(\"fadeIn\");\n}\n\nasync function startAnimation() {\n  isControlled.value = true;\n  await Promise.all([svgControls.start(\"animate\"), runPathIntro()]);\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  svgControls.start(\"normal\");\n  pathControls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nasync function handleMouseEnter() {\n  if (!isControlled.value) {\n    await Promise.all([svgControls.start(\"animate\"), runPathIntro()]);\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    svgControls.start(\"normal\");\n    pathControls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"svgControls\"\n      fill=\"none\"\n      :height=\"size\"\n      initial=\"normal\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :variants=\"SATELLITE_DISH_VARIANTS\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M4 10a7.31 7.31 0 0 0 10 10Z\" />\n      <path d=\"m9 15 3-3\" />\n      <motion.path\n        :animate=\"pathControls\"\n        :custom=\"1\"\n        d=\"M17 13a6 6 0 0 0-6-6\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"PATH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"pathControls\"\n        :custom=\"2\"\n        d=\"M21 13A10 10 0 0 0 11 3\"\n        :initial=\"{ opacity: 1 }\"\n        :variants=\"PATH_VARIANTS\"\n      />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/SatelliteDishIcon.vue"
+    }
+  ]
+}

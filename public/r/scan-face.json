@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "scan-face",
+  "type": "registry:component",
+  "title": "ScanFaceIcon",
+  "description": "Animated \"scan-face\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/ScanFaceIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nconst faceVariants: Variants = {\n  visible: { scale: 1 },\n  hidden: {\n    scale: 0.9,\n    transition: { type: \"spring\", stiffness: 200, damping: 20 },\n  },\n};\n\nconst cornerVariants: Variants = {\n  visible: { scale: 1, rotate: 0, opacity: 1 },\n  hidden: {\n    scale: 1.2,\n    rotate: 45,\n    opacity: 0,\n    transition: { type: \"spring\", stiffness: 200, damping: 20 },\n  },\n};\n\nconst mouthVariants: Variants = {\n  visible: { scale: 1, opacity: 1 },\n  hidden: {\n    scale: 0.8,\n    opacity: 0,\n    transition: { duration: 0.3, delay: 0.1 },\n  },\n};\n\nasync function startAnimation() {\n  isControlled.value = true;\n  await controls.start(\"hidden\");\n  await controls.start(\"visible\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"visible\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nasync function handleMouseEnter() {\n  if (!isControlled.value) {\n    await controls.start(\"hidden\");\n    await controls.start(\"visible\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"visible\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :variants=\"faceVariants\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        d=\"M3 7V5a2 2 0 0 1 2-2h2\"\n        initial=\"visible\"\n        :variants=\"cornerVariants\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M17 3h2a2 2 0 0 1 2 2v2\"\n        initial=\"visible\"\n        :variants=\"cornerVariants\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M21 17v2a2 2 0 0 1-2 2h-2\"\n        initial=\"visible\"\n        :variants=\"cornerVariants\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M7 21H5a2 2 0 0 1-2-2v-2\"\n        initial=\"visible\"\n        :variants=\"cornerVariants\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M8 14s1.5 2 4 2 4-2 4-2\"\n        initial=\"visible\"\n        :variants=\"mouthVariants\"\n      />\n      <line x1=\"9\" x2=\"9.01\" y1=\"9\" y2=\"9\" />\n      <line x1=\"15\" x2=\"15.01\" y1=\"9\" y2=\"9\" />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/ScanFaceIcon.vue"
+    }
+  ]
+}

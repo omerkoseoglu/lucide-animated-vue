@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "battery-medium",
+  "type": "registry:component",
+  "title": "BatteryMediumIcon",
+  "description": "Animated \"battery-medium\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/BatteryMediumIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst LINE_VARIANTS: Variants = {\n  initial: { opacity: 1 },\n  fadeOut: {\n    opacity: 0,\n    transition: {\n      duration: 0.4,\n      ease: \"easeInOut\",\n    },\n  },\n  fadeIn: (i: number) => ({\n    opacity: 1,\n    transition: {\n      duration: 0.6,\n      delay: i * 0.4,\n      ease: \"easeInOut\",\n    },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nasync function startAnimation() {\n  isControlled.value = true;\n  await controls.start(\"fadeOut\");\n  controls.start(\"fadeIn\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"initial\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nasync function handleMouseEnter() {\n  if (!isControlled.value) {\n    await controls.start(\"fadeOut\");\n    controls.start(\"fadeIn\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"initial\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <rect height=\"10\" rx=\"2\" ry=\"2\" width=\"16\" x=\"2\" y=\"7\" />\n      <line x1=\"22\" x2=\"22\" y1=\"11\" y2=\"13\" />\n      <motion.line\n        :animate=\"controls\"\n        :custom=\"0\"\n        initial=\"initial\"\n        :variants=\"LINE_VARIANTS\"\n        x1=\"6\"\n        x2=\"6\"\n        y1=\"11\"\n        y2=\"13\"\n      />\n      <motion.line\n        :animate=\"controls\"\n        :custom=\"1\"\n        initial=\"initial\"\n        :variants=\"LINE_VARIANTS\"\n        x1=\"10\"\n        x2=\"10\"\n        y1=\"11\"\n        y2=\"13\"\n      />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/BatteryMediumIcon.vue"
+    }
+  ]
+}

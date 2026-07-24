@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "receipt-indian-rupee",
+  "type": "registry:component",
+  "title": "ReceiptIndianRupeeIcon",
+  "description": "Animated \"receipt-indian-rupee\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/ReceiptIndianRupeeIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst INDIAN_RUPEE_MAIN_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    pathLength: 1,\n    transition: {\n      duration: 0.4,\n      opacity: { duration: 0.1 },\n    },\n  },\n  animate: {\n    opacity: [0, 1],\n    pathLength: [0, 1],\n    transition: {\n      duration: 0.6,\n      opacity: { duration: 0.1 },\n    },\n  },\n};\n\nconst INDIAN_RUPEE_SECONDARY_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    pathLength: 1,\n    transition: {\n      delay: 0.3,\n      duration: 0.3,\n      opacity: { duration: 0.1, delay: 0.3 },\n    },\n  },\n  animate: {\n    opacity: [0, 1],\n    pathLength: [0, 1],\n    transition: {\n      delay: 0.5,\n      duration: 0.4,\n      opacity: { duration: 0.1, delay: 0.5 },\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M8 11h8\"\n        initial=\"normal\"\n        :variants=\"INDIAN_RUPEE_SECONDARY_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M8 7h8\"\n        initial=\"normal\"\n        :variants=\"INDIAN_RUPEE_SECONDARY_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M9 7a4 4 0 0 1 0 8H8l3 2\"\n        initial=\"normal\"\n        :variants=\"INDIAN_RUPEE_MAIN_VARIANTS\"\n      />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/ReceiptIndianRupeeIcon.vue"
+    }
+  ]
+}

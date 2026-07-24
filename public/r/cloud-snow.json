@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "cloud-snow",
+  "type": "registry:component",
+  "title": "CloudSnowIcon",
+  "description": "Animated \"cloud-snow\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/CloudSnowIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst SNOWFLAKE_VARIANTS: Variants = {\n  animate: {\n    transition: {\n      staggerChildren: 0.3,\n    },\n  },\n};\n\nconst SNOWFLAKE_CHILD_VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n  },\n  animate: {\n    opacity: [1, 0.3, 1],\n    transition: {\n      duration: 1.5,\n      repeat: Number.POSITIVE_INFINITY,\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst SNOWFLAKE_PATH = [\n  { id: \"snowflake1\", d: \"M8 15h.01\" },\n  { id: \"snowflake2\", d: \"M8 19h.01\" },\n  { id: \"snowflake3\", d: \"M12 17h.01\" },\n  { id: \"snowflake4\", d: \"M12 21h.01\" },\n  { id: \"snowflake5\", d: \"M16 15h.01\" },\n  { id: \"snowflake6\", d: \"M16 19h.01\" },\n];\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242\" />\n      <motion.g :animate=\"controls\" initial=\"normal\" :variants=\"SNOWFLAKE_VARIANTS\">\n        <motion.path\n          v-for=\"(path, index) in SNOWFLAKE_PATH\"\n          :key=\"path.id\"\n          :d=\"path.d\"\n          :variants=\"SNOWFLAKE_CHILD_VARIANTS\"\n        />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/CloudSnowIcon.vue"
+    }
+  ]
+}

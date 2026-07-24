@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "shrink",
+  "type": "registry:component",
+  "title": "ShrinkIcon",
+  "description": "Animated \"shrink\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/ShrinkIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Transition } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst DEFAULT_TRANSITION: Transition = {\n  type: \"spring\",\n  stiffness: 250,\n  damping: 25,\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        d=\"M9 4.2V9m0 0H4.2M9 9 3 3\"\n        :transition=\"DEFAULT_TRANSITION\"\n        :variants=\"{\n          normal: { translateX: '0%', translateY: '0%' },\n          animate: { translateX: '1px', translateY: '1px' },\n        }\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M15 4.2V9m0 0h4.8M15 9l6-6\"\n        :transition=\"DEFAULT_TRANSITION\"\n        :variants=\"{\n          normal: { translateX: '0%', translateY: '0%' },\n          animate: { translateX: '-1px', translateY: '1px' },\n        }\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M9 19.8V15m0 0H4.2M9 15l-6 6\"\n        :transition=\"DEFAULT_TRANSITION\"\n        :variants=\"{\n          normal: { translateX: '0%', translateY: '0%' },\n          animate: { translateX: '1px', translateY: '-1px' },\n        }\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"m15 15 6 6m-6-6v4.8m0-4.8h4.8\"\n        :transition=\"DEFAULT_TRANSITION\"\n        :variants=\"{\n          normal: { translateX: '0%', translateY: '0%' },\n          animate: { translateX: '-1px', translateY: '-1px' },\n        }\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/ShrinkIcon.vue"
+    }
+  ]
+}

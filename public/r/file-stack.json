@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "file-stack",
+  "type": "registry:component",
+  "title": "FileStackIcon",
+  "description": "Animated \"file-stack\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/FileStackIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        d=\"M21 7h-3a2 2 0 0 1-2-2V2\"\n        :variants=\"{\n          normal: { translateX: 0, translateY: 0 },\n          animate: { translateX: -4, translateY: 4 },\n        }\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M21 6v6.5c0 .8-.7 1.5-1.5 1.5h-7c-.8 0-1.5-.7-1.5-1.5v-9c0-.8.7-1.5 1.5-1.5H17Z\"\n        :variants=\"{\n          normal: { translateX: 0, translateY: 0 },\n          animate: { translateX: -4, translateY: 4 },\n        }\"\n      />\n      <path d=\"M7 8v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H15\" />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M3 12v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H11\"\n        :variants=\"{\n          normal: { translateX: 0, translateY: 0 },\n          animate: { translateX: 4, translateY: -4 },\n        }\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/FileStackIcon.vue"
+    }
+  ]
+}

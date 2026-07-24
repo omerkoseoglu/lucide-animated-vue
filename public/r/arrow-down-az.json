@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "arrow-down-az",
+  "type": "registry:component",
+  "title": "ArrowDownAZIcon",
+  "description": "Animated \"arrow-down-az\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/ArrowDownAZIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Transition, Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst SWAP_TRANSITION: Transition = {\n  type: \"spring\",\n  stiffness: 240,\n  damping: 24,\n};\n\nconst SWAP_VARIANTS: Variants = {\n  normal: {\n    translateY: 0,\n  },\n  animate: (custom: number) => ({\n    translateY: custom * 10,\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"m3 16 4 4 4-4\" />\n      <path d=\"M7 20V4\" />\n      <motion.g\n        :animate=\"controls\"\n        :custom=\"1\"\n        initial=\"normal\"\n        :transition=\"SWAP_TRANSITION\"\n        :variants=\"SWAP_VARIANTS\"\n      >\n        <path d=\"M20 8h-5\" />\n        <path d=\"M15 10V6.5a2.5 2.5 0 0 1 5 0V10\" />\n      </motion.g>\n      <motion.path\n        :animate=\"controls\"\n        :custom=\"-1\"\n        d=\"M15 14h5l-5 6h5\"\n        initial=\"normal\"\n        :transition=\"SWAP_TRANSITION\"\n        :variants=\"SWAP_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/ArrowDownAZIcon.vue"
+    }
+  ]
+}

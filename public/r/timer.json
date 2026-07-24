@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "timer",
+  "type": "registry:component",
+  "title": "TimerIcon",
+  "description": "Animated \"timer\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/TimerIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst HAND_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n    originX: \"0%\",\n    originY: \"100%\",\n    transition: {\n      duration: 0.6,\n      ease: [0.4, 0, 0.2, 1],\n    },\n  },\n  animate: {\n    rotate: 300,\n    originX: \"0%\",\n    originY: \"100%\",\n    transition: {\n      delay: 0.1,\n      duration: 0.6,\n      ease: [0.4, 0, 0.2, 1],\n    },\n  },\n};\n\nconst BUTTON_VARIANTS: Variants = {\n  normal: {\n    scale: 1,\n    y: 0,\n  },\n  animate: {\n    scale: [0.9, 1],\n    y: [0, 1, 0],\n    transition: {\n      duration: 0.3,\n      ease: [0.4, 0, 0.2, 1],\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.line :animate=\"controls\" :variants=\"BUTTON_VARIANTS\" x1=\"10\" x2=\"14\" y1=\"2\" y2=\"2\" />\n      <motion.line\n        :animate=\"controls\"\n        initial=\"normal\"\n        :variants=\"HAND_VARIANTS\"\n        x1=\"12\"\n        x2=\"15\"\n        y1=\"14\"\n        y2=\"11\"\n      />\n      <circle cx=\"12\" cy=\"14\" r=\"8\" />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/TimerIcon.vue"
+    }
+  ]
+}

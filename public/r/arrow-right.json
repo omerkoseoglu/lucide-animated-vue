@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "arrow-right",
+  "type": "registry:component",
+  "title": "ArrowRightIcon",
+  "description": "Animated \"arrow-right\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/ArrowRightIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst PATH_VARIANTS: Variants = {\n  normal: { d: \"M5 12h14\" },\n  animate: {\n    d: [\"M5 12h14\", \"M5 12h9\", \"M5 12h14\"],\n    transition: {\n      duration: 0.4,\n    },\n  },\n};\n\nconst SECONDARY_PATH_VARIANTS: Variants = {\n  normal: { d: \"m12 5 7 7-7 7\", translateX: 0 },\n  animate: {\n    d: \"m12 5 7 7-7 7\",\n    translateX: [0, -3, 0],\n    transition: {\n      duration: 0.4,\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path :animate=\"controls\" d=\"M5 12h14\" :variants=\"PATH_VARIANTS\" />\n      <motion.path :animate=\"controls\" d=\"m12 5 7 7-7 7\" :variants=\"SECONDARY_PATH_VARIANTS\" />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/ArrowRightIcon.vue"
+    }
+  ]
+}

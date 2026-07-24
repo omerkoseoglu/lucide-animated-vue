@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "loader",
+  "type": "registry:component",
+  "title": "LoaderIcon",
+  "description": "Animated \"loader\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/LoaderIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants, Transition } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst G_VARIANTS: Variants = {\n  normal: { rotate: 0 },\n  animate: {\n    rotate: 360,\n    transition: {\n      repeat: Number.POSITIVE_INFINITY,\n      duration: 0.8,\n      ease: \"linear\",\n    },\n  },\n};\n\nconst DEFAULT_TRANSITION: Transition = {\n  type: \"spring\",\n  stiffness: 50,\n  damping: 10,\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.g\n        :animate=\"controls\"\n        :style=\"{ transformOrigin: '12px 12px' }\"\n        :transition=\"DEFAULT_TRANSITION\"\n        :variants=\"G_VARIANTS\"\n      >\n        <path d=\"M12 2v4\" />\n        <path d=\"m16.2 7.8 2.9-2.9\" />\n        <path d=\"M18 12h4\" />\n        <path d=\"m16.2 16.2 2.9 2.9\" />\n        <path d=\"M12 18v4\" />\n        <path d=\"m4.9 19.1 2.9-2.9\" />\n        <path d=\"M2 12h4\" />\n        <path d=\"m4.9 4.9 2.9 2.9\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/LoaderIcon.vue"
+    }
+  ]
+}

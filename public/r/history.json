@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "history",
+  "type": "registry:component",
+  "title": "HistoryIcon",
+  "description": "Animated \"history\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/HistoryIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Transition, Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst ARROW_TRANSITION: Transition = {\n  type: \"spring\",\n  stiffness: 250,\n  damping: 25,\n};\n\nconst ARROW_VARIANTS: Variants = {\n  normal: {\n    rotate: \"0deg\",\n  },\n  animate: {\n    rotate: \"-50deg\",\n  },\n};\n\nconst HAND_TRANSITION: Transition = {\n  duration: 0.6,\n  ease: [0.4, 0, 0.2, 1],\n};\n\nconst HAND_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n    originX: \"0%\",\n    originY: \"100%\",\n  },\n  animate: {\n    rotate: -360,\n    originX: \"0%\",\n    originY: \"100%\",\n  },\n};\n\nconst MINUTE_HAND_TRANSITION: Transition = {\n  duration: 0.5,\n  ease: \"easeInOut\",\n};\n\nconst MINUTE_HAND_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n    originX: \"0%\",\n    originY: \"0%\",\n  },\n  animate: {\n    rotate: -45,\n    originX: \"0%\",\n    originY: \"0%\",\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.g :animate=\"controls\" :transition=\"ARROW_TRANSITION\" :variants=\"ARROW_VARIANTS\">\n        <path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\" />\n        <path d=\"M3 3v5h5\" />\n      </motion.g>\n      <motion.line\n        :animate=\"controls\"\n        initial=\"normal\"\n        :transition=\"HAND_TRANSITION\"\n        :variants=\"HAND_VARIANTS\"\n        x1=\"12\"\n        x2=\"12\"\n        y1=\"12\"\n        y2=\"7\"\n      />\n      <motion.line\n        :animate=\"controls\"\n        initial=\"normal\"\n        :transition=\"MINUTE_HAND_TRANSITION\"\n        :variants=\"MINUTE_HAND_VARIANTS\"\n        x1=\"12\"\n        x2=\"16\"\n        y1=\"12\"\n        y2=\"14\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/HistoryIcon.vue"
+    }
+  ]
+}

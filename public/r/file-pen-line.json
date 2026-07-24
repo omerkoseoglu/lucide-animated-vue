@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "file-pen-line",
+  "type": "registry:component",
+  "title": "FilePenLineIcon",
+  "description": "Animated \"file-pen-line\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/FilePenLineIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst PEN_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n    x: 0,\n    y: 0,\n  },\n  animate: {\n    rotate: [-0.3, 0.2, -0.4],\n    x: [0, -0.5, 1, 0],\n    y: [0, 1, -0.5, 0],\n    transition: {\n      duration: 0.5,\n      repeat: 1,\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"m18 5-2.414-2.414A2 2 0 0 0 14.172 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z\"\n        initial=\"normal\"\n        :variants=\"PEN_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M8 18h1\"\n        :transition=\"{ duration: 0.5 }\"\n        :variants=\"{\n          normal: { d: 'M8 18h1' },\n          animate: { d: 'M8 18h5' },\n        }\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/FilePenLineIcon.vue"
+    }
+  ]
+}

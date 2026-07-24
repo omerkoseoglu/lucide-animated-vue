@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "message-square-dashed",
+  "type": "registry:component",
+  "title": "MessageSquareDashedIcon",
+  "description": "Animated \"message-square-dashed\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/MessageSquareDashedIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst PATH_VARIANTS: Variants = {\n  normal: { opacity: 1 },\n  animate: (i: number) => ({\n    opacity: [0, 1],\n    transition: { delay: i * 0.1, duration: 0.3 },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        v-for=\"(d, index) in [\n          'M14 3h1',\n          'M14 17h1',\n          'M10 17H7l-4 4v-7',\n          'M9 3h1',\n          'M19 3a2 2 0 0 1 2 2',\n          'M3 9v1',\n          'M21 9v1',\n          'M21 14v1a2 2 0 0 1-2 2',\n          'M5 3a2 2 0 0 0-2 2',\n        ]\"\n        :key=\"d\"\n        :animate=\"controls\"\n        :custom=\"index + 1\"\n        :d=\"d\"\n        :variants=\"PATH_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/MessageSquareDashedIcon.vue"
+    }
+  ]
+}

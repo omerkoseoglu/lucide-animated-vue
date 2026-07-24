@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "square-arrow-down",
+  "type": "registry:component",
+  "title": "SquareArrowDownIcon",
+  "description": "Animated \"square-arrow-down\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/SquareArrowDownIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst SQUARE_VARIANTS: Variants = {\n  normal: { transition: { duration: 0.4 } },\n  animate: { transition: { duration: 0.6, ease: \"easeInOut\" } },\n};\n\nconst PATH_VARIANTS: Variants = {\n  normal: { d: \"m8 12 4 4 4-4\", translateY: 0, opacity: 1 },\n  animate: {\n    d: \"m8 12 4 4 4-4\",\n    translateY: [0, -3, 0],\n    transition: { duration: 0.4 },\n  },\n};\n\nconst SECOND_PATH_VARIANTS: Variants = {\n  normal: { d: \"M12 8v8\", opacity: 1 },\n  animate: {\n    d: [\"M12 8v8\", \"M12 8v5\", \"M12 8v8\"],\n    transition: { duration: 0.4 },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.rect\n        :animate=\"controls\"\n        height=\"18\"\n        initial=\"normal\"\n        rx=\"2\"\n        :variants=\"SQUARE_VARIANTS\"\n        width=\"18\"\n        x=\"3\"\n        y=\"3\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"m8 12 4 4 4-4\"\n        initial=\"normal\"\n        :variants=\"PATH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M12 8v8\"\n        initial=\"normal\"\n        :variants=\"SECOND_PATH_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/SquareArrowDownIcon.vue"
+    }
+  ]
+}

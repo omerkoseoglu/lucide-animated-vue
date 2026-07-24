@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "chess-knight",
+  "type": "registry:component",
+  "title": "ChessKnightIcon",
+  "description": "Animated \"chess-knight\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/ChessKnightIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst KNIGHT_VARIANTS: Variants = {\n  normal: {\n    rotate: 0,\n    y: 0,\n    transition: {\n      type: \"spring\",\n      stiffness: 220,\n      damping: 12,\n    },\n  },\n  animate: {\n    rotate: [0, 12, 38, 42, 38, 10, -5, 0],\n    y: [0, -2, -9, -12, -9, -2, 1, 0],\n    transition: {\n      duration: 0.9,\n      times: [0, 0.1, 0.3, 0.45, 0.6, 0.78, 0.9, 1],\n      ease: \"easeInOut\",\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :style=\"{ overflow: 'visible' }\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.g\n        :animate=\"controls\"\n        initial=\"normal\"\n        :style=\"{ transformBox: 'view-box', transformOrigin: '12px 22px' }\"\n        :variants=\"KNIGHT_VARIANTS\"\n      >\n        <path d=\"M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z\" />\n        <path\n          d=\"M16.5 18c1-2 2.5-5 2.5-9a7 7 0 0 0-7-7H6.635a1 1 0 0 0-.768 1.64L7 5l-2.32 5.802a2 2 0 0 0 .95 2.526l2.87 1.456\"\n        />\n        <path d=\"m15 5 1.425-1.425\" />\n        <path d=\"m17 8 1.53-1.53\" />\n        <path d=\"M9.713 12.185 7 18\" />\n      </motion.g>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/ChessKnightIcon.vue"
+    }
+  ]
+}

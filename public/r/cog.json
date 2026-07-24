@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "cog",
+  "type": "registry:component",
+  "title": "CogIcon",
+  "description": "Animated \"cog\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/CogIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <motion.svg\n      :animate=\"controls\"\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      :transition=\"{ type: 'spring', stiffness: 50, damping: 10 }\"\n      :variants=\"{\n        normal: {\n          rotate: 0,\n        },\n        animate: {\n          rotate: 180,\n        },\n      }\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z\" />\n      <path d=\"M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z\" />\n      <path d=\"M12 2v2\" />\n      <path d=\"M12 22v-2\" />\n      <path d=\"m17 20.66-1-1.73\" />\n      <path d=\"M11 10.27 7 3.34\" />\n      <path d=\"m20.66 17-1.73-1\" />\n      <path d=\"m3.34 7 1.73 1\" />\n      <path d=\"M14 12h8\" />\n      <path d=\"M2 12h2\" />\n      <path d=\"m20.66 7-1.73 1\" />\n      <path d=\"m3.34 17 1.73-1\" />\n      <path d=\"m17 3.34-1 1.73\" />\n      <path d=\"m11 13.73-4 6.93\" />\n    </motion.svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/CogIcon.vue"
+    }
+  ]
+}

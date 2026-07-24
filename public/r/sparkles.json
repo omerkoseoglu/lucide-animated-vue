@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "sparkles",
+  "type": "registry:component",
+  "title": "SparklesIcon",
+  "description": "Animated \"sparkles\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/SparklesIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst SPARKLE_VARIANTS: Variants = {\n  initial: {\n    y: 0,\n    fill: \"none\",\n  },\n  hover: {\n    y: [0, -1, 0, 0],\n    fill: \"currentColor\",\n    transition: {\n      duration: 1,\n      bounce: 0.3,\n    },\n  },\n};\n\nconst STAR_VARIANTS: Variants = {\n  initial: {\n    opacity: 1,\n    x: 0,\n    y: 0,\n  },\n  blink: () => ({\n    opacity: [0, 1, 0, 0, 0, 0, 1],\n    transition: {\n      duration: 2,\n      type: \"spring\",\n      stiffness: 70,\n      damping: 10,\n      mass: 0.4,\n    },\n  }),\n};\n\nconst starControls = useAnimationControls();\nconst sparkleControls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  sparkleControls.start(\"hover\");\n  starControls.start(\"blink\", { delay: 1 });\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  sparkleControls.start(\"initial\");\n  starControls.start(\"initial\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    sparkleControls.start(\"hover\");\n    starControls.start(\"blink\", { delay: 1 });\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    sparkleControls.start(\"initial\");\n    starControls.start(\"initial\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"sparkleControls\"\n        d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"\n        :variants=\"SPARKLE_VARIANTS\"\n      />\n      <motion.path :animate=\"starControls\" d=\"M20 3v4\" :variants=\"STAR_VARIANTS\" />\n      <motion.path :animate=\"starControls\" d=\"M22 5h-4\" :variants=\"STAR_VARIANTS\" />\n      <motion.path :animate=\"starControls\" d=\"M4 17v2\" :variants=\"STAR_VARIANTS\" />\n      <motion.path :animate=\"starControls\" d=\"M5 18H3\" :variants=\"STAR_VARIANTS\" />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/SparklesIcon.vue"
+    }
+  ]
+}

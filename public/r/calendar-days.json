@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "calendar-days",
+  "type": "registry:component",
+  "title": "CalendarDaysIcon",
+  "description": "Animated \"calendar-days\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/CalendarDaysIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls, AnimatePresence } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst DOTS = [\n  { cx: 8, cy: 14 },\n  { cx: 12, cy: 14 },\n  { cx: 16, cy: 14 },\n  { cx: 8, cy: 18 },\n  { cx: 12, cy: 18 },\n  { cx: 16, cy: 18 },\n];\n\nconst VARIANTS: Variants = {\n  normal: {\n    opacity: 1,\n    transition: {\n      duration: 0.2,\n    },\n  },\n  animate: (i: number) => ({\n    opacity: [1, 0.3, 1],\n    transition: {\n      delay: i * 0.1,\n      duration: 0.4,\n      times: [0, 0.5, 1],\n    },\n  }),\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M8 2v4\" />\n      <path d=\"M16 2v4\" />\n      <rect height=\"18\" rx=\"2\" width=\"18\" x=\"3\" y=\"4\" />\n      <path d=\"M3 10h18\" />\n      <AnimatePresence>\n        <motion.circle\n          v-for=\"(dot, index) in DOTS\"\n          :key=\"`${dot.cx}-${dot.cy}`\"\n          :animate=\"controls\"\n          :custom=\"index\"\n          :cx=\"dot.cx\"\n          :cy=\"dot.cy\"\n          fill=\"currentColor\"\n          initial=\"normal\"\n          r=\"1\"\n          stroke=\"none\"\n          :variants=\"VARIANTS\"\n        />\n      </AnimatePresence>\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/CalendarDaysIcon.vue"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "folder-tree",
+  "type": "registry:component",
+  "title": "FolderTreeIcon",
+  "description": "Animated \"folder-tree\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/FolderTreeIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst DURATION = 0.35;\n\nconst BRANCH_VARIANTS: Variants = {\n  normal: { pathLength: 1, opacity: 1, pathOffset: 0 },\n  animate: {\n    pathLength: [0, 1],\n    opacity: [0, 1],\n    pathOffset: [1, 0],\n  },\n};\n\nconst PANEL_VARIANTS: Variants = {\n  normal: { pathLength: 1, opacity: 1 },\n  animate: {\n    pathLength: [0, 1],\n    opacity: [0, 1],\n  },\n};\n\nconst CALCULATE_DELAY = (index: number) => index * DURATION + 0.1;\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.path\n        :animate=\"controls\"\n        d=\"M20 10a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.5a1 1 0 0 1-.8-.4l-.9-1.2A1 1 0 0 0 15 3h-2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z\"\n        initial=\"normal\"\n        :transition=\"{\n          duration: DURATION,\n          delay: CALCULATE_DELAY(0),\n          opacity: { delay: CALCULATE_DELAY(0) },\n        }\"\n        :variants=\"PANEL_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M20 21a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-2.9a1 1 0 0 1-.88-.55l-.42-.85a1 1 0 0 0-.92-.6H13a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z\"\n        initial=\"normal\"\n        :transition=\"{\n          duration: DURATION,\n          delay: CALCULATE_DELAY(2),\n          opacity: { delay: CALCULATE_DELAY(2) },\n        }\"\n        :variants=\"PANEL_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M3 5a2 2 0 0 0 2 2h3\"\n        initial=\"normal\"\n        :transition=\"{\n          duration: DURATION,\n          delay: CALCULATE_DELAY(1),\n          opacity: { delay: CALCULATE_DELAY(1) },\n        }\"\n        :variants=\"BRANCH_VARIANTS\"\n      />\n      <motion.path\n        :animate=\"controls\"\n        d=\"M3 3v13a2 2 0 0 0 2 2h3\"\n        initial=\"normal\"\n        :transition=\"{\n          duration: DURATION,\n          delay: CALCULATE_DELAY(3),\n          opacity: { delay: CALCULATE_DELAY(3) },\n        }\"\n        :variants=\"BRANCH_VARIANTS\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/FolderTreeIcon.vue"
+    }
+  ]
+}

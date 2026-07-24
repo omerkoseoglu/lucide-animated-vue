@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "mic-off",
+  "type": "registry:component",
+  "title": "MicOffIcon",
+  "description": "Animated \"mic-off\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/MicOffIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst LINE_VARIANTS: Variants = {\n  normal: {\n    pathLength: 1,\n    opacity: 1,\n    transition: {\n      duration: 0.3,\n      opacity: { duration: 0.1 },\n    },\n  },\n  animate: {\n    pathLength: [0, 1],\n    opacity: [0, 1],\n    transition: {\n      duration: 0.4,\n      delay: 0.15,\n      opacity: { duration: 0.1 },\n    },\n  },\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M12 19v3\" />\n      <path d=\"M15 9.34V5a3 3 0 0 0-5.68-1.33\" />\n      <path d=\"M16.95 16.95A7 7 0 0 1 5 12v-2\" />\n      <path d=\"M18.89 13.23A7 7 0 0 0 19 12v-2\" />\n      <path d=\"M9 9v3a3 3 0 0 0 5.12 2.12\" />\n      <motion.path :animate=\"controls\" d=\"m2 2 20 20\" initial=\"normal\" :variants=\"LINE_VARIANTS\" />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/MicOffIcon.vue"
+    }
+  ]
+}

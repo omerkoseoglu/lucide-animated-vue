@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "layout-panel-top",
+  "type": "registry:component",
+  "title": "LayoutPanelTopIcon",
+  "description": "Animated \"layout-panel-top\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/LayoutPanelTopIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.rect\n        :animate=\"controls\"\n        height=\"7\"\n        initial=\"normal\"\n        rx=\"1\"\n        :variants=\"{\n          normal: { opacity: 1, translateY: 0 },\n          animate: {\n            opacity: [0, 1],\n            translateY: [-5, 0],\n            transition: {\n              opacity: { duration: 0.5, times: [0.2, 1] },\n              duration: 0.5,\n            },\n          },\n        }\"\n        width=\"18\"\n        x=\"3\"\n        y=\"3\"\n      />\n      <motion.rect\n        :animate=\"controls\"\n        height=\"7\"\n        initial=\"normal\"\n        rx=\"1\"\n        :variants=\"{\n          normal: { opacity: 1, translateX: 0 },\n          animate: {\n            opacity: [0, 1],\n            translateX: [-10, 0],\n            transition: {\n              opacity: { duration: 0.7, times: [0.5, 1] },\n              translateX: { delay: 0.3 },\n              duration: 0.5,\n            },\n          },\n        }\"\n        width=\"7\"\n        x=\"3\"\n        y=\"14\"\n      />\n      <motion.rect\n        :animate=\"controls\"\n        height=\"7\"\n        initial=\"normal\"\n        rx=\"1\"\n        :variants=\"{\n          normal: { opacity: 1, translateX: 0 },\n          animate: {\n            opacity: [0, 1],\n            translateX: [10, 0],\n            transition: {\n              opacity: { duration: 0.8, times: [0.5, 1] },\n              translateX: { delay: 0.4 },\n              duration: 0.5,\n            },\n          },\n        }\"\n        width=\"7\"\n        x=\"14\"\n        y=\"14\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/LayoutPanelTopIcon.vue"
+    }
+  ]
+}

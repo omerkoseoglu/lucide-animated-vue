@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema/registry-item.json",
+  "name": "delete",
+  "type": "registry:component",
+  "title": "DeleteIcon",
+  "description": "Animated \"delete\" icon, ported from pqoqubbw/icons.",
+  "dependencies": [
+    "motion-v"
+  ],
+  "files": [
+    {
+      "path": "components/icons/DeleteIcon.vue",
+      "content": "<script setup lang=\"ts\">\nimport type { Variants, Transition } from \"motion-v\";\nimport { motion, useAnimationControls } from \"motion-v\";\nimport { ref } from \"vue\";\n\ninterface Props {\n  size?: number;\n}\n\nwithDefaults(defineProps<Props>(), { size: 28 });\n\nconst LID_VARIANTS: Variants = {\n  normal: { y: 0 },\n  animate: { y: -1.1 },\n};\n\nconst SPRING_TRANSITION: Transition = {\n  type: \"spring\",\n  stiffness: 500,\n  damping: 30,\n};\n\nconst controls = useAnimationControls();\nconst isControlled = ref(false);\n\nfunction startAnimation() {\n  isControlled.value = true;\n  controls.start(\"animate\");\n}\n\nfunction stopAnimation() {\n  isControlled.value = true;\n  controls.start(\"normal\");\n}\n\ndefineExpose({ startAnimation, stopAnimation });\n\nfunction handleMouseEnter() {\n  if (!isControlled.value) {\n    controls.start(\"animate\");\n  }\n}\n\nfunction handleMouseLeave() {\n  if (!isControlled.value) {\n    controls.start(\"normal\");\n  }\n}\n</script>\n\n<template>\n  <div @mouseenter=\"handleMouseEnter\" @mouseleave=\"handleMouseLeave\">\n    <svg\n      fill=\"none\"\n      :height=\"size\"\n      stroke=\"currentColor\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      viewBox=\"0 0 24 24\"\n      :width=\"size\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <motion.g :animate=\"controls\" :transition=\"SPRING_TRANSITION\" :variants=\"LID_VARIANTS\">\n        <path d=\"M3 6h18\" />\n        <path d=\"M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2\" />\n      </motion.g>\n      <motion.path\n        :animate=\"controls\"\n        d=\"M19 8v12c0 1-1 2-2 2H7c-1 0-2-1-2-2V8\"\n        :transition=\"SPRING_TRANSITION\"\n        :variants=\"{\n          normal: { d: 'M19 8v12c0 1-1 2-2 2H7c-1 0-2-1-2-2V8' },\n          animate: { d: 'M19 9v12c0 1-1 2-2 2H7c-1 0-2-1-2-2V9' },\n        }\"\n      />\n      <motion.line\n        :animate=\"controls\"\n        :transition=\"SPRING_TRANSITION\"\n        :variants=\"{\n          normal: { y1: 11, y2: 17 },\n          animate: { y1: 11.5, y2: 17.5 },\n        }\"\n        x1=\"10\"\n        x2=\"10\"\n        y1=\"11\"\n        y2=\"17\"\n      />\n      <motion.line\n        :animate=\"controls\"\n        :transition=\"SPRING_TRANSITION\"\n        :variants=\"{\n          normal: { y1: 11, y2: 17 },\n          animate: { y1: 11.5, y2: 17.5 },\n        }\"\n        x1=\"14\"\n        x2=\"14\"\n        y1=\"11\"\n        y2=\"17\"\n      />\n    </svg>\n  </div>\n</template>\n",
+      "type": "registry:component",
+      "target": "components/icons/DeleteIcon.vue"
+    }
+  ]
+}
